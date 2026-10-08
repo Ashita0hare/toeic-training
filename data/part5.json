@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "p5-001",
+    "sentence": "The marketing team will ____ the new campaign results at Monday's meeting.",
+    "choices": [
+      "present",
+      "presentation",
+      "presenter",
+      "presently"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "マーケティングチームは月曜の会議で新しいキャンペーンの結果を発表します。",
+    "explanation": "willの後には動詞の原形が必要なので、動詞presentが正解。他は名詞・副詞・名詞で文法的に不適切。"
+  },
+  {
+    "id": "p5-002",
+    "sentence": "All new hires are ____ to complete the onboarding checklist within their first week.",
+    "choices": [
+      "exempted",
+      "required",
+      "prevented",
+      "permitted"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "新入社員は全員、入社後1週間以内にオンボーディングチェックリストを完了することが求められています。",
+    "explanation": "文脈上「義務付けられている」という意味が必要なのでrequiredが正解。permittedは許可、preventedは妨げる、exemptedは免除という意味で文脈に合わない。"
+  },
+  {
+    "id": "p5-003",
+    "sentence": "The report was submitted ____ the deadline, so no penalty was applied.",
+    "choices": [
+      "among",
+      "along",
+      "before",
+      "above"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "報告書は締め切り前に提出されたため、罰則は適用されませんでした。",
+    "explanation": "文脈上「締め切りより前に」提出されたという意味が自然なのでbeforeが正解。他の前置詞は文脈に合わない。"
+  },
+  {
+    "id": "p5-004",
+    "sentence": "Customers can ____ their complaints directly through the online support portal.",
+    "choices": [
+      "deliver",
+      "provide",
+      "submit",
+      "present"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "顧客はオンラインサポートポータルを通じて直接苦情を提出することができます。",
+    "explanation": "苦情などを「提出する」という意味でsubmitが正解。deliver、provide、presentはcomplaintとの組み合わせとして不自然。"
+  },
+  {
+    "id": "p5-005",
+    "sentence": "The quarterly earnings report ____ several areas where costs could be reduced.",
+    "choices": [
+      "identified",
+      "realized",
+      "recognized",
+      "noticed"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "四半期決算報告書は、コストを削減できるいくつかの分野を特定しました。",
+    "explanation": "「特定する」という意味でidentifyが文脈に最も合う。recognizeは「認識する」、noticeは「気づく」、realizeは「実現する／悟る」で文脈にそぐわない。"
+  },
+  {
+    "id": "p5-006",
+    "sentence": "The committee is ____ for reviewing all expense reports before approval.",
+    "choices": [
+      "responsibility",
+      "responsible",
+      "response",
+      "responsibly"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "委員会は承認前にすべての経費報告書を見直す責任があります。",
+    "explanation": "be responsible forで「〜の責任がある」という定型表現。responsibleが正解。"
+  },
+  {
+    "id": "p5-007",
+    "sentence": "The new policy ____ all employees to complete annual compliance training.",
+    "choices": [
+      "requirement",
+      "requires",
+      "required requiring",
+      "require"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "新しい方針は全従業員に年次コンプライアンス研修の完了を義務付けています。",
+    "explanation": "主語The new policyは単数の三人称なので動詞に-sが必要。requiresが正解。"
+  },
+  {
+    "id": "p5-008",
+    "sentence": "We are pleased to ____ that the merger has been finalized.",
+    "choices": [
+      "announcing",
+      "announcement",
+      "announced",
+      "announce"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "合併が最終決定したことをお知らせできて嬉しく思います。",
+    "explanation": "be pleased to の後は動詞の原形が続くのでannounceが正解。"
+  },
+  {
+    "id": "p5-009",
+    "sentence": "The manufacturer had to ____ the product recall due to a safety concern.",
+    "choices": [
+      "declare",
+      "proclaim",
+      "announce",
+      "pronounce"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "メーカーは安全上の懸念から、製品回収を発表しなければなりませんでした。",
+    "explanation": "「発表する」という意味で最も自然なannounceが正解。declare(宣言する)、proclaim(布告する)、pronounce(発音する/宣告する)はこの文脈に合わない。"
+  },
+  {
+    "id": "p5-010",
+    "sentence": "Despite the heavy rain, the outdoor event ____ as scheduled.",
+    "choices": [
+      "proceeding",
+      "proceeded",
+      "procedure",
+      "proceed"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "大雨にもかかわらず、その屋外イベントは予定通り行われました。",
+    "explanation": "過去の出来事を述べているので過去形proceededが正解。"
+  },
+  {
+    "id": "p5-011",
+    "sentence": "The warranty covers any ____ that occur within the first year of purchase.",
+    "choices": [
+      "defects",
+      "defect",
+      "defective",
+      "defectively"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その保証は購入後1年以内に発生するいかなる欠陥もカバーします。",
+    "explanation": "anyの後には複数の名詞が続くことが多く、occurという複数主語に対応する動詞と一致するためdefectsが正解。"
+  },
+  {
+    "id": "p5-012",
+    "sentence": "The two departments need to ____ their schedules to avoid any conflicts.",
+    "choices": [
+      "collaborate",
+      "correlate",
+      "coordinate",
+      "cooperate"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "二つの部門は、衝突を避けるためスケジュールを調整する必要があります。",
+    "explanation": "「予定を調整する」という意味で他動詞coordinateが正解。cooperateとcollaborateは自動詞的に使われ目的語を直接取らない。correlateは「相関する」で意味が異なる。"
+  },
+  {
+    "id": "p5-013",
+    "sentence": "The new intern showed ____ interest in the marketing project.",
+    "choices": [
+      "considerably",
+      "considerate",
+      "consideration",
+      "considerable"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "新しいインターンはそのマーケティングプロジェクトに著しい関心を示しました。",
+    "explanation": "名詞interestを修飾するので形容詞considerableが正解。"
+  },
+  {
+    "id": "p5-014",
+    "sentence": "Employees are encouraged to submit feedback ____ the online survey system.",
+    "choices": [
+      "throughout",
+      "through",
+      "throughly",
+      "thorough"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "従業員はオンライン調査システムを通じて意見を提出することが推奨されています。",
+    "explanation": "「〜を通じて」という意味で手段を表すthroughが正解。throughoutは「〜の間ずっと」という意味で不適切。"
+  },
+  {
+    "id": "p5-015",
+    "sentence": "The warranty does not ____ damage caused by improper use.",
+    "choices": [
+      "reflect",
+      "involve",
+      "contain",
+      "cover"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "その保証は、不適切な使用によって生じた損害を対象としていません。",
+    "explanation": "「保証の対象とする」という意味でcoverが正解。contain(含む・抑える)、involve(関与する)、reflect(反映する)は文脈に合わない。"
+  },
+  {
+    "id": "p5-016",
+    "sentence": "The conference has been ____ to a larger venue due to high demand.",
+    "choices": [
+      "relocate",
+      "relocating",
+      "relocation",
+      "relocated"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "高い需要のため、会議はより広い会場に移転されました。",
+    "explanation": "has beenの後には過去分詞が続くので受動態を作るrelocatedが正解。"
+  },
+  {
+    "id": "p5-017",
+    "sentence": "Customers who are not satisfied with the product may request a full ____.",
+    "choices": [
+      "refundable",
+      "refund",
+      "refunded",
+      "refunding"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "製品に満足しなかった顧客は全額返金を申請できます。",
+    "explanation": "requestの目的語として名詞が必要なのでrefundが正解。"
+  },
+  {
+    "id": "p5-018",
+    "sentence": "The negotiations continued ____ late into the evening.",
+    "choices": [
+      "hardly",
+      "well",
+      "nearly",
+      "rarely"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "交渉は夜遅くまで続きました。",
+    "explanation": "well into the eveningで「夜遅くまで」という定型表現。他の副詞は文脈に合わない。"
+  },
+  {
+    "id": "p5-019",
+    "sentence": "It is essential that all staff ____ the updated safety guidelines.",
+    "choices": [
+      "following",
+      "follows",
+      "follow",
+      "followed"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "すべての職員が更新された安全指針に従うことが必要不可欠です。",
+    "explanation": "It is essential that の後は仮定法現在で動詞の原形が使われるのでfollowが正解。"
+  },
+  {
+    "id": "p5-020",
+    "sentence": "The product launch was delayed ____ unexpected manufacturing issues.",
+    "choices": [
+      "due to",
+      "because",
+      "despite",
+      "although"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "製品発表は予期しない製造上の問題により延期されました。",
+    "explanation": "due toの後には名詞(句)が続き「〜のため」の意味。becauseは接続詞で後に文(S+V)が必要なため不適切。"
+  },
+  {
+    "id": "p5-021",
+    "sentence": "Please ensure the attached file is ____ before forwarding it to the client.",
+    "choices": [
+      "correctness",
+      "correctly",
+      "correction",
+      "correct"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "クライアントに転送する前に添付ファイルが正しいことを確認してください。",
+    "explanation": "be動詞isの補語には形容詞が続くのでcorrectが正解。"
+  },
+  {
+    "id": "p5-022",
+    "sentence": "Please ____ the attached document and let me know if you have any questions.",
+    "choices": [
+      "discuss",
+      "mention",
+      "review",
+      "address"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "添付の文書をご確認いただき、ご質問があればお知らせください。",
+    "explanation": "文書を「確認する」という意味でreviewが最も適切。discuss(話し合う)、mention(言及する)、address(対処する)はここでは不自然。"
+  },
+  {
+    "id": "p5-023",
+    "sentence": "The manager asked each team member to provide a brief ____ of their progress.",
+    "choices": [
+      "summarize",
+      "summarized",
+      "summary",
+      "summarizing"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "マネージャーは各チームメンバーに進捗の簡単な要約を提供するよう依頼しました。",
+    "explanation": "provideの目的語として名詞が必要なのでsummaryが正解。"
+  },
+  {
+    "id": "p5-024",
+    "sentence": "All visitors must sign in ____ the front desk before entering the building.",
+    "choices": [
+      "at",
+      "to",
+      "on",
+      "in"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "すべての来訪者は建物に入る前に受付で署名しなければなりません。",
+    "explanation": "場所を表す前置詞としてat the front deskが自然な表現。"
+  },
+  {
+    "id": "p5-025",
+    "sentence": "The accounting department is currently ____ the annual financial statements.",
+    "choices": [
+      "preparing",
+      "prepared",
+      "prepare",
+      "preparation"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "経理部門は現在、年次財務諸表を作成しています。",
+    "explanation": "is currentlyの後には進行形が続くのでpreparingが正解。"
+  },
+  {
+    "id": "p5-026",
+    "sentence": "The CEO's remarks were considered highly ____ by industry analysts.",
+    "choices": [
+      "controllable",
+      "considerable",
+      "controversial",
+      "convertible"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "CEOの発言は業界アナリストから非常に物議を醸すものとみなされました。",
+    "explanation": "「物議を醸す」という意味のcontroversialが正解。controllable(制御可能な)、convertible(変換可能な)、considerable(かなりの)は文脈に合わない。"
+  },
+  {
+    "id": "p5-027",
+    "sentence": "The survey results indicate that customers value fast delivery ____ anything else.",
+    "choices": [
+      "above",
+      "within",
+      "beside",
+      "under"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "調査結果は、顧客が他の何よりも速い配送を重視していることを示しています。",
+    "explanation": "value A above Bで「BよりAを重視する」という意味。他の前置詞では意味が通じない。"
+  },
+  {
+    "id": "p5-028",
+    "sentence": "The new regulation ____ into effect at the beginning of next month.",
+    "choices": [
+      "will come",
+      "coming",
+      "will came",
+      "came"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "新しい規制は来月初めに施行されます。",
+    "explanation": "未来の出来事を表すのでwill comeが正解。cameは過去形で不適切。"
+  },
+  {
+    "id": "p5-029",
+    "sentence": "The team worked through the weekend to ____ the project deadline.",
+    "choices": [
+      "achieve",
+      "attain",
+      "reach",
+      "meet"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "チームは週末返上でプロジェクトの締め切りに間に合わせるために働きました。",
+    "explanation": "「締め切りに間に合う」という意味の定型表現meet the deadlineが正解。reach/attain/achieveはdeadlineとの組み合わせとして不自然。"
+  },
+  {
+    "id": "p5-030",
+    "sentence": "The board will decide whether to approve the merger ____ the end of the week.",
+    "choices": [
+      "by",
+      "from",
+      "until",
+      "since"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "取締役会は週末までに合併を承認するかどうかを決定します。",
+    "explanation": "byは「〜までに」という期限を表す前置詞で文脈に合う。untilは「〜まで継続」で意味が異なる。"
+  },
+  {
+    "id": "p5-031",
+    "sentence": "The HR department reviewed each ____ carefully before scheduling interviews.",
+    "choices": [
+      "application",
+      "applying",
+      "applicant",
+      "apply"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "人事部門は面接の予定を組む前に各応募者を注意深く確認しました。",
+    "explanation": "動詞reviewedの目的語として「人」を表す名詞applicantが文脈上自然（応募書類ではなく人を審査する意味）。"
+  },
+  {
+    "id": "p5-032",
+    "sentence": "The training manual was written in a ____ and easy-to-follow style.",
+    "choices": [
+      "clarity",
+      "clear",
+      "clearly",
+      "clearness"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その研修マニュアルは明確で分かりやすい文体で書かれていました。",
+    "explanation": "名詞styleを修飾する形容詞が必要なのでclearが正解。"
+  },
+  {
+    "id": "p5-033",
+    "sentence": "The consultant recommended that the firm ____ its marketing budget for the next fiscal year.",
+    "choices": [
+      "lengthen",
+      "increase",
+      "widen",
+      "deepen"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "コンサルタントは、その会社が来年度のマーケティング予算を増額することを推奨しました。",
+    "explanation": "予算などの数量を「増やす」という意味でincreaseが正解。lengthen(長くする)、widen(広げる)、deepen(深める)は予算には使わない。"
+  },
+  {
+    "id": "p5-034",
+    "sentence": "The new office layout was designed to improve employee ____.",
+    "choices": [
+      "productivity",
+      "produce",
+      "productive",
+      "productively"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "新しいオフィスの配置は従業員の生産性を向上させるために設計されました。",
+    "explanation": "improveの目的語として名詞が必要なのでproductivityが正解。"
+  },
+  {
+    "id": "p5-035",
+    "sentence": "The contract will remain valid ____ both parties agree to renew it.",
+    "choices": [
+      "despite",
+      "unless",
+      "because",
+      "during"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "両者がその契約を更新することに同意しない限り、契約は有効なままです。",
+    "explanation": "unlessは「〜しない限り」という条件を表す接続詞で文意に合う。despiteは前置詞で文(S+V)を続けられない。"
+  },
+  {
+    "id": "p5-036",
+    "sentence": "The new software is designed to ____ the time spent on manual data entry.",
+    "choices": [
+      "decline",
+      "reduce",
+      "collapse",
+      "shrink"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "その新しいソフトウェアは、手動でのデータ入力にかかる時間を削減するよう設計されています。",
+    "explanation": "時間や量を「削減する」という意味の他動詞reduceが正解。decline、shrink、collapseはこの文脈でtimeを目的語に取らない。"
+  },
+  {
+    "id": "p5-037",
+    "sentence": "The technician inspected the equipment ____ before certifying it as safe.",
+    "choices": [
+      "thoroughly's",
+      "thoroughness",
+      "thoroughly",
+      "thorough"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "技術者はその機器を安全と認定する前に徹底的に検査しました。",
+    "explanation": "動詞inspectedを修飾する副詞thoroughlyが正解。"
+  },
+  {
+    "id": "p5-038",
+    "sentence": "The company plans to ____ its product line to include eco-friendly options.",
+    "choices": [
+      "diversify",
+      "multiply",
+      "repeat",
+      "duplicate"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "その会社は環境に優しい選択肢を含むよう製品ラインを多様化する計画です。",
+    "explanation": "「多様化する」という意味のdiversifyが正解。multiply(増やす)、duplicate(複製する)、repeat(繰り返す)は文脈に合わない。"
+  },
+  {
+    "id": "p5-039",
+    "sentence": "The marketing director was impressed by the ____ of the new advertisement.",
+    "choices": [
+      "create",
+      "creative",
+      "creativity",
+      "creatively"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "マーケティング部長はその新しい広告の創造性に感銘を受けました。",
+    "explanation": "前置詞byの後、theの後には名詞が必要なのでcreativityが正解。"
+  },
+  {
+    "id": "p5-040",
+    "sentence": "The shipment ____ delayed if the paperwork is not completed on time.",
+    "choices": [
+      "would",
+      "is",
+      "will",
+      "will be"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "書類が時間通りに完成しなければ、発送は遅れることになります。",
+    "explanation": "if節が現在形(is not completed)で条件を表す文なので、主節は未来を表すwill beが適切。"
+  },
+  {
+    "id": "p5-041",
+    "sentence": "The committee members ____ to meet twice a month to discuss progress.",
+    "choices": [
+      "agree",
+      "agreeing",
+      "agreed",
+      "agreement"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "委員会のメンバーは進捗を話し合うため月に2回会うことに同意しました。",
+    "explanation": "過去の出来事として述べているので過去形agreedが正解。"
+  },
+  {
+    "id": "p5-042",
+    "sentence": "The new employee handbook explains company policies in great ____.",
+    "choices": [
+      "detailed",
+      "detailing",
+      "details",
+      "detail"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "新しい従業員ハンドブックは会社の方針を詳しく説明しています。",
+    "explanation": "in great detailで「詳細に」という定型表現。単数形detailが正解。"
+  },
+  {
+    "id": "p5-043",
+    "sentence": "The firm's profits ____ considerably since the new CEO took over.",
+    "choices": [
+      "have increased",
+      "increase",
+      "increasing",
+      "has increased"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "新しいCEOが就任して以来、その会社の利益はかなり増加しました。",
+    "explanation": "主語profitsは複数なのでhave increasedが正解。"
+  },
+  {
+    "id": "p5-044",
+    "sentence": "The warranty does not cover damage caused by ____ use.",
+    "choices": [
+      "improve",
+      "improper",
+      "impropriety",
+      "improperly"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "その保証は不適切な使用による損傷をカバーしません。",
+    "explanation": "名詞useを修飾する形容詞が必要なのでimproperが正解。"
+  },
+  {
+    "id": "p5-045",
+    "sentence": "We regret to inform you that your application was not ____ this time.",
+    "choices": [
+      "successfully",
+      "succeed",
+      "success",
+      "successful"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "今回、あなたの応募は成功しなかったことをお知らせしなければなりません。",
+    "explanation": "be動詞wasの補語には形容詞が続くのでsuccessfulが正解。"
+  },
+  {
+    "id": "p5-046",
+    "sentence": "The company is looking for someone who can work ____ under pressure.",
+    "choices": [
+      "effective",
+      "effect",
+      "effectively",
+      "effectiveness"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社は圧力の下でも効果的に働ける人を探しています。",
+    "explanation": "動詞workを修飾する副詞effectivelyが正解。"
+  },
+  {
+    "id": "p5-047",
+    "sentence": "The seminar will cover topics ____ to small business owners.",
+    "choices": [
+      "relevance",
+      "relevancy",
+      "relevantly",
+      "relevant"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "そのセミナーは中小企業経営者に関連する話題を取り上げます。",
+    "explanation": "名詞topicsを後置修飾する形容詞relevant（be relevant to）が正解。"
+  },
+  {
+    "id": "p5-048",
+    "sentence": "Staff members are asked to keep their desks ____ at all times.",
+    "choices": [
+      "tidying",
+      "tidily",
+      "tidiness",
+      "tidy"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "スタッフは常にデスクを整頓しておくよう求められています。",
+    "explanation": "keep + 目的語 + 形容詞の構文なので形容詞tidyが正解。"
+  },
+  {
+    "id": "p5-049",
+    "sentence": "The firm's new strategy focuses ____ on customer retention.",
+    "choices": [
+      "primarily",
+      "primary",
+      "primariness",
+      "prime"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その会社の新しい戦略は主に顧客維持に焦点を当てています。",
+    "explanation": "動詞focusesを修飾する副詞primarilyが正解。"
+  },
+  {
+    "id": "p5-050",
+    "sentence": "The proposal was rejected ____ its high cost.",
+    "choices": [
+      "although",
+      "even though",
+      "because",
+      "because of"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "その提案は高コストのため却下されました。",
+    "explanation": "because ofの後には名詞(句)costが続くので正解。becauseは接続詞で後にS+Vが必要。"
+  },
+  {
+    "id": "p5-051",
+    "sentence": "The new system allows employees to track their ____ hours online.",
+    "choices": [
+      "works",
+      "work",
+      "working",
+      "worked"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "新しいシステムにより従業員はオンラインで自分の勤務時間を記録できます。",
+    "explanation": "名詞hoursを修飾する形容詞的な分詞workingが正解（working hoursで「勤務時間」）。"
+  },
+  {
+    "id": "p5-052",
+    "sentence": "The bank requires ____ identification before processing a withdrawal.",
+    "choices": [
+      "validate",
+      "valid",
+      "validity",
+      "validly"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "銀行は引き出しを処理する前に有効な本人確認書類を要求します。",
+    "explanation": "名詞identificationを修飾する形容詞validが正解。"
+  },
+  {
+    "id": "p5-053",
+    "sentence": "The project was completed ____ of schedule, much to everyone's surprise.",
+    "choices": [
+      "before",
+      "ahead",
+      "forward",
+      "previous"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "そのプロジェクトは予定より早く完了し、みんなを驚かせました。",
+    "explanation": "ahead of scheduleで「予定より早く」という定型表現。"
+  },
+  {
+    "id": "p5-054",
+    "sentence": "The supervisor praised the team for their ____ effort on the project.",
+    "choices": [
+      "outstands",
+      "outstanding",
+      "outstandingly",
+      "outstand"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "上司はそのプロジェクトでのチームの優れた努力を称賛しました。",
+    "explanation": "名詞effortを修飾する形容詞outstandingが正解。"
+  },
+  {
+    "id": "p5-055",
+    "sentence": "Customers can ____ their orders online or by phone.",
+    "choices": [
+      "placed",
+      "placement",
+      "place",
+      "placing"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "顧客はオンラインまたは電話で注文できます。",
+    "explanation": "can の後は動詞の原形が続くのでplaceが正解。"
+  },
+  {
+    "id": "p5-056",
+    "sentence": "The negotiations ended ____, with both sides satisfied by the outcome.",
+    "choices": [
+      "amicability",
+      "amicably",
+      "amicable",
+      "amity"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "交渉は友好的に終わり、双方が結果に満足しました。",
+    "explanation": "動詞endedを修飾する副詞amicablyが正解。"
+  },
+  {
+    "id": "p5-057",
+    "sentence": "The firm offers flexible working hours to improve employee ____.",
+    "choices": [
+      "satisfied",
+      "satisfy",
+      "satisfaction",
+      "satisfying"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "その会社は従業員満足度を向上させるため柔軟な勤務時間を提供しています。",
+    "explanation": "improveの目的語として名詞が必要なのでsatisfactionが正解。"
+  },
+  {
+    "id": "p5-058",
+    "sentence": "The new hire quickly ____ to the fast pace of the department.",
+    "choices": [
+      "adapting",
+      "adaptation",
+      "adapt",
+      "adapted"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "新入社員はその部門の速いペースに素早く適応しました。",
+    "explanation": "過去の出来事を表すので過去形adaptedが正解。"
+  },
+  {
+    "id": "p5-059",
+    "sentence": "The committee will review the proposal ____ it is submitted.",
+    "choices": [
+      "even if",
+      "as long as",
+      "so that",
+      "as soon as"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "委員会はその提案が提出されるとすぐに検討します。",
+    "explanation": "as soon asで「〜するとすぐに」という時間的な接続表現が文脈に合う。"
+  },
+  {
+    "id": "p5-060",
+    "sentence": "The company's reputation depends ____ on customer trust.",
+    "choices": [
+      "heaven",
+      "heavily",
+      "heaviness",
+      "heavy"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その会社の評判は顧客の信頼に大きく依存しています。",
+    "explanation": "depend onを修飾する副詞heavilyが正解（depend heavily on）。"
+  },
+  {
+    "id": "p5-061",
+    "sentence": "All visitors are required to wear a ____ badge while in the building.",
+    "choices": [
+      "visibly",
+      "visibility",
+      "vision",
+      "visible"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "すべての来訪者は建物内では見える位置にバッジを着用することが求められます。",
+    "explanation": "名詞badgeを修飾する形容詞visibleが正解。"
+  },
+  {
+    "id": "p5-062",
+    "sentence": "The firm plans to ____ its customer service department next year.",
+    "choices": [
+      "expanding",
+      "expanded",
+      "expands",
+      "expand"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "その会社は来年、顧客サービス部門を拡大する予定です。",
+    "explanation": "plans to の後は動詞の原形が続くのでexpandが正解。"
+  },
+  {
+    "id": "p5-063",
+    "sentence": "The manager's feedback was both ____ and constructive.",
+    "choices": [
+      "honesty",
+      "honor",
+      "honestly",
+      "honest"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "マネージャーのフィードバックは率直かつ建設的でした。",
+    "explanation": "be動詞wasの補語がbothA and Bの形で、形容詞honestが正解。"
+  },
+  {
+    "id": "p5-064",
+    "sentence": "The new policy aims to ____ waste across all departments.",
+    "choices": [
+      "reducing",
+      "reduction",
+      "reduce",
+      "reduced"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "新しい方針はすべての部門にわたって無駄を削減することを目指しています。",
+    "explanation": "aim to の後は動詞の原形が続くのでreduceが正解。"
+  },
+  {
+    "id": "p5-065",
+    "sentence": "The consultant provided ____ advice on improving workflow efficiency.",
+    "choices": [
+      "valuable",
+      "valuing",
+      "value",
+      "valuably"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "そのコンサルタントは業務効率改善について貴重な助言を提供しました。",
+    "explanation": "名詞adviceを修飾する形容詞valuableが正解。"
+  },
+  {
+    "id": "p5-066",
+    "sentence": "The company's annual report ____ a strong increase in overseas sales.",
+    "choices": [
+      "showed",
+      "showing",
+      "shows",
+      "show"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社の年次報告書は海外売上の大幅な増加を示しています。",
+    "explanation": "主語reportは単数なので動詞に-sが必要。showsが正解。"
+  },
+  {
+    "id": "p5-067",
+    "sentence": "Please notify the front desk ____ you need any assistance.",
+    "choices": [
+      "despite",
+      "while",
+      "unless",
+      "if"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "何か手伝いが必要な場合は受付にお知らせください。",
+    "explanation": "ifで「〜の場合は」という条件を表す接続詞が文意に合う。"
+  },
+  {
+    "id": "p5-068",
+    "sentence": "The firm's growth has been largely ____ by overseas expansion.",
+    "choices": [
+      "driving",
+      "driven",
+      "drive",
+      "driver"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その会社の成長は主に海外展開によって推進されてきました。",
+    "explanation": "has beenの後には過去分詞が続くのでdrivenが正解。"
+  },
+  {
+    "id": "p5-069",
+    "sentence": "The staff handbook outlines procedures for handling customer ____.",
+    "choices": [
+      "complaints",
+      "complaining",
+      "complain",
+      "complained"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "職員ハンドブックは顧客の苦情対応の手順を概説しています。",
+    "explanation": "forの後には名詞が続くので、名詞形complaintsが正解。"
+  },
+  {
+    "id": "p5-070",
+    "sentence": "The engineers tested the prototype ____ before releasing it to the market.",
+    "choices": [
+      "extensively",
+      "extend",
+      "extension",
+      "extensive"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "エンジニアたちは市場に発売する前にその試作品を広範囲にテストしました。",
+    "explanation": "動詞testedを修飾する副詞extensivelyが正解。"
+  },
+  {
+    "id": "p5-071",
+    "sentence": "The merger will create significant ____ for both companies involved.",
+    "choices": [
+      "opportunely",
+      "opportunistic",
+      "opportune",
+      "opportunities"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "その合併は関係する両社に大きな機会をもたらします。",
+    "explanation": "createの目的語として名詞が必要なのでopportunitiesが正解。"
+  },
+  {
+    "id": "p5-072",
+    "sentence": "The customer service team responded ____ to every inquiry.",
+    "choices": [
+      "prompt",
+      "prompted",
+      "promptly",
+      "promptness"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "顧客サービスチームはすべての問い合わせに速やかに対応しました。",
+    "explanation": "動詞respondedを修飾する副詞promptlyが正解。"
+  },
+  {
+    "id": "p5-073",
+    "sentence": "The board approved the budget ____ a lengthy discussion.",
+    "choices": [
+      "afterward",
+      "later",
+      "after",
+      "then"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "取締役会は長い議論の後に予算を承認しました。",
+    "explanation": "afterは前置詞で名詞discussionを続けられる。afterwardは副詞で名詞を直接続けられないため不適切。"
+  },
+  {
+    "id": "p5-074",
+    "sentence": "The firm's latest product has received ____ reviews from critics.",
+    "choices": [
+      "favoring",
+      "favorably",
+      "favorable",
+      "favor"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社の最新製品は評論家から好意的な評価を受けています。",
+    "explanation": "名詞reviewsを修飾する形容詞favorableが正解。"
+  },
+  {
+    "id": "p5-075",
+    "sentence": "The company is committed to ____ its carbon footprint by 2030.",
+    "choices": [
+      "reduced",
+      "reduces",
+      "reducing",
+      "reduce"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社は2030年までに二酸化炭素排出量を削減することに取り組んでいます。",
+    "explanation": "be committed to の後は動名詞が続くのでreducingが正解。"
+  },
+  {
+    "id": "p5-076",
+    "sentence": "The branch manager was ____ for the sudden drop in sales.",
+    "choices": [
+      "accounted",
+      "accountability",
+      "accountable",
+      "account"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "支店長はその売上の突然の低下について責任を負わされました。",
+    "explanation": "be accountable forで「〜の責任がある」という定型表現。"
+  },
+  {
+    "id": "p5-077",
+    "sentence": "The new hires received a warm ____ from their colleagues.",
+    "choices": [
+      "welcoming",
+      "welcomed",
+      "welcomes",
+      "welcome"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "新入社員たちは同僚から温かい歓迎を受けました。",
+    "explanation": "形容詞warmに修飾される名詞が必要なのでwelcomeが正解。"
+  },
+  {
+    "id": "p5-078",
+    "sentence": "The audit revealed several ____ in the company's accounting practices.",
+    "choices": [
+      "discrepancies",
+      "discrepant",
+      "discrepancy",
+      "discrepantly"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "その監査により会社の会計処理にいくつかの不一致が明らかになりました。",
+    "explanation": "several の後には複数名詞が続くのでdiscrepanciesが正解。"
+  },
+  {
+    "id": "p5-079",
+    "sentence": "The department head ____ the proposal before sending it to the board.",
+    "choices": [
+      "reviews",
+      "reviewed",
+      "review",
+      "reviewing"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "部門長は取締役会に送る前にその提案を検討しました。",
+    "explanation": "過去の出来事として述べているので過去形reviewedが正解。"
+  },
+  {
+    "id": "p5-080",
+    "sentence": "The new software was designed to be ____ for first-time users.",
+    "choices": [
+      "intuition",
+      "intuit",
+      "intuitive",
+      "intuitively"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その新しいソフトウェアは初めて使う人にも直感的に使えるよう設計されました。",
+    "explanation": "be動詞beの補語には形容詞が必要なのでintuitiveが正解。"
+  },
+  {
+    "id": "p5-081",
+    "sentence": "The company's success can be ____ to its strong customer focus.",
+    "choices": [
+      "attribution",
+      "attributed",
+      "attributing",
+      "attribute"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その会社の成功は強い顧客志向によるものと言えます。",
+    "explanation": "be attributed toで「〜に起因する」という定型表現。canの後にbe attributedと続く。"
+  },
+  {
+    "id": "p5-082",
+    "sentence": "Employees should report any safety concerns ____ their supervisor immediately.",
+    "choices": [
+      "to",
+      "by",
+      "for",
+      "with"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "従業員は安全に関する懸念を直ちに上司に報告すべきです。",
+    "explanation": "report A to Bで「AをBに報告する」という定型表現。"
+  },
+  {
+    "id": "p5-083",
+    "sentence": "The hotel's staff were praised for their ____ service.",
+    "choices": [
+      "exception",
+      "exceptional",
+      "excepted",
+      "exceptionally"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "そのホテルのスタッフは優れたサービスで称賛されました。",
+    "explanation": "名詞serviceを修飾する形容詞exceptionalが正解。"
+  },
+  {
+    "id": "p5-084",
+    "sentence": "The firm will continue to ____ in renewable energy projects.",
+    "choices": [
+      "investing",
+      "invest",
+      "invested",
+      "investment"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その会社は再生可能エネルギー事業への投資を続けます。",
+    "explanation": "continue to の後は動詞の原形が続くのでinvestが正解。"
+  },
+  {
+    "id": "p5-085",
+    "sentence": "The number of applicants has ____ significantly since last year.",
+    "choices": [
+      "rose",
+      "rise",
+      "risen",
+      "raised"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "応募者数は去年から著しく増加しました。",
+    "explanation": "has の後には過去分詞が続くのでrisenが正解。rise-rose-risenの変化形。"
+  },
+  {
+    "id": "p5-086",
+    "sentence": "The firm's policies are reviewed ____ to ensure compliance with regulations.",
+    "choices": [
+      "periodic",
+      "periodicity",
+      "period",
+      "periodically"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "その会社の方針は規制の順守を確保するため定期的に見直されます。",
+    "explanation": "動詞are reviewedを修飾する副詞periodicallyが正解。"
+  },
+  {
+    "id": "p5-087",
+    "sentence": "The client expressed concern ____ the delay in delivery.",
+    "choices": [
+      "about",
+      "at",
+      "of",
+      "on"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "クライアントは配送の遅れについて懸念を表明しました。",
+    "explanation": "concern aboutで「〜についての懸念」という定型表現。"
+  },
+  {
+    "id": "p5-088",
+    "sentence": "The recent survey ____ that most employees prefer remote work.",
+    "choices": [
+      "suggesting",
+      "suggests",
+      "suggest",
+      "suggestion"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "最近の調査は、ほとんどの従業員がリモートワークを好むことを示唆しています。",
+    "explanation": "主語surveyは単数なので動詞に-sが必要。suggestsが正解。"
+  },
+  {
+    "id": "p5-089",
+    "sentence": "The factory implemented new procedures to ____ worker safety.",
+    "choices": [
+      "ensures",
+      "ensure",
+      "ensured",
+      "ensuring"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その工場は労働者の安全を確保するため新しい手順を導入しました。",
+    "explanation": "to の後は動詞の原形が続くのでensureが正解。"
+  },
+  {
+    "id": "p5-090",
+    "sentence": "The firm's expansion plans were ____ due to the economic downturn.",
+    "choices": [
+      "postponement",
+      "postpone",
+      "postponed",
+      "postponing"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社の拡大計画は経済の低迷により延期されました。",
+    "explanation": "wereの後には過去分詞が続いて受動態を作るのでpostponedが正解。"
+  },
+  {
+    "id": "p5-091",
+    "sentence": "The team worked ____ to meet the tight deadline.",
+    "choices": [
+      "closed",
+      "closely",
+      "closeness",
+      "close"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "チームは厳しい締め切りに間に合わせるため緊密に協力しました。",
+    "explanation": "動詞workedを修飾する副詞closelyが正解（work closelyで「緊密に協力する」）。"
+  },
+  {
+    "id": "p5-092",
+    "sentence": "The new product line was launched ____ last quarter.",
+    "choices": [
+      "successful",
+      "successfully",
+      "succeed",
+      "success"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "新しい製品ラインは前四半期に無事発売されました。",
+    "explanation": "動詞was launchedを修飾する副詞successfullyが正解。"
+  },
+  {
+    "id": "p5-093",
+    "sentence": "The manager asked for ____ feedback on the proposed changes.",
+    "choices": [
+      "honesty",
+      "honestly",
+      "honest",
+      "honestness"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "マネージャーは提案された変更について率直なフィードバックを求めました。",
+    "explanation": "名詞feedbackを修飾する形容詞honestが正解。"
+  },
+  {
+    "id": "p5-094",
+    "sentence": "The company's revenue ____ sharply after the new product launch.",
+    "choices": [
+      "increasing",
+      "increase",
+      "increases",
+      "increased"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "新製品発売後、その会社の収益は急激に増加しました。",
+    "explanation": "過去の出来事として述べているので過去形increasedが正解。"
+  },
+  {
+    "id": "p5-095",
+    "sentence": "The staff were given clear ____ on how to handle the new system.",
+    "choices": [
+      "instructed",
+      "instructive",
+      "instructions",
+      "instruct"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "スタッフは新しいシステムの扱い方について明確な指示を与えられました。",
+    "explanation": "形容詞clearに修飾される複数の名詞が必要なのでinstructionsが正解。"
+  },
+  {
+    "id": "p5-096",
+    "sentence": "The committee will meet ____ to finalize next year's budget.",
+    "choices": [
+      "short",
+      "shortness",
+      "shortly",
+      "shorten"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "委員会は来年の予算を最終決定するためまもなく会合を開きます。",
+    "explanation": "動詞meetを修飾する副詞shortlyが正解。"
+  },
+  {
+    "id": "p5-097",
+    "sentence": "The firm's reputation suffered ____ after the product recall.",
+    "choices": [
+      "considerate",
+      "considerably",
+      "considerable",
+      "consideration"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "製品回収の後、その会社の評判はかなり損なわれました。",
+    "explanation": "動詞sufferedを修飾する副詞considerablyが正解。"
+  },
+  {
+    "id": "p5-098",
+    "sentence": "Please ____ the attached form and return it by Friday.",
+    "choices": [
+      "completion",
+      "complete",
+      "completing",
+      "completed"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "添付のフォームに記入し、金曜日までに返送してください。",
+    "explanation": "Pleaseの後には動詞の原形が続くのでcompleteが正解。"
+  },
+  {
+    "id": "p5-099",
+    "sentence": "The new regulations will ____ affect how the company reports earnings.",
+    "choices": [
+      "directness",
+      "direction",
+      "direct",
+      "directly"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "新しい規制は会社が収益を報告する方法に直接影響を与えます。",
+    "explanation": "動詞affectを修飾する副詞directlyが正解。"
+  },
+  {
+    "id": "p5-100",
+    "sentence": "The firm's growth strategy relies ____ on strong partnerships.",
+    "choices": [
+      "heaviness",
+      "heavy",
+      "heavily",
+      "heave"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "その会社の成長戦略は強力な提携関係に大きく依存しています。",
+    "explanation": "rely onを修飾する副詞heavilyが正解（rely heavily on）。"
+  }
+]

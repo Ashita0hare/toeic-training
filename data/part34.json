@@ -1,0 +1,292 @@
+[
+{
+  "id": "p34-01",
+  "type": "3",
+  "script": [
+    {"speaker": "M", "en": "Hi, I just checked our office supply order, and it looks like we're missing a box of printer paper."},
+    {"speaker": "W", "en": "Really? Let me check the invoice. Hmm, you're right, only four boxes were delivered instead of five."},
+    {"speaker": "M", "en": "Could you contact the supplier and ask them to send the missing box?"},
+    {"speaker": "W", "en": "Sure, I'll call them right after lunch."}
+  ],
+  "ja": "男性：すみません、先ほど事務用品の注文を確認したのですが、プリンター用紙が1箱足りないようです。女性：本当ですか？請求書を確認しますね。…確かに、5箱のところ4箱しか届いていません。男性：仕入先に連絡して、足りない1箱を送ってもらえますか。女性：はい、お昼休みの後すぐに電話します。",
+  "questions": [
+    {"q": "What problem are the speakers discussing?", "choices": ["A missing item in a delivery", "A late payment", "A broken printer", "A canceled order"], "answer": 0, "ja": "話者たちはどんな問題について話していますか。", "explanation": "配送された箱の数が注文より1箱少ないという内容なので「配送品の不足」が正解。"},
+    {"q": "What does the man ask the woman to do?", "choices": ["Cancel the order", "Contact the supplier", "Print more paper", "Check the budget"], "answer": 1, "ja": "男性は女性に何を頼んでいますか。", "explanation": "男性は仕入先への連絡を依頼しているので正解は「仕入先に連絡する」。"},
+    {"q": "When will the woman contact the supplier?", "choices": ["Right now", "Tomorrow morning", "After lunch", "Next week"], "answer": 2, "ja": "女性はいつ仕入先に連絡しますか。", "explanation": "女性は「お昼休みの後すぐに」と言っているので正解は「昼食後」。"}
+  ]
+},
+{
+  "id": "p34-02",
+  "type": "3",
+  "script": [
+    {"speaker": "W", "en": "Are you free to meet on Thursday afternoon to discuss the marketing budget?"},
+    {"speaker": "M", "en": "Actually, I have a client call at two. How about Friday morning instead?"},
+    {"speaker": "W", "en": "Friday morning works for me. Let's say ten o'clock?"},
+    {"speaker": "M", "en": "Perfect, I'll send a calendar invite."}
+  ],
+  "ja": "女性：木曜日の午後、マーケティング予算について話し合う時間はありますか。男性：実はその日の2時にクライアントとの電話があるんです。代わりに金曜日の午前はどうですか。女性：金曜の午前なら大丈夫です。10時でどうでしょう。男性：完璧です、カレンダーの招待を送りますね。",
+  "questions": [
+    {"q": "What are the speakers trying to do?", "choices": ["Cancel a meeting", "Schedule a meeting", "Hire a new employee", "Review a budget report"], "answer": 1, "ja": "話者たちは何をしようとしていますか。", "explanation": "会議の日程を調整しているので正解は「会議の予定を立てる」。"},
+    {"q": "Why can't the man meet on Thursday?", "choices": ["He is on vacation", "He has a client call", "He is sick", "He has another meeting"], "answer": 1, "ja": "男性はなぜ木曜日に会えないのですか。", "explanation": "男性は「2時にクライアントとの電話がある」と述べているので正解はそれ。"},
+    {"q": "What will the man do next?", "choices": ["Call the client", "Book a conference room", "Send a calendar invite", "Prepare the budget report"], "answer": 2, "ja": "男性は次に何をしますか。", "explanation": "男性は最後に「カレンダーの招待を送る」と言っているので正解はそれ。"}
+  ]
+},
+{
+  "id": "p34-03",
+  "type": "3",
+  "script": [
+    {"speaker": "M", "en": "The projector in the main conference room isn't turning on."},
+    {"speaker": "W", "en": "That's strange, it worked fine yesterday. Did you check the power cable?"},
+    {"speaker": "M", "en": "Yes, it's plugged in properly. I think we need to call maintenance."},
+    {"speaker": "W", "en": "I'll put in a request right now."}
+  ],
+  "ja": "男性：大会議室のプロジェクターの電源が入りません。女性：おかしいですね、昨日は問題なく使えたのに。電源ケーブルは確認しましたか。男性：はい、きちんと差し込まれています。メンテナンスに連絡した方がよさそうです。女性：今すぐ依頼を出しますね。",
+  "questions": [
+    {"q": "What is the problem?", "choices": ["A conference room is booked", "The projector won't turn on", "The meeting was canceled", "The cable is missing"], "answer": 1, "ja": "何が問題になっていますか。", "explanation": "プロジェクターの電源が入らないという内容なので正解はそれ。"},
+    {"q": "What has the man already checked?", "choices": ["The power cable", "The light bulb", "The remote control", "The screen"], "answer": 0, "ja": "男性はすでに何を確認しましたか。", "explanation": "男性は電源ケーブルがきちんと差し込まれていることを確認済みと述べている。"},
+    {"q": "What will the woman do?", "choices": ["Fix the projector herself", "Buy a new projector", "Submit a maintenance request", "Reschedule the meeting"], "answer": 2, "ja": "女性は何をしますか。", "explanation": "女性は「今すぐ依頼を出す」と言っているのでメンテナンス依頼を提出するが正解。"}
+  ]
+},
+{
+  "id": "p34-04",
+  "type": "3",
+  "script": [
+    {"speaker": "W", "en": "Have you booked your flight for the Chicago conference yet?"},
+    {"speaker": "M", "en": "Not yet. I was waiting to see if the dates might change."},
+    {"speaker": "W", "en": "They're confirmed now, so you should book soon before prices go up."},
+    {"speaker": "M", "en": "Good point, I'll book it this afternoon."}
+  ],
+  "ja": "女性：シカゴの会議のための航空券はもう予約しましたか。男性：まだです。日程が変わるかもしれないので待っていました。女性：もう確定しているので、値段が上がる前に早めに予約した方がいいですよ。男性：確かにそうですね、今日の午後予約します。",
+  "questions": [
+    {"q": "What are the speakers discussing?", "choices": ["Booking a hotel room", "Booking a flight for a conference", "Canceling a trip", "Renting a car"], "answer": 1, "ja": "話者たちは何について話していますか。", "explanation": "会議のための航空券予約について話しているので正解はそれ。"},
+    {"q": "Why hasn't the man booked his flight yet?", "choices": ["He has no budget", "He wasn't sure the dates were confirmed", "He doesn't want to attend", "He already has a ticket"], "answer": 1, "ja": "男性はなぜまだ航空券を予約していないのですか。", "explanation": "男性は日程が変わるかもしれないと思い待っていたと述べている。"},
+    {"q": "What will the man probably do this afternoon?", "choices": ["Attend the conference", "Book his flight", "Call the airline to complain", "Meet his client"], "answer": 1, "ja": "男性は今日の午後、何をするでしょうか。", "explanation": "男性は最後に「今日の午後予約する」と言っているので正解はそれ。"}
+  ]
+},
+{
+  "id": "p34-05",
+  "type": "3",
+  "script": [
+    {"speaker": "M", "en": "I'd like you to meet Sarah, our new graphic designer. She starts today."},
+    {"speaker": "W", "en": "Nice to meet you, Sarah. Welcome to the team."},
+    {"speaker": "M", "en": "Sarah will be working closely with the marketing department on the new product launch."},
+    {"speaker": "W", "en": "Great, I'll introduce her to the rest of the team this afternoon."}
+  ],
+  "ja": "男性：新しいグラフィックデザイナーのサラさんを紹介します。今日が初日です。女性：はじめまして、サラさん。チームへようこそ。男性：サラさんは新製品発売についてマーケティング部門と密接に連携して働きます。女性：いいですね、今日の午後、チームの他のメンバーにも紹介しますね。",
+  "questions": [
+    {"q": "Who is Sarah?", "choices": ["A client", "A new graphic designer", "The marketing director", "A job candidate"], "answer": 1, "ja": "サラとは誰ですか。", "explanation": "新しいグラフィックデザイナーとして紹介されているので正解はそれ。"},
+    {"q": "What department will Sarah work closely with?", "choices": ["Finance", "Human resources", "Marketing", "IT"], "answer": 2, "ja": "サラはどの部門と密接に働きますか。", "explanation": "マーケティング部門と連携すると述べられているので正解はそれ。"},
+    {"q": "What will the woman do this afternoon?", "choices": ["Train Sarah on the software", "Introduce Sarah to the team", "Leave the office early", "Review the product launch plan"], "answer": 1, "ja": "女性は今日の午後、何をしますか。", "explanation": "女性は「チームの他のメンバーに紹介する」と言っているので正解はそれ。"}
+  ]
+},
+{
+  "id": "p34-06",
+  "type": "3",
+  "script": [
+    {"speaker": "W", "en": "I'd like to make a reservation for six people this Saturday evening."},
+    {"speaker": "M", "en": "We have availability at seven or eight-thirty. Which would you prefer?"},
+    {"speaker": "W", "en": "Seven would be perfect."},
+    {"speaker": "M", "en": "Great, I'll put you down for seven o'clock under your name."}
+  ],
+  "ja": "女性：今度の土曜日の夜、6人で予約をお願いしたいのですが。男性：7時か8時半に空きがございます。どちらがよろしいですか。女性：7時でお願いします。男性：かしこまりました、7時でお名前にて承ります。",
+  "questions": [
+    {"q": "What is the woman doing?", "choices": ["Canceling a reservation", "Making a restaurant reservation", "Ordering food for delivery", "Complaining about service"], "answer": 1, "ja": "女性は何をしていますか。", "explanation": "レストランの予約をしているので正解はそれ。"},
+    {"q": "How many people is the reservation for?", "choices": ["Four", "Five", "Six", "Eight"], "answer": 2, "ja": "予約は何人分ですか。", "explanation": "女性は「6人で」と言っているので正解は6人。"},
+    {"q": "What time did the woman choose?", "choices": ["Six o'clock", "Seven o'clock", "Seven-thirty", "Eight-thirty"], "answer": 1, "ja": "女性はどの時間を選びましたか。", "explanation": "女性は「7時がいい」と答えているので正解は7時。"}
+  ]
+},
+{
+  "id": "p34-07",
+  "type": "3",
+  "script": [
+    {"speaker": "M", "en": "My laptop keeps freezing whenever I open the design software."},
+    {"speaker": "W", "en": "Let's try restarting it first. If that doesn't work, I can install an update."},
+    {"speaker": "M", "en": "I already restarted it twice, and it's still happening."},
+    {"speaker": "W", "en": "Okay, I'll come by your desk and install the latest update."}
+  ],
+  "ja": "男性：デザインソフトを開くたびにノートパソコンがフリーズするんです。女性：まず再起動してみましょう。それでもだめならアップデートをインストールします。男性：もう2回再起動しましたが、まだ起きています。女性：わかりました、席まで行って最新のアップデートをインストールしますね。",
+  "questions": [
+    {"q": "What problem is the man having?", "choices": ["His laptop keeps freezing", "His laptop won't turn on", "He lost his files", "His software license expired"], "answer": 0, "ja": "男性はどんな問題を抱えていますか。", "explanation": "デザインソフトを開くとフリーズすると述べているので正解はそれ。"},
+    {"q": "What has the man already tried?", "choices": ["Reinstalling the software", "Restarting the laptop", "Buying a new laptop", "Calling IT support"], "answer": 1, "ja": "男性はすでに何を試しましたか。", "explanation": "男性は2回再起動したと述べているので正解はそれ。"},
+    {"q": "What will the woman do?", "choices": ["Replace the laptop", "Install an update", "Call the manufacturer", "Cancel the meeting"], "answer": 1, "ja": "女性は何をしますか。", "explanation": "女性は最新のアップデートをインストールすると言っているので正解はそれ。"}
+  ]
+},
+{
+  "id": "p34-08",
+  "type": "3",
+  "script": [
+    {"speaker": "W", "en": "I'm worried we won't finish the report by Friday's deadline."},
+    {"speaker": "M", "en": "How much more do we have left?"},
+    {"speaker": "W", "en": "Just the financial summary section, but it needs careful review."},
+    {"speaker": "M", "en": "I'll ask the manager if we can get an extra day."}
+  ],
+  "ja": "女性：金曜日の締め切りまでに報告書が終わらないか心配です。男性：あとどれくらい残っていますか。女性：財務概要の部分だけですが、注意深く確認する必要があります。男性：マネージャーに1日延長できないか聞いてみます。",
+  "questions": [
+    {"q": "What are the speakers worried about?", "choices": ["Missing a deadline", "Losing a client", "A budget cut", "A canceled project"], "answer": 0, "ja": "話者たちは何を心配していますか。", "explanation": "締め切りに間に合わないかもしれないと心配しているので正解はそれ。"},
+    {"q": "What section is left to finish?", "choices": ["The introduction", "The financial summary", "The appendix", "The cover page"], "answer": 1, "ja": "残っているのはどの部分ですか。", "explanation": "女性は財務概要の部分が残っていると述べている。"},
+    {"q": "What will the man do?", "choices": ["Finish the report alone", "Ask for an extension", "Submit the report as is", "Delegate the task"], "answer": 1, "ja": "男性は何をしますか。", "explanation": "男性はマネージャーに延長を頼むと言っているので正解はそれ。"}
+  ]
+},
+{
+  "id": "p34-09",
+  "type": "3",
+  "script": [
+    {"speaker": "M", "en": "Did you know the parking garage next to our building is closed for repairs?"},
+    {"speaker": "W", "en": "Oh no, I didn't. Where are we supposed to park now?"},
+    {"speaker": "M", "en": "The company arranged temporary spots at the lot two blocks away."},
+    {"speaker": "W", "en": "Thanks for letting me know, I'll head there tomorrow."}
+  ],
+  "ja": "男性：隣の駐車場が修理のため閉鎖されているのをご存知でしたか。女性：いいえ、知りませんでした。では今はどこに駐車すればいいのですか。男性：会社が2ブロック先の駐車場に臨時スペースを用意してくれました。女性：教えてくれてありがとう、明日そちらに行きます。",
+  "questions": [
+    {"q": "Why is the parking garage closed?", "choices": ["For repairs", "Due to an accident", "For a special event", "Because of bad weather"], "answer": 0, "ja": "なぜ駐車場は閉鎖されているのですか。", "explanation": "修理のために閉鎖されていると述べられている。"},
+    {"q": "What has the company arranged?", "choices": ["A shuttle bus", "Temporary parking spots", "Free taxi rides", "A new parking garage"], "answer": 1, "ja": "会社は何を手配しましたか。", "explanation": "臨時の駐車スペースを用意したと述べられている。"},
+    {"q": "Where is the temporary parking lot?", "choices": ["Across the street", "Two blocks away", "In the basement", "Next to the station"], "answer": 1, "ja": "臨時駐車場はどこにありますか。", "explanation": "2ブロック先にあると述べられている。"}
+  ]
+},
+{
+  "id": "p34-10",
+  "type": "3",
+  "script": [
+    {"speaker": "W", "en": "We got the customer feedback survey results back."},
+    {"speaker": "M", "en": "How did the new packaging design do?"},
+    {"speaker": "W", "en": "Mostly positive, but a few customers said the box is hard to open."},
+    {"speaker": "M", "en": "Let's share that with the design team so they can make adjustments."}
+  ],
+  "ja": "女性：顧客アンケート調査の結果が返ってきました。男性：新しいパッケージデザインの評判はどうでしたか。女性：おおむね好評でしたが、何人かの顧客が箱が開けにくいと言っていました。男性：その意見をデザインチームに共有して、調整してもらいましょう。",
+  "questions": [
+    {"q": "What are the speakers discussing?", "choices": ["A new product launch", "Customer feedback on packaging", "A pricing change", "A shipping delay"], "answer": 1, "ja": "話者たちは何について話していますか。", "explanation": "パッケージに関する顧客フィードバックについて話している。"},
+    {"q": "What complaint did some customers have?", "choices": ["The price is too high", "The box is hard to open", "The color is unattractive", "The size is too large"], "answer": 1, "ja": "一部の顧客はどんな不満を持っていましたか。", "explanation": "箱が開けにくいという意見があったと述べられている。"},
+    {"q": "What will the man do?", "choices": ["Redesign the product himself", "Share the feedback with the design team", "Ignore the complaints", "Lower the price"], "answer": 1, "ja": "男性は何をしますか。", "explanation": "デザインチームにフィードバックを共有すると言っている。"}
+  ]
+},
+{
+  "id": "p34-11",
+  "type": "4",
+  "script": [
+    {"speaker": "M", "en": "Attention shoppers, thank you for visiting Green Valley Market. We'd like to remind you that our store will be closing early today at six p.m. for inventory. All regular discounts are still valid until closing time. We appreciate your understanding and look forward to seeing you again soon."}
+  ],
+  "ja": "ご来店中の皆様、グリーンバレーマーケットへお越しいただきありがとうございます。本日は棚卸しのため午後6時に早めに閉店させていただきます。通常の割引は閉店時刻まで引き続きご利用いただけます。ご理解のほどよろしくお願いいたします。またのご来店をお待ちしております。",
+  "questions": [
+    {"q": "What is being announced?", "choices": ["A sale event", "Early store closing", "A new product line", "A store relocation"], "answer": 1, "ja": "何が案内されていますか。", "explanation": "午後6時の早期閉店が案内されている。"},
+    {"q": "Why is the store closing early?", "choices": ["For a holiday", "For inventory", "Due to a power outage", "For staff training"], "answer": 1, "ja": "なぜ店は早く閉まるのですか。", "explanation": "棚卸しのためと述べられている。"},
+    {"q": "Until when are discounts valid?", "choices": ["Until noon", "Until closing time", "Until next week", "Until the manager decides"], "answer": 1, "ja": "割引はいつまで有効ですか。", "explanation": "閉店時刻まで有効だと述べられている。"}
+  ]
+},
+{
+  "id": "p34-12",
+  "type": "4",
+  "script": [
+    {"speaker": "W", "en": "We'd like to inform passengers that Flight 204 to Boston has been delayed by approximately forty minutes due to weather conditions. We apologize for the inconvenience and will begin boarding as soon as the aircraft is ready. Please remain in the gate area for further updates."}
+  ],
+  "ja": "ボストン行き204便をご利用のお客様にお知らせいたします。悪天候のため、出発が約40分遅れております。ご不便をおかけし申し訳ございません。機材の準備が整い次第、搭乗を開始いたします。続報がございますので、搭乗口付近でお待ちください。",
+  "questions": [
+    {"q": "What is the announcement about?", "choices": ["A gate change", "A flight delay", "A canceled flight", "A baggage issue"], "answer": 1, "ja": "この案内は何についてですか。", "explanation": "フライトの遅延について案内している。"},
+    {"q": "Why is the flight delayed?", "choices": ["Weather conditions", "A mechanical problem", "A staff shortage", "A security issue"], "answer": 0, "ja": "なぜフライトは遅れていますか。", "explanation": "悪天候のためと述べられている。"},
+    {"q": "What should passengers do?", "choices": ["Go to a different gate", "Remain in the gate area", "Check in again", "Collect their baggage"], "answer": 1, "ja": "乗客は何をすべきですか。", "explanation": "搭乗口付近で待つよう案内されている。"}
+  ]
+},
+{
+  "id": "p34-13",
+  "type": "4",
+  "script": [
+    {"speaker": "M", "en": "Good morning everyone. Before we start today's meeting, I want to remind you that the quarterly sales report is due by the end of this week. Please submit it directly to the finance department. Also, don't forget that the office will be closed next Monday for the holiday."}
+  ],
+  "ja": "皆さんおはようございます。今日の会議を始める前に、四半期の売上報告書が今週末までに提出期限であることをお伝えします。財務部に直接提出してください。また、来週月曜日は祝日のためオフィスが休業となりますのでお忘れなく。",
+  "questions": [
+    {"q": "What is due by the end of the week?", "choices": ["The annual budget", "The quarterly sales report", "The marketing plan", "The staff schedule"], "answer": 1, "ja": "今週末までに期限のものは何ですか。", "explanation": "四半期の売上報告書が期限だと述べられている。"},
+    {"q": "Where should the report be submitted?", "choices": ["The marketing department", "The HR department", "The finance department", "The IT department"], "answer": 2, "ja": "報告書はどこに提出すべきですか。", "explanation": "財務部に直接提出するよう述べられている。"},
+    {"q": "Why will the office be closed next Monday?", "choices": ["For renovation", "For a holiday", "For a company trip", "For a power outage"], "answer": 1, "ja": "来週月曜日になぜオフィスは休業しますか。", "explanation": "祝日のためと述べられている。"}
+  ]
+},
+{
+  "id": "p34-14",
+  "type": "4",
+  "script": [
+    {"speaker": "W", "en": "Welcome to the Riverside History Museum. Please note that photography is not permitted in the main gallery. Guided tours begin every hour on the hour and last approximately forty-five minutes. If you have any questions, our staff members wearing blue vests are happy to help."}
+  ],
+  "ja": "リバーサイド歴史博物館へようこそ。メインギャラリーでの写真撮影はご遠慮いただいております。ガイドツアーは毎時ちょうどに開始され、所要時間は約45分です。ご質問があれば、青いベストを着用したスタッフがお手伝いいたします。",
+  "questions": [
+    {"q": "What is not allowed in the main gallery?", "choices": ["Talking", "Photography", "Eating", "Sitting down"], "answer": 1, "ja": "メインギャラリーで許可されていないことは何ですか。", "explanation": "写真撮影が禁止されていると述べられている。"},
+    {"q": "How long do guided tours last?", "choices": ["About fifteen minutes", "About thirty minutes", "About forty-five minutes", "About two hours"], "answer": 2, "ja": "ガイドツアーはどのくらいの時間ですか。", "explanation": "約45分と述べられている。"},
+    {"q": "How can visitors recognize staff members?", "choices": ["By their name tags", "By their blue vests", "By their hats", "By their badges"], "answer": 1, "ja": "来館者はどうやってスタッフを見分けられますか。", "explanation": "青いベストを着用していると述べられている。"}
+  ]
+},
+{
+  "id": "p34-15",
+  "type": "4",
+  "script": [
+    {"speaker": "M", "en": "In local business news, Thompson Electronics announced today that it will open a new branch downtown next month. The company says the new location will create over fifty jobs in the area. The grand opening event is scheduled for the first Saturday of next month."}
+  ],
+  "ja": "地域のビジネスニュースです。トンプソン・エレクトロニクス社は本日、来月中心街に新支店を開設すると発表しました。同社によると、新拠点により地域で50以上の雇用が生まれるとのことです。開店記念イベントは来月最初の土曜日に予定されています。",
+  "questions": [
+    {"q": "What did Thompson Electronics announce?", "choices": ["A merger", "Opening a new branch", "A price increase", "A product recall"], "answer": 1, "ja": "トンプソン・エレクトロニクス社は何を発表しましたか。", "explanation": "新支店の開設を発表したと述べられている。"},
+    {"q": "How many jobs will the new branch create?", "choices": ["About ten", "About twenty-five", "Over fifty", "Over two hundred"], "answer": 2, "ja": "新支店はいくつの雇用を生み出しますか。", "explanation": "50以上の雇用を生むと述べられている。"},
+    {"q": "When is the grand opening?", "choices": ["Next week", "The first Saturday of next month", "At the end of the year", "Tomorrow"], "answer": 1, "ja": "開店記念イベントはいつですか。", "explanation": "来月最初の土曜日と述べられている。"}
+  ]
+},
+{
+  "id": "p34-16",
+  "type": "4",
+  "script": [
+    {"speaker": "W", "en": "Welcome to today's training session on customer service best practices. Over the next two hours, we'll cover how to handle difficult customers, how to process returns efficiently, and how to use the new point-of-sale system. Please feel free to ask questions at any time."}
+  ],
+  "ja": "本日の接客サービスのベストプラクティスに関する研修へようこそ。これから2時間かけて、難しい顧客への対応方法、返品の効率的な処理方法、そして新しいレジシステムの使い方を学びます。いつでもご質問いただいて構いません。",
+  "questions": [
+    {"q": "What is the training session about?", "choices": ["Inventory management", "Customer service best practices", "Financial reporting", "Hiring new staff"], "answer": 1, "ja": "この研修は何についてですか。", "explanation": "接客サービスのベストプラクティスに関する研修だと述べられている。"},
+    {"q": "How long will the session last?", "choices": ["One hour", "Two hours", "Half a day", "A full day"], "answer": 1, "ja": "この研修はどのくらい続きますか。", "explanation": "2時間と述べられている。"},
+    {"q": "What are participants encouraged to do?", "choices": ["Take notes only", "Ask questions at any time", "Stay silent until the end", "Leave early if busy"], "answer": 1, "ja": "参加者は何をするよう勧められていますか。", "explanation": "いつでも質問してよいと述べられている。"}
+  ]
+},
+{
+  "id": "p34-17",
+  "type": "4",
+  "script": [
+    {"speaker": "W", "en": "Hi, this is Karen from Bright Design Studio. I'm calling about the logo samples you sent us. We really like the second option, but we'd like a few small changes to the color scheme. Could you give me a call back when you get a chance? Thanks."}
+  ],
+  "ja": "こんにちは、ブライト・デザイン・スタジオのカレンです。お送りいただいたロゴのサンプルについてお電話しました。2番目の案がとても気に入っているのですが、配色に少し変更を加えていただきたいです。お手すきの際に折り返しお電話いただけますか。よろしくお願いします。",
+  "questions": [
+    {"q": "Who is Karen?", "choices": ["A job applicant", "Someone from Bright Design Studio", "A delivery driver", "A new client of the listener's competitor"], "answer": 1, "ja": "カレンとは誰ですか。", "explanation": "ブライト・デザイン・スタジオの人物だと名乗っている。"},
+    {"q": "Which design option does Karen's company like?", "choices": ["The first one", "The second one", "The third one", "None of them"], "answer": 1, "ja": "カレンの会社はどのデザイン案を気に入っていますか。", "explanation": "2番目の案を気に入っていると述べている。"},
+    {"q": "What does Karen want changed?", "choices": ["The font", "The color scheme", "The logo shape", "The company name"], "answer": 1, "ja": "カレンは何を変更してほしいと思っていますか。", "explanation": "配色に変更を加えてほしいと述べている。"}
+  ]
+},
+{
+  "id": "p34-18",
+  "type": "4",
+  "script": [
+    {"speaker": "M", "en": "Attention all factory staff. Starting next week, all employees on the production floor must wear safety goggles at all times. This new policy is part of our effort to reduce workplace injuries. Safety goggles will be provided free of charge at the front office."}
+  ],
+  "ja": "工場スタッフの皆様へお知らせします。来週より、製造フロアで働く全従業員は常に保護ゴーグルを着用することが義務付けられます。この新しい方針は、職場でのケガを減らすための取り組みの一環です。保護ゴーグルは事務所で無料配布されます。",
+  "questions": [
+    {"q": "What new policy is being announced?", "choices": ["Mandatory overtime", "Mandatory safety goggles", "A new dress code", "A new shift schedule"], "answer": 1, "ja": "どんな新しい方針が発表されていますか。", "explanation": "保護ゴーグルの着用義務化が発表されている。"},
+    {"q": "Why is the policy being introduced?", "choices": ["To reduce workplace injuries", "To save on costs", "To follow a new law", "To improve productivity"], "answer": 0, "ja": "なぜこの方針が導入されますか。", "explanation": "職場でのケガを減らすためと述べられている。"},
+    {"q": "Where can employees get safety goggles?", "choices": ["Online", "At the front office", "From their supervisor", "At a nearby store"], "answer": 1, "ja": "従業員はどこで保護ゴーグルを入手できますか。", "explanation": "事務所で無料配布されると述べられている。"}
+  ]
+},
+{
+  "id": "p34-19",
+  "type": "4",
+  "script": [
+    {"speaker": "W", "en": "Thank you all for joining today's webinar on effective time management. We'll begin with a short presentation, followed by a question and answer session. If you experience any technical issues, please use the chat box to contact our support team."}
+  ],
+  "ja": "本日の効果的な時間管理に関するウェビナーにご参加いただきありがとうございます。まず短いプレゼンテーションを行い、その後質疑応答の時間を設けます。技術的な問題が発生した場合は、チャットボックスでサポートチームまでご連絡ください。",
+  "questions": [
+    {"q": "What is the webinar about?", "choices": ["Project management", "Effective time management", "Public speaking", "Team building"], "answer": 1, "ja": "このウェビナーは何についてですか。", "explanation": "効果的な時間管理についてだと述べられている。"},
+    {"q": "What will follow the presentation?", "choices": ["A networking session", "A question and answer session", "A break", "A group exercise"], "answer": 1, "ja": "プレゼンテーションの後には何がありますか。", "explanation": "質疑応答の時間が続くと述べられている。"},
+    {"q": "What should attendees do if they have technical issues?", "choices": ["Restart their computer", "Use the chat box", "Leave the webinar", "Call the office"], "answer": 1, "ja": "参加者は技術的な問題があった場合どうすべきですか。", "explanation": "チャットボックスで連絡するよう述べられている。"}
+  ]
+},
+{
+  "id": "p34-20",
+  "type": "4",
+  "script": [
+    {"speaker": "M", "en": "Good morning commuters. Traffic on Route 9 is moving slowly due to construction near exit twelve. Drivers are advised to use Route 4 as an alternate route this morning. The construction is expected to continue through the end of the month."}
+  ],
+  "ja": "通勤中の皆様、おはようございます。出口12番付近の工事のため、ルート9の交通は渋滞しています。今朝はルート4を迂回路としてご利用いただくことをお勧めします。工事は今月末まで続く見込みです。",
+  "questions": [
+    {"q": "Why is traffic slow on Route 9?", "choices": ["An accident", "Construction", "Bad weather", "A parade"], "answer": 1, "ja": "なぜルート9の交通は渋滞していますか。", "explanation": "工事のためと述べられている。"},
+    {"q": "What alternate route is suggested?", "choices": ["Route 2", "Route 4", "Route 9", "Route 12"], "answer": 1, "ja": "どの迂回路が勧められていますか。", "explanation": "ルート4が勧められている。"},
+    {"q": "How long will the construction continue?", "choices": ["One week", "Through the end of the month", "Until next year", "It already finished"], "answer": 1, "ja": "工事はいつまで続きますか。", "explanation": "今月末まで続く見込みと述べられている。"}
+  ]
+}
+]
