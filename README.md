@@ -20,26 +20,16 @@ python -m http.server 8080
 
 初回読み込み後、機内モード（オフライン）にしてもう一度開き、「今日のセッション」が最後まで動くことを確認する。
 
-## GitHub Pagesに公開する手順
+## 公開先
 
-ローカルの `git init` とコミットは済んでいる（リポジトリ名 `toeic-training` / Private を想定）。
+GitHub Pagesで公開済み: **https://ashita0hare.github.io/toeic-training/**
 
-1. https://github.com/new を開き、リポジトリ名を `toeic-training`、公開範囲を **Private** にして「Create repository」を押す（README等の初期ファイルは追加しない）。
-   - 注意: Privateリポジトリでも、GitHub Pagesとして公開したURL自体は誰でもアクセスできる（URLを知っている人には見える）。アカウント範囲での非公開ではない。
-2. 作成後に表示される「…or push an existing repository from the command line」のURLをコピーし、以下を実行する。
-   ```bash
-   cd C:\Projects\English_Language_Learning
-   git branch -M main
-   git remote add origin https://github.com/<ユーザー名>/toeic-training.git
-   git push -u origin main
-   ```
-3. GitHubのリポジトリページで **Settings → Pages** を開く。
-4. "Build and deployment" の **Source** を `Deploy from a branch` にし、Branch を `main` / `/ (root)` に設定して **Save**。
-5. 数十秒〜数分待つと、`https://<ユーザー名>.github.io/toeic-training/` でアプリが公開される。
-6. スマホのChromeでそのURLを開き、メニューから「ホーム画面に追加」を選ぶとアプリとして使える。
+リポジトリ: https://github.com/Ashita0hare/toeic-training （Public。GitHub PagesはPrivateリポジトリでは無料プランで使えないため、ソースコードは公開設定にしている。学習記録自体はIndexedDBに端末内保存されるのみで、GitHubには一切アップロードされない）。
+
+スマホのChromeでこのURLを開き、メニューから「ホーム画面に追加」を選ぶとアプリとして使える。
 
 ### 更新したとき
-ファイルを変更して再度 `git add . && git commit -m "..." && git push` するだけで、Pagesは自動的に再デプロイされる。Service Workerのキャッシュが残っている場合、反映にはアプリを開き直す（タブを閉じて開く）操作が必要になることがある。`service-worker.js` の `CACHE_VERSION` を変更すると強制的にキャッシュが入れ替わる。
+ファイルを変更して再度 `git add . && git commit -m "..." && git push` するだけで、Pagesは自動的に再デプロイされる（1〜2分程度）。Service Workerのキャッシュが残っている場合、反映にはアプリを開き直す（タブを閉じて開く）操作が必要になることがある。`service-worker.js` の `CACHE_VERSION` を変更すると強制的にキャッシュが入れ替わる。
 
 ## データの引き継ぎ（スマホ⇄PC）
 
