@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'toeic15-v5';
+const CACHE_VERSION = 'toeic15-v6';
 
 const PRECACHE_URLS = [
   './',

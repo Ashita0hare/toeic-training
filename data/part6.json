@@ -4,7 +4,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Dear Staff,\n\nWe are pleased to announce that our company will be "
+        "en": "Dear Staff,\n\nAs part of our ongoing efforts to support the company's growth, the leadership team has spent the past several months evaluating options for a larger and more modern workplace. After careful consideration, we are pleased to announce that our company will be "
       },
       {
         "type": "blank",
@@ -36,10 +36,10 @@
       },
       {
         "type": "text",
-        "en": " next Friday.\n\nThank you for your patience during this transition. We appreciate everyone's flexibility as we settle into the new space, and a detailed floor map will be shared closer to the move date.\n\nFacilities Team"
+        "en": " next Friday.\n\nThank you for your patience during this transition. We appreciate everyone's flexibility as we settle into the new space, and a detailed floor map will be shared closer to the move date. We will also hold two walkthrough sessions next week so employees can see the new layout in advance, and a dedicated moving coordinator will be available to help with any special requests regarding desks or equipment.\n\nFacilities Team"
       }
     ],
-    "ja": "スタッフの皆様へ\n\n当社は来月より、450マーケット通りの新しいオフィスへ移転することをお知らせいたします。新しいスペースにはより多くの会議室と広い休憩スペースが備わっています。この移転は、拡大する社員数に対応するためのものです。通勤経路は各自ご確認ください。移転について質問がある方は、来週金曜日までに施設管理チームへご連絡ください。\n\nご不便をおかけしますが、よろしくお願いいたします。新しいスペースに慣れるまでの間、皆様のご協力に感謝いたします。詳細なフロア図は移転日が近づき次第共有いたします。\n\n施設管理チーム",
+    "ja": "スタッフの皆様へ\n\n当社の継続的な成長を支えるため、経営陣はここ数か月、より広く近代的な職場となる選択肢を検討してまいりました。慎重に検討した結果、当社は来月より、450マーケット通りの新しいオフィスへ移転することをお知らせいたします。新しいスペースにはより多くの会議室と広い休憩スペースが備わっています。この移転は、拡大する社員数に対応するためのものです。通勤経路は各自ご確認ください。移転について質問がある方は、来週金曜日までに施設管理チームへご連絡ください。\n\nご不便をおかけしますが、よろしくお願いいたします。新しいスペースに慣れるまでの間、皆様のご協力に感謝いたします。詳細なフロア図は移転日が近づき次第共有いたします。また、来週は新しいレイアウトを事前にご覧いただける見学会を2回開催する予定です。デスクや機材に関する特別なご要望については、専任の移転コーディネーターが対応いたします。\n\n施設管理チーム",
     "questions": [
       {
         "num": 1,
@@ -100,7 +100,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "To: All Retail Partners\nFrom: Orion Electronics\n\nWe regret to inform you that the launch of our new wireless speaker line has been "
+        "en": "To: All Retail Partners\nFrom: Orion Electronics\n\nOver the past several weeks, our production team has been working closely with component suppliers to finalize the manufacturing process for our newest wireless speaker line. Unfortunately, we regret to inform you that the launch has been "
       },
       {
         "type": "blank",
@@ -132,10 +132,10 @@
       },
       {
         "type": "text",
-        "en": " any marketing materials referencing the original launch date. We will also offer updated point-of-sale displays once the new units arrive in stores.\n\nThank you for your understanding."
+        "en": " any marketing materials referencing the original launch date. We will also offer updated point-of-sale displays once the new units arrive in stores, along with a revised promotional calendar to help you plan in-store events around the new timeline.\n\nThank you for your understanding."
       }
     ],
-    "ja": "全小売パートナー各位\nオリオン・エレクトロニクスより\n\n新しいワイヤレススピーカーシリーズの発売が、部品不足のため3週間延期されることをお知らせいたします。この問題は現在サプライヤーと協力して解決に当たっています。この遅延が販促計画に影響を与える可能性があることを理解しており、ご不便をおかけしますことを心よりお詫び申し上げます。変更後の出荷日は今週末までに担当者へご連絡いたします。それまでの間、当初の発売日を記載した販促資料の使用は控えてください。新しい製品が店舗に届き次第、更新された店頭ディスプレイもご用意いたします。\n\nご理解のほどよろしくお願いいたします。",
+    "ja": "全小売パートナー各位\nオリオン・エレクトロニクスより\n\nここ数週間、当社の製造チームは部品サプライヤーと緊密に連携し、新しいワイヤレススピーカーシリーズの製造工程の最終調整を進めてまいりました。残念ながら、新しいワイヤレススピーカーシリーズの発売が、部品不足のため3週間延期されることをお知らせいたします。この問題は現在サプライヤーと協力して解決に当たっています。この遅延が販促計画に影響を与える可能性があることを理解しており、ご不便をおかけしますことを心よりお詫び申し上げます。変更後の出荷日は今週末までに担当者へご連絡いたします。それまでの間、当初の発売日を記載した販促資料の使用は控えてください。新しい製品が店舗に届き次第、更新された店頭ディスプレイもご用意いたします。また、新しい日程に合わせて店舗イベントを計画いただけるよう、改訂版の販促スケジュールもお送りいたします。\n\nご理解のほどよろしくお願いいたします。",
     "questions": [
       {
         "num": 1,
@@ -196,7 +196,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: All Employees\nRe: Updated Expense Reporting Policy\n\nEffective next month, all expense reports must be "
+        "en": "MEMO\n\nTo: All Employees\nRe: Updated Expense Reporting Policy\n\nThe finance department has reviewed feedback from last year's internal audit and identified several ways to make the expense process more efficient for everyone. Effective next month, all expense reports must be "
       },
       {
         "type": "blank",
@@ -228,10 +228,10 @@
       },
       {
         "type": "text",
-        "en": " fifty dollars. Training sessions on the new system will be held next week. Attendance is strongly encouraged, as the portal interface differs significantly from the paper forms used previously.\n\nFinance Department"
+        "en": " fifty dollars. Training sessions on the new system will be held next week at three different times to accommodate various schedules. Attendance is strongly encouraged, as the portal interface differs significantly from the paper forms used previously, and employees who miss all sessions will need to complete a short video tutorial instead.\n\nFinance Department"
       }
     ],
-    "ja": "メモ\n\n宛先：全従業員\n件名：経費報告方針の更新\n\n来月より、経費報告書はすべて紙ではなく新しいオンラインポータルを通じて提出していただく必要があります。この変更は承認プロセスをより速くし、処理時間を短縮することを目的としています。すべてのレシートはデジタル画像として保管しておいてください。50ドルを超える経費については、レシートのデジタル画像を添付する必要があります。新システムに関する研修は来週開催されます。新ポータルの画面は従来の紙の様式と大きく異なるため、研修への参加を強くお勧めします。\n\n財務部",
+    "ja": "メモ\n\n宛先：全従業員\n件名：経費報告方針の更新\n\n財務部は昨年の内部監査で寄せられたフィードバックを検討し、経費処理プロセスをより効率的にするいくつかの方法を特定しました。来月より、経費報告書はすべて紙ではなく新しいオンラインポータルを通じて提出していただく必要があります。この変更は承認プロセスをより速くし、処理時間を短縮することを目的としています。すべてのレシートはデジタル画像として保管しておいてください。50ドルを超える経費については、レシートのデジタル画像を添付する必要があります。新システムに関する研修は来週、都合に合わせて選べるよう3つの時間帯で開催されます。新ポータルの画面は従来の紙の様式と大きく異なるため、研修への参加を強くお勧めします。すべての回に参加できない従業員は、代わりに短い動画チュートリアルを視聴していただきます。\n\n財務部",
     "questions": [
       {
         "num": 1,
@@ -292,7 +292,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "NOTICE: Building Maintenance Schedule\n\nThe water supply to the third and fourth floors will be "
+        "en": "NOTICE: Building Maintenance Schedule\n\nAs part of our ongoing effort to keep the building's plumbing system in good condition, our maintenance team has scheduled a routine inspection for this weekend. The water supply to the third and fourth floors will be "
       },
       {
         "type": "blank",
@@ -324,10 +324,10 @@
       },
       {
         "type": "text",
-        "en": " until later in the afternoon. Updates will be posted in the lobby and sent by email if the schedule changes.\n\nBuilding Management"
+        "en": " until later in the afternoon. Updates will be posted in the lobby and sent by email if the schedule changes. We appreciate everyone's patience as we work to keep the building's systems running smoothly for the long term.\n\nBuilding Management"
       }
     ],
-    "ja": "お知らせ：建物メンテナンス予定\n\n定期配管点検のため、今週土曜日の午前9時から午後1時まで、3階と4階への給水が停止されます。この間、該当フロアの給湯設備もご利用いただけません。2階のお手洗いはこの間もご利用いただけます。ご不便をおかけしますことをお詫び申し上げます。作業が午後1時までに完了しない場合、給水再開が午後遅くまで遅れる可能性があります。スケジュールに変更があった場合は、ロビーの掲示およびメールにてお知らせします。\n\n建物管理部",
+    "ja": "お知らせ：建物メンテナンス予定\n\n建物の配管システムを良好な状態に保つための継続的な取り組みの一環として、保守チームは今週末に定期点検を予定しています。定期配管点検のため、今週土曜日の午前9時から午後1時まで、3階と4階への給水が停止されます。この間、該当フロアの給湯設備もご利用いただけません。2階のお手洗いはこの間もご利用いただけます。ご不便をおかけしますことをお詫び申し上げます。作業が午後1時までに完了しない場合、給水再開が午後遅くまで遅れる可能性があります。スケジュールに変更があった場合は、ロビーの掲示およびメールにてお知らせします。建物の設備を長期的に良好な状態で維持するため、皆様のご理解とご協力に感謝いたします。\n\n建物管理部",
     "questions": [
       {
         "num": 1,
@@ -388,7 +388,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Local Firm Wins Regional Innovation Award\n\nGreenfield Manufacturing was "
+        "en": "Local Firm Wins Regional Innovation Award\n\nIn a ceremony held downtown on Thursday evening, local business leaders gathered to celebrate achievements in sustainability and innovation across the region. Greenfield Manufacturing was "
       },
       {
         "type": "blank",
@@ -420,10 +420,10 @@
       },
       {
         "type": "text",
-        "en": " its new production methods to two additional facilities next year. The award ceremony will be broadcast online for employees unable to attend in person."
+        "en": " its new production methods to two additional facilities next year, with hopes of eventually applying the approach company-wide. The award ceremony will be broadcast online for employees unable to attend in person, and a recording will be made available afterward on the company intranet."
       }
     ],
-    "ja": "地元企業が地域イノベーション賞を受賞\n\nグリーンフィールド・マニュファクチャリング社は先週、新しい省エネ生産ラインにより地域イノベーション賞を受賞しました。この賞は商工会議所が毎年、持続可能なビジネス慣行に顕著な貢献をした企業を表彰するものです。審査員は同社の二酸化炭素排出量の大幅な削減を特に評価しました。ローラ・キム社長は、この受賞は長年のクリーン技術への投資を反映したものだと述べました。同社は来年、新しい生産方式を他の2つの工場にも拡大する計画です。授賞式は、現地に出席できない従業員向けにオンラインでも配信される予定です。",
+    "ja": "地元企業が地域イノベーション賞を受賞\n\n木曜日の夕方、市内中心部で開催された式典には、地域の持続可能性とイノベーションにおける功績を称えるため、地元のビジネスリーダーたちが集まりました。グリーンフィールド・マニュファクチャリング社は先週、新しい省エネ生産ラインにより地域イノベーション賞を受賞しました。この賞は商工会議所が毎年、持続可能なビジネス慣行に顕著な貢献をした企業を表彰するものです。審査員は同社の二酸化炭素排出量の大幅な削減を特に評価しました。ローラ・キム社長は、この受賞は長年のクリーン技術への投資を反映したものだと述べました。同社は来年、新しい生産方式を他の2つの工場にも拡大する計画で、将来的には全社的にこの手法を導入したいとしています。授賞式は、現地に出席できない従業員向けにオンラインでも配信される予定で、後日社内イントラネットでも録画を公開します。",
     "questions": [
       {
         "num": 1,
@@ -484,7 +484,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: Customer Service Team\nRe: Handling Customer Complaints\n\nAll complaints received by phone or email must be "
+        "en": "MEMO\n\nTo: Customer Service Team\nRe: Handling Customer Complaints\n\nFollowing a review of last quarter's customer satisfaction scores, management has introduced a few updates to how complaints should be handled going forward. All complaints received by phone or email must be "
       },
       {
         "type": "blank",
@@ -516,10 +516,10 @@
       },
       {
         "type": "text",
-        "en": " your team leader. A weekly summary of complaint trends will be shared with the whole team every Monday.\n\nCustomer Service Management"
+        "en": " your team leader. A weekly summary of complaint trends will be shared with the whole team every Monday, and representatives who consistently log complaints accurately and promptly will be recognized during the monthly team meeting.\n\nCustomer Service Management"
       }
     ],
-    "ja": "メモ\n\n宛先：カスタマーサービスチーム\n件名：顧客苦情への対応について\n\n電話やメールで受けた苦情はすべて、24時間以内に新しい追跡システムに記録する必要があります。これにより、経営陣は対応時間を監視し、繰り返し発生する問題を特定できるようになります。顧客に対応する際は、冷静さを保ち、守れない約束をしないようにしてください。苦情がすぐに解決できない場合は、チームリーダーに報告してください。苦情傾向の週次まとめは、毎週月曜日にチーム全体へ共有されます。\n\nカスタマーサービス管理部",
+    "ja": "メモ\n\n宛先：カスタマーサービスチーム\n件名：顧客苦情への対応について\n\n前四半期の顧客満足度スコアの見直しを受け、経営陣は今後の苦情対応方法についていくつかの更新を導入しました。電話やメールで受けた苦情はすべて、24時間以内に新しい追跡システムに記録する必要があります。これにより、経営陣は対応時間を監視し、繰り返し発生する問題を特定できるようになります。顧客に対応する際は、冷静さを保ち、守れない約束をしないようにしてください。苦情がすぐに解決できない場合は、チームリーダーに報告してください。苦情傾向の週次まとめは、毎週月曜日にチーム全体へ共有され、正確かつ迅速に記録を続けた担当者は月例会議で表彰されます。\n\nカスタマーサービス管理部",
     "questions": [
       {
         "num": 1,
@@ -580,7 +580,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: All Staff\nRe: Remote Work Policy Update\n\nStarting next quarter, employees will be "
+        "en": "MEMO\n\nTo: All Staff\nRe: Remote Work Policy Update\n\nAfter surveying employees across all departments earlier this year, Human Resources has finalized a new approach to flexible work arrangements. Starting next quarter, employees will be "
       },
       {
         "type": "blank",
@@ -612,10 +612,10 @@
       },
       {
         "type": "text",
-        "en": " advance. Managers will review requests within three business days and may ask for adjustments based on team coverage needs.\n\nHuman Resources"
+        "en": " advance. Managers will review requests within three business days and may ask for adjustments based on team coverage needs. We will revisit this policy in six months to gather feedback and make any necessary improvements.\n\nHuman Resources"
       }
     ],
-    "ja": "メモ\n\n宛先：全従業員\n件名：リモートワーク方針の更新\n\n来四半期より、上司の承認を条件に、従業員は週に最大2日までリモートワークが可能になります。この方針は、ワークライフバランスを向上させるという社員からの声に応えるものです。この制度を選ぶ従業員は、コアタイム中は連絡が取れる状態を保つ必要があります。リモートワークの申請はすべて、少なくとも1週間前までに人事ポータルを通じて提出してください。上司は3営業日以内に申請を確認し、チームの人員配置の都合により調整を求める場合があります。\n\n人事部",
+    "ja": "メモ\n\n宛先：全従業員\n件名：リモートワーク方針の更新\n\n今年初めに全部門を対象に実施した調査を踏まえ、人事部は柔軟な働き方に関する新しい方針を策定しました。来四半期より、上司の承認を条件に、従業員は週に最大2日までリモートワークが可能になります。この方針は、ワークライフバランスを向上させるという社員からの声に応えるものです。この制度を選ぶ従業員は、コアタイム中は連絡が取れる状態を保つ必要があります。リモートワークの申請はすべて、少なくとも1週間前までに人事ポータルを通じて提出してください。上司は3営業日以内に申請を確認し、チームの人員配置の都合により調整を求める場合があります。この方針については6か月後に見直しを行い、フィードバックを集めて必要な改善を行う予定です。\n\n人事部",
     "questions": [
       {
         "num": 1,
@@ -676,7 +676,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "NOTICE\n\nThe west parking lot will be "
+        "en": "NOTICE\n\nIn preparation for the upcoming summer season, the facilities team has scheduled several maintenance projects around the building. The west parking lot will be "
       },
       {
         "type": "blank",
@@ -708,10 +708,10 @@
       },
       {
         "type": "text",
-        "en": " parking may be limited. Visitors should use the east lot entrance during the closure, as the west entrance will remain barricaded.\n\nFacilities Management"
+        "en": " parking may be limited. Visitors should use the east lot entrance during the closure, as the west entrance will remain barricaded. The resurfacing work is part of a broader plan to improve drainage and reduce potholes across all of our parking areas.\n\nFacilities Management"
       }
     ],
-    "ja": "お知らせ\n\n西側駐車場は、6月3日（月）から6月5日（水）まで、舗装工事のため閉鎖されます。工事期間中は大きな騒音が発生する可能性があります。普段この駐車場を利用している従業員は、期間中は東側駐車場または5番街の路上駐車をご利用ください。駐車スペースが限られる可能性があるため、通勤には余裕を持ってお越しください。閉鎖期間中、来訪者は東側駐車場の入口をご利用ください。西側の入口は閉鎖されたままとなります。\n\n施設管理部",
+    "ja": "お知らせ\n\n夏季に向けた準備として、施設チームは建物周辺でいくつかのメンテナンス工事を予定しています。西側駐車場は、6月3日（月）から6月5日（水）まで、舗装工事のため閉鎖されます。工事期間中は大きな騒音が発生する可能性があります。普段この駐車場を利用している従業員は、期間中は東側駐車場または5番街の路上駐車をご利用ください。駐車スペースが限られる可能性があるため、通勤には余裕を持ってお越しください。閉鎖期間中、来訪者は東側駐車場の入口をご利用ください。西側の入口は閉鎖されたままとなります。今回の舗装工事は、すべての駐車エリアの排水を改善し、穴を減らすための大きな計画の一環です。\n\n施設管理部",
     "questions": [
       {
         "num": 1,
@@ -772,7 +772,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Dear Colleagues,\n\nYou are warmly invited to this year's company picnic, "
+        "en": "Dear Colleagues,\n\nAs summer approaches, the Events Committee is excited to bring back one of our most popular annual traditions. You are warmly invited to this year's company picnic, "
       },
       {
         "type": "blank",
@@ -804,10 +804,10 @@
       },
       {
         "type": "text",
-        "en": " accurate headcounts for catering. We look forward to a fun afternoon together, and a sign-up sheet for volunteers will circulate next week.\n\nEvents Committee"
+        "en": " accurate headcounts for catering. There will also be activities for children, including face painting and a small obstacle course, so feel free to bring the whole family. We look forward to a fun afternoon together, and a sign-up sheet for volunteers will circulate next week.\n\nEvents Committee"
       }
     ],
-    "ja": "同僚各位\n\n今年の社内ピクニックにぜひご参加ください。7月20日（土）にレイクサイド公園にて開催いたします。昨年と同様、無料のシャトルバスを主要駅からご用意する予定です。従業員とそのご家族向けに、食事・飲み物・ゲームをご用意いたします。ケータリングのため正確な参加人数を把握する必要がありますので、7月10日までにご出欠をご連絡ください。皆様と楽しいひとときを過ごせることを楽しみにしております。ボランティアの募集表は来週回覧予定です。\n\nイベント委員会",
+    "ja": "同僚各位\n\n夏の訪れとともに、イベント委員会は当社で最も人気のある毎年恒例の行事を再び開催できることを嬉しく思います。今年の社内ピクニックにぜひご参加ください。7月20日（土）にレイクサイド公園にて開催いたします。昨年と同様、無料のシャトルバスを主要駅からご用意する予定です。従業員とそのご家族向けに、食事・飲み物・ゲームをご用意いたします。ケータリングのため正確な参加人数を把握する必要がありますので、7月10日までにご出欠をご連絡ください。フェイスペイントや小さな障害物コースなど、お子様向けのアクティビティもございますので、ぜひご家族そろってお越しください。皆様と楽しいひとときを過ごせることを楽しみにしております。ボランティアの募集表は来週回覧予定です。\n\nイベント委員会",
     "questions": [
       {
         "num": 1,
@@ -868,7 +868,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Brightline Software Opens First Overseas Branch\n\nBrightline Software announced this week that it has "
+        "en": "Brightline Software Opens First Overseas Branch\n\nAfter months of planning and site visits across the region, local technology company Brightline Software announced this week that it has "
       },
       {
         "type": "blank",
@@ -900,10 +900,10 @@
       },
       {
         "type": "text",
-        "en": " plans to open additional offices in Europe within two years. The Singapore team will initially report to the regional director based in Tokyo."
+        "en": " plans to open additional offices in Europe within two years. The Singapore team will initially report to the regional director based in Tokyo, with a local country manager expected to be appointed once the office reaches full staffing."
       }
     ],
-    "ja": "ブライトライン・ソフトウェア、海外初の支店を開設\n\nブライトライン・ソフトウェア社は今週、シンガポールに初の海外拠点を開設したと発表しました。新支店は年末までに約30人の従業員を雇用し、アジア太平洋地域の顧客サポートに注力する予定です。同社は過去3年間、この地域で売上の着実な伸びを見せてきました。マーク・ダルトンCEOは、この拡大は同地域での同社製品への強い需要を反映したものだと述べました。同社は今後2年以内にヨーロッパにも追加の拠点を開設する計画です。シンガポールチームは当初、東京駐在の地域ディレクターに報告する体制となります。",
+    "ja": "ブライトライン・ソフトウェア、海外初の支店を開設\n\n数か月にわたる計画と現地視察を経て、地元のテクノロジー企業ブライトライン・ソフトウェア社は今週、シンガポールに初の海外拠点を開設したと発表しました。新支店は年末までに約30人の従業員を雇用し、アジア太平洋地域の顧客サポートに注力する予定です。同社は過去3年間、この地域で売上の着実な伸びを見せてきました。マーク・ダルトンCEOは、この拡大は同地域での同社製品への強い需要を反映したものだと述べました。同社は今後2年以内にヨーロッパにも追加の拠点を開設する計画です。シンガポールチームは当初、東京駐在の地域ディレクターに報告する体制となり、現地スタッフが揃い次第、現地法人マネージャーを任命する見込みです。",
     "questions": [
       {
         "num": 1,
@@ -964,7 +964,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: All Employees\nRe: Mandatory Cybersecurity Training\n\n"
+        "en": "MEMO\n\nTo: All Employees\nRe: Mandatory Cybersecurity Training\n\nProtecting company and customer data remains one of our highest priorities, and every employee plays an important role in keeping our systems secure. "
       },
       {
         "type": "blank",
@@ -996,10 +996,10 @@
       },
       {
         "type": "text",
-        "en": " the deadline will receive a reminder from their manager. Managers will track completion rates and follow up individually with anyone who has not finished.\n\nIT Security Team"
+        "en": " the deadline will receive a reminder from their manager. Managers will track completion rates and follow up individually with anyone who has not finished. Departments with a completion rate above ninety-five percent will be recognized in next month's company newsletter.\n\nIT Security Team"
       }
     ],
-    "ja": "メモ\n\n宛先：全従業員\n件名：サイバーセキュリティ研修の義務化\n\n最近、当業界を狙ったフィッシング詐欺の試みが増加しています。業界全体でこのような攻撃を標的とした件数が増加していることを受け、全従業員は今月末までにサイバーセキュリティ研修を修了することが求められます。この研修には約45分かかり、オンライン学習プラットフォームを通じて修了することができます。期限までに研修を修了しなかった従業員には、上司からリマインダーが送られます。上司は修了率を確認し、未修了の従業員には個別にフォローアップを行います。\n\nITセキュリティチーム",
+    "ja": "メモ\n\n宛先：全従業員\n件名：サイバーセキュリティ研修の義務化\n\n会社と顧客のデータを守ることは当社にとって最優先事項の一つであり、全従業員がシステムの安全性を保つ重要な役割を担っています。最近、当業界を狙ったフィッシング詐欺の試みが増加しています。業界全体でこのような攻撃を標的とした件数が増加していることを受け、全従業員は今月末までにサイバーセキュリティ研修を修了することが求められます。この研修には約45分かかり、オンライン学習プラットフォームを通じて修了することができます。期限までに研修を修了しなかった従業員には、上司からリマインダーが送られます。上司は修了率を確認し、未修了の従業員には個別にフォローアップを行います。修了率が95％を超えた部署は、来月の社内報で表彰されます。\n\nITセキュリティチーム",
     "questions": [
       {
         "num": 1,
@@ -1060,7 +1060,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Subject: Quarterly Sales Report Needed\n\nHi Daniel,\n\nCould you please "
+        "en": "Subject: Quarterly Sales Report Needed\n\nHi Daniel,\n\nI hope your week is going well. I'm reaching out because we're finalizing materials for an important upcoming meeting and need your help with something. Could you please "
       },
       {
         "type": "blank",
@@ -1092,10 +1092,10 @@
       },
       {
         "type": "text",
-        "en": " from the sales team to finish it on time. I know it's a tight turnaround, and I really appreciate your help with this.\n\nThanks,\nMina"
+        "en": " from the sales team to finish it on time. I know it's a tight turnaround, and I really appreciate your help with this. Please don't hesitate to call me directly if anything is unclear or if you run into any issues pulling the numbers together.\n\nThanks,\nMina"
       }
     ],
-    "ja": "件名：四半期売上報告書が必要です\n\nダニエルさん\n\n今週木曜日までに四半期売上報告書を送っていただけますか。地域ディレクターが来週の取締役会に向けて準備するために必要としています。通常よりも少し早めに必要としていることをご了承ください。前回と同様に、製品カテゴリー別の内訳を含めてください。期限内に仕上げるために営業チームからの協力が必要であればお知らせください。タイトなスケジュールであることは承知しておりますが、ご協力に感謝いたします。\n\nよろしくお願いします。\nミナ",
+    "ja": "件名：四半期売上報告書が必要です\n\nダニエルさん\n\n今週もお忙しいこととお察しします。今回ご連絡したのは、近く予定されている重要な会議の資料を最終準備しているためで、お力をお借りしたいことがあります。今週木曜日までに四半期売上報告書を送っていただけますか。地域ディレクターが来週の取締役会に向けて準備するために必要としています。通常よりも少し早めに必要としていることをご了承ください。前回と同様に、製品カテゴリー別の内訳を含めてください。期限内に仕上げるために営業チームからの協力が必要であればお知らせください。タイトなスケジュールであることは承知しておりますが、ご協力に感謝いたします。不明な点やデータ集計で問題があれば、遠慮なく直接お電話ください。\n\nよろしくお願いします。\nミナ",
     "questions": [
       {
         "num": 1,
@@ -1156,7 +1156,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "NOTICE\n\nThe elevator in the east wing is currently "
+        "en": "NOTICE\n\nWe would like to inform all employees and visitors of a temporary change affecting access to the upper floors of the east wing. The elevator in the east wing is currently "
       },
       {
         "type": "blank",
@@ -1188,10 +1188,10 @@
       },
       {
         "type": "text",
-        "en": " the front desk for help. We expect to have a technician on site throughout the day to speed up the repair.\n\nBuilding Management"
+        "en": " the front desk for help. We expect to have a technician on site throughout the day to speed up the repair, and we will post an update as soon as the elevator is back in service.\n\nBuilding Management"
       }
     ],
-    "ja": "お知らせ\n\n東棟のエレベーターは現在故障しており、技術者が修理にあたっています。ご不便をおかけしますが、ご了承ください。それまでの間、西棟のエレベーターまたは階段をご利用ください。修理は明日の午後までに完了する見込みです。移動に補助が必要な従業員は、受付までお申し出ください。修理を早めるため、終日技術者が現地で対応にあたる予定です。\n\n建物管理部",
+    "ja": "お知らせ\n\n東棟の上層階へのアクセスに関する一時的な変更について、全従業員および来訪者の皆様にお知らせいたします。東棟のエレベーターは現在故障しており、技術者が修理にあたっています。ご不便をおかけしますが、ご了承ください。それまでの間、西棟のエレベーターまたは階段をご利用ください。修理は明日の午後までに完了する見込みです。移動に補助が必要な従業員は、受付までお申し出ください。修理を早めるため、終日技術者が現地で対応にあたる予定で、エレベーターが復旧次第、改めてお知らせいたします。\n\n建物管理部",
     "questions": [
       {
         "num": 1,
@@ -1252,7 +1252,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Dear Valued Customer,\n\nDue to rising costs of raw materials, we will be "
+        "en": "Dear Valued Customer,\n\nWe have always strived to keep our pricing as stable and predictable as possible for the businesses that depend on us. However, due to rising costs of raw materials, we will be "
       },
       {
         "type": "blank",
@@ -1284,10 +1284,10 @@
       },
       {
         "type": "text",
-        "en": " We value your continued partnership and are happy to answer any questions regarding this change. Existing contracts signed before August 1st will honor current pricing through the end of the contract term.\n\nSincerely,\nSales Department"
+        "en": " We value your continued partnership and are happy to answer any questions regarding this change. Existing contracts signed before August 1st will honor current pricing through the end of the contract term. Customers with questions about how this change may affect their specific order volume are encouraged to contact their account representative directly.\n\nSincerely,\nSales Department"
       }
     ],
-    "ja": "大切なお客様へ\n\n原材料費の高騰により、8月1日より全梱包製品の価格を5％引き上げさせていただきます。この調整は、3年以上ぶりの価格変更となります。可能な限り運営コストを削減することで、お客様への影響を最小限に抑えるよう努めてまいりました。この決定は軽々しく下したものではないことをご理解ください。引き続きのお取引に感謝するとともに、この変更についてご質問があればいつでもお答えいたします。8月1日より前に締結された既存の契約については、契約期間終了まで現行価格が適用されます。\n\n敬具\n営業部",
+    "ja": "大切なお客様へ\n\n当社は常に、お取引先の皆様にとって安定した予測可能な価格をご提供できるよう努めてまいりました。しかしながら、原材料費の高騰により、8月1日より全梱包製品の価格を5％引き上げさせていただきます。この調整は、3年以上ぶりの価格変更となります。可能な限り運営コストを削減することで、お客様への影響を最小限に抑えるよう努めてまいりました。この決定は軽々しく下したものではないことをご理解ください。引き続きのお取引に感謝するとともに、この変更についてご質問があればいつでもお答えいたします。8月1日より前に締結された既存の契約については、契約期間終了まで現行価格が適用されます。この変更が発注数量にどのような影響を与えるかご質問がある場合は、担当者まで直接お問い合わせください。\n\n敬具\n営業部",
     "questions": [
       {
         "num": 1,
@@ -1348,7 +1348,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: All Staff\nRe: New Office Recycling Program\n\n"
+        "en": "MEMO\n\nTo: All Staff\nRe: New Office Recycling Program\n\nAs part of our broader sustainability strategy for this year, we are introducing several changes designed to reduce waste throughout the building. "
       },
       {
         "type": "blank",
@@ -1380,10 +1380,10 @@
       },
       {
         "type": "text",
-        "en": " to all staff by email next week. Bins will be clearly labeled, and committee members will be available during the first week to answer questions.\n\nSustainability Committee"
+        "en": " to all staff by email next week. Bins will be clearly labeled, and committee members will be available during the first week to answer questions. We will track overall waste reduction and share the results with everyone after the program's first quarter.\n\nSustainability Committee"
       }
     ],
-    "ja": "メモ\n\n宛先：全従業員\n件名：新しいオフィスリサイクルプログラムについて\n\n当社は環境への影響を減らすことを継続的に目指しています。来週月曜日より、全フロアで包括的なリサイクルプログラムを開始します。紙・プラスチック・一般ごみ用の分別ごみ箱が各キッチンエリア付近に設置されます。従業員は廃棄前に適切に分別することが求められます。短いトレーニング動画が来週、全従業員にメールで送付されます。ごみ箱には分かりやすいラベルを表示し、初週は委員会メンバーが質問に対応いたします。\n\nサステナビリティ委員会",
+    "ja": "メモ\n\n宛先：全従業員\n件名：新しいオフィスリサイクルプログラムについて\n\n今年の持続可能性戦略の一環として、建物全体のごみを削減するためのいくつかの変更を導入いたします。当社は環境への影響を減らすことを継続的に目指しています。来週月曜日より、全フロアで包括的なリサイクルプログラムを開始します。紙・プラスチック・一般ごみ用の分別ごみ箱が各キッチンエリア付近に設置されます。従業員は廃棄前に適切に分別することが求められます。短いトレーニング動画が来週、全従業員にメールで送付されます。ごみ箱には分かりやすいラベルを表示し、初週は委員会メンバーが質問に対応いたします。プログラム開始から最初の四半期が終わった時点で、ごみ削減の成果を全体で共有する予定です。\n\nサステナビリティ委員会",
     "questions": [
       {
         "num": 1,
@@ -1444,7 +1444,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Local Bakery Donates Profits to Community Center\n\nSweetleaf Bakery announced that it will "
+        "en": "Local Bakery Donates Profits to Community Center\n\nIn an announcement that surprised and delighted many longtime customers, a well-known neighborhood business revealed plans to give back to the community that helped it grow. Sweetleaf Bakery announced that it will "
       },
       {
         "type": "blank",
@@ -1476,10 +1476,10 @@
       },
       {
         "type": "text",
-        "en": " similar donations in the past, including support for a local food bank. The center plans to use part of the funds to extend its hours on weekdays."
+        "en": " similar donations in the past, including support for a local food bank. The center plans to use part of the funds to extend its hours on weekdays, giving more working parents access to after-school care for their children."
       }
     ],
-    "ja": "地元ベーカリー、利益をコミュニティセンターへ寄付\n\nスイートリーフ・ベーカリーは、今月の利益の10％をリバーサイド・コミュニティセンターに寄付すると発表しました。この寄付金は、地元の子供たち向けの新しい放課後プログラムの資金として使われます。センターは昨年、利用者数が大幅に増加しました。オーナーのハナ・スズキさんは、10年以上支えてくれた地域に恩返しをしたかったと語りました。同ベーカリーは過去にも、地元フードバンクへの支援など同様の寄付を行ってきました。センターは資金の一部を使い、平日の開館時間を延長する計画です。",
+    "ja": "地元ベーカリー、利益をコミュニティセンターへ寄付\n\n長年の常連客を驚かせ、喜ばせた発表の中で、地域でよく知られたある店舗が、自らの成長を支えてくれた地域社会に恩返しをする計画を明らかにしました。スイートリーフ・ベーカリーは、今月の利益の10％をリバーサイド・コミュニティセンターに寄付すると発表しました。この寄付金は、地元の子供たち向けの新しい放課後プログラムの資金として使われます。センターは昨年、利用者数が大幅に増加しました。オーナーのハナ・スズキさんは、10年以上支えてくれた地域に恩返しをしたかったと語りました。同ベーカリーは過去にも、地元フードバンクへの支援など同様の寄付を行ってきました。センターは資金の一部を使い、平日の開館時間を延長する計画で、これにより共働きの保護者がより利用しやすい放課後ケアを提供できるようになります。",
     "questions": [
       {
         "num": 1,
@@ -1540,7 +1540,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Subject: Welcome to the Team!\n\nDear Priya,\n\nWe are delighted to "
+        "en": "Subject: Welcome to the Team!\n\nDear Priya,\n\nOn behalf of everyone here, congratulations again on accepting the position! Everyone has been looking forward to your start date. We are delighted to "
       },
       {
         "type": "blank",
@@ -1572,10 +1572,10 @@
       },
       {
         "type": "text",
-        "en": " out to HR at any time. We're all looking forward to working with you and are confident you'll settle in quickly.\n\nWarm regards,\nHuman Resources"
+        "en": " out to HR at any time. We're all looking forward to working with you and are confident you'll settle in quickly. A welcome packet with more details about our benefits and company policies will be waiting on your desk on your first morning.\n\nWarm regards,\nHuman Resources"
       }
     ],
-    "ja": "件名：チームへようこそ！\n\nプリヤさんへ\n\nマーケティング部門へお迎えできることを大変嬉しく思います。初出勤日は月曜日で、上司のトムが午前9時に受付でお出迎えします。オリエンテーションには、人事担当者との昼食も含まれる予定です。建物の入館バッジ発行のため、有効な写真付き身分証明書をお持ちください。入社日前にご質問があれば、いつでも人事部までご連絡ください。ご一緒に働けることを楽しみにしており、すぐに馴染んでいただけると確信しております。\n\n敬具\n人事部",
+    "ja": "件名：チームへようこそ！\n\nプリヤさんへ\n\n一同を代表して、改めて採用決定おめでとうございます。皆、あなたの入社日を心待ちにしています。マーケティング部門へお迎えできることを大変嬉しく思います。初出勤日は月曜日で、上司のトムが午前9時に受付でお出迎えします。オリエンテーションには、人事担当者との昼食も含まれる予定です。建物の入館バッジ発行のため、有効な写真付き身分証明書をお持ちください。入社日前にご質問があれば、いつでも人事部までご連絡ください。ご一緒に働けることを楽しみにしており、すぐに馴染んでいただけると確信しております。初日の朝には、福利厚生や社内規定について詳しく記載したウェルカムパックを机の上にご用意しておきます。\n\n敬具\n人事部",
     "questions": [
       {
         "num": 1,
@@ -1636,7 +1636,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "NOTICE: Fire Drill Schedule\n\nA mandatory fire drill will be "
+        "en": "NOTICE: Fire Drill Schedule\n\nAs part of our annual safety compliance requirements, the Safety Office will conduct a building-wide fire drill this week. A mandatory fire drill will be "
       },
       {
         "type": "blank",
@@ -1668,10 +1668,10 @@
       },
       {
         "type": "text",
-        "en": " no more than fifteen minutes. Everyone is expected to participate, including visitors who happen to be in the building at the time.\n\nSafety Office"
+        "en": " no more than fifteen minutes. Everyone is expected to participate, including visitors who happen to be in the building at the time. Employees with mobility concerns should speak with their floor warden beforehand to arrange appropriate assistance.\n\nSafety Office"
       }
     ],
-    "ja": "お知らせ：避難訓練の予定\n\n今週水曜日午後2時に、避難訓練を実施します。警報が鳴ったら、全従業員は直ちに建物から避難してください。エレベーターは使用しないでください。最寄りの階段を使用し、北側駐車場の指定集合場所へ移動してください。フロア担当者による出席確認が行われるまで、その場に留まってください。訓練全体の所要時間は15分を超えない見込みです。訓練時に建物内にいる来訪者も含め、全員が参加することが求められます。\n\n安全管理室",
+    "ja": "お知らせ：避難訓練の予定\n\n年次安全基準への対応の一環として、安全管理室は今週、建物全体での避難訓練を実施します。今週水曜日午後2時に、避難訓練を実施します。警報が鳴ったら、全従業員は直ちに建物から避難してください。エレベーターは使用しないでください。最寄りの階段を使用し、北側駐車場の指定集合場所へ移動してください。フロア担当者による出席確認が行われるまで、その場に留まってください。訓練全体の所要時間は15分を超えない見込みです。訓練時に建物内にいる来訪者も含め、全員が参加することが求められます。移動に不安のある従業員は、事前にフロア担当者に相談し、適切なサポートを手配してください。\n\n安全管理室",
     "questions": [
       {
         "num": 1,
@@ -1732,7 +1732,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "Subject: Software Update Rollout\n\nHi Team,\n\n"
+        "en": "Subject: Software Update Rollout\n\nHi Team,\n\nThe IT department has been working closely with our security vendor over the past month to prepare an important update for all company devices. "
       },
       {
         "type": "blank",
@@ -1764,10 +1764,10 @@
       },
       {
         "type": "text",
-        "en": " contact the IT help desk. A confirmation message will appear on your screen once the installation is complete.\n\nIT Department"
+        "en": " contact the IT help desk. A confirmation message will appear on your screen once the installation is complete, and we recommend restarting your laptop once more at the end of the day to ensure all changes take full effect.\n\nIT Department"
       }
     ],
-    "ja": "件名：ソフトウェアアップデートの展開について\n\nチームの皆さんへ\n\nこの機能強化は、以前からの利用者フィードバックを受けて実施されます。来週火曜日より、全社のノートパソコンに最新のセキュリティアップデートが自動的に適用されます。アップデートのインストールには約20分かかり、その過程でコンピューターが一度再起動します。アップデート開始前に、開いているファイルはすべて保存してください。その後問題が発生した場合は、ITヘルプデスクまでご連絡ください。インストールが完了すると、画面に確認メッセージが表示されます。\n\nIT部門",
+    "ja": "件名：ソフトウェアアップデートの展開について\n\nチームの皆さんへ\n\nIT部門はこの1か月、セキュリティベンダーと緊密に連携し、全社端末向けの重要なアップデートの準備を進めてまいりました。この機能強化は、以前からの利用者フィードバックを受けて実施されます。来週火曜日より、全社のノートパソコンに最新のセキュリティアップデートが自動的に適用されます。アップデートのインストールには約20分かかり、その過程でコンピューターが一度再起動します。アップデート開始前に、開いているファイルはすべて保存してください。その後問題が発生した場合は、ITヘルプデスクまでご連絡ください。インストールが完了すると、画面に確認メッセージが表示されます。変更を確実に反映させるため、その日の終わりにもう一度ノートパソコンを再起動することをお勧めします。\n\nIT部門",
     "questions": [
       {
         "num": 1,
@@ -1828,7 +1828,7 @@
     "segments": [
       {
         "type": "text",
-        "en": "MEMO\n\nTo: All Employees\nRe: Holiday Schedule\n\nThe office will be "
+        "en": "MEMO\n\nTo: All Employees\nRe: Holiday Schedule\n\nAs the year draws to a close, we would like to share our plans for the upcoming winter holiday period so everyone can prepare accordingly. The office will be "
       },
       {
         "type": "blank",
@@ -1860,10 +1860,10 @@
       },
       {
         "type": "text",
-        "en": " a happy new year. See you all in the new year, refreshed and ready for an exciting twelve months ahead.\n\nManagement"
+        "en": " a happy new year. See you all in the new year, refreshed and ready for an exciting twelve months ahead. On behalf of the entire management team, thank you for your hard work and dedication throughout this year.\n\nManagement"
       }
     ],
-    "ja": "メモ\n\n宛先：全従業員\n件名：休暇スケジュールについて\n\nオフィスは冬季休暇のため12月24日から1月1日まで休業いたします。この間、緊急の問い合わせはサポートチームが引き続き対応いたします。通常の営業時間は1月2日より再開します。この期間中に建物に入る必要がある従業員は、事前に上司の承認を得てください。皆様にとって穏やかな休暇と幸せな新年となりますようお祈り申し上げます。新年にまた元気な姿でお会いできることを楽しみにしております。\n\n経営陣",
+    "ja": "メモ\n\n宛先：全従業員\n件名：休暇スケジュールについて\n\n年末が近づいてまいりましたので、皆様が準備できるよう、今年の冬季休暇期間の予定をお知らせいたします。オフィスは冬季休暇のため12月24日から1月1日まで休業いたします。この間、緊急の問い合わせはサポートチームが引き続き対応いたします。通常の営業時間は1月2日より再開します。この期間中に建物に入る必要がある従業員は、事前に上司の承認を得てください。皆様にとって穏やかな休暇と幸せな新年となりますようお祈り申し上げます。新年にまた元気な姿でお会いできることを楽しみにしております。経営陣一同、今年一年の皆様の尽力とご貢献に心より感謝申し上げます。\n\n経営陣",
     "questions": [
       {
         "num": 1,
