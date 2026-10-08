@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'toeic15-v4';
+const CACHE_VERSION = 'toeic15-v5';
 
 const PRECACHE_URLS = [
   './',
@@ -36,8 +36,22 @@ const PRECACHE_URLS = [
 ];
 
 self.addEventListener('install', (event) => {
+  // Fetch with {cache: 'reload'} so precaching always gets fresh bytes from the
+  // network instead of a stale entry from the browser's own HTTP cache (which
+  // can otherwise serve an old file for its max-age window after a deploy).
   event.waitUntil(
-    caches.open(CACHE_VERSION).then((cache) => cache.addAll(PRECACHE_URLS)).then(() => self.skipWaiting())
+    caches
+      .open(CACHE_VERSION)
+      .then((cache) =>
+        Promise.all(
+          PRECACHE_URLS.map((url) =>
+            fetch(url, { cache: 'reload' }).then((res) => {
+              if (res.ok) return cache.put(url, res);
+            })
+          )
+        )
+      )
+      .then(() => self.skipWaiting())
   );
 });
 
