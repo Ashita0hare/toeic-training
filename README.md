@@ -22,20 +22,20 @@ python -m http.server 8080
 
 ## GitHub Pagesに公開する手順
 
-1. GitHub上で新しいリポジトリを作成する（例: `toeic15`）。Public/Privateどちらでも可（Privateの場合もPages自体は公開URLになる点に注意）。
-2. このフォルダをそのリポジトリにpushする。
+ローカルの `git init` とコミットは済んでいる（リポジトリ名 `toeic-training` / Private を想定）。
+
+1. https://github.com/new を開き、リポジトリ名を `toeic-training`、公開範囲を **Private** にして「Create repository」を押す（README等の初期ファイルは追加しない）。
+   - 注意: Privateリポジトリでも、GitHub Pagesとして公開したURL自体は誰でもアクセスできる（URLを知っている人には見える）。アカウント範囲での非公開ではない。
+2. 作成後に表示される「…or push an existing repository from the command line」のURLをコピーし、以下を実行する。
    ```bash
    cd C:\Projects\English_Language_Learning
-   git init
-   git add .
-   git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/<ユーザー名>/<リポジトリ名>.git
+   git remote add origin https://github.com/<ユーザー名>/toeic-training.git
    git push -u origin main
    ```
 3. GitHubのリポジトリページで **Settings → Pages** を開く。
 4. "Build and deployment" の **Source** を `Deploy from a branch` にし、Branch を `main` / `/ (root)` に設定して **Save**。
-5. 数十秒〜数分待つと、`https://<ユーザー名>.github.io/<リポジトリ名>/` でアプリが公開される。
+5. 数十秒〜数分待つと、`https://<ユーザー名>.github.io/toeic-training/` でアプリが公開される。
 6. スマホのChromeでそのURLを開き、メニューから「ホーム画面に追加」を選ぶとアプリとして使える。
 
 ### 更新したとき
