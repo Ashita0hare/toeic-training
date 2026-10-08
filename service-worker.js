@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'toeic15-v3';
+const CACHE_VERSION = 'toeic15-v4';
 
 const PRECACHE_URLS = [
   './',
@@ -20,11 +20,15 @@ const PRECACHE_URLS = [
   './js/screens/listenthrough.js',
   './js/screens/records.js',
   './js/screens/vocab.js',
+  './js/screens/reading.js',
   './data/words.json',
   './data/part2.json',
   './data/part5.json',
   './data/dictation.json',
   './data/part34.json',
+  './data/part6.json',
+  './data/part7.json',
+  './data/paraphrase.json',
   './icons/icon-192.png',
   './icons/icon-192-maskable.png',
   './icons/icon-512.png',

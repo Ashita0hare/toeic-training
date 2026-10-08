@@ -3,33 +3,69 @@ import { loadWords, loadPart2, loadPart5, loadDictation } from '../data.js';
 import { sm2Update, toDateStr, isDue } from '../srs.js';
 import { pickItems, shuffle, statsMapByKey } from '../picker.js';
 import { speak, speakSequence, cancelSpeech } from '../speech.js';
+import { runPart6Step, runPart7Step, runParaphraseStep } from './reading.js';
 
-const STEP_NAMES = ['単語', '応答問題', 'ディクテーション', '短文穴埋め'];
+// Listening/reading time balance presets, selectable in Settings.
+const BALANCE_PRESETS = {
+  listening: { vocab: 8, part2: 10, dictation: 3, part5: 5, part6Count: 1, paraphraseCount: 3, part7Target: 3, part7MaxDocs: 1 },
+  standard: { vocab: 8, part2: 8, dictation: 2, part5: 8, part6Count: 1, paraphraseCount: 5, part7Target: 4, part7MaxDocs: 2 },
+  reading: { vocab: 8, part2: 6, dictation: 1, part5: 11, part6Count: 1, paraphraseCount: 7, part7Target: 6, part7MaxDocs: 3 },
+};
+const READING_TRACKS = ['A', 'B', 'C'];
+
+let STEP_NAMES = ['単語', '応答問題', 'ディクテーション', 'リーディング'];
+
+async function nextReadingTrack() {
+  const idx = (await getSetting('readingTrackIndex', 0)) || 0;
+  await setSetting('readingTrackIndex', (idx + 1) % 3);
+  return READING_TRACKS[idx % 3];
+}
 
 export async function renderSession(root, navigate) {
   cancelSpeech();
-  const [accent, rate, dictationMode] = await Promise.all([
+  const [accent, rate, dictationMode, balanceKey] = await Promise.all([
     getSetting('accent', 'en-US'),
     getSetting('rate', 1.0),
     getSetting('dictationMode', 'tap'),
+    getSetting('balancePreset', 'standard'),
   ]);
   const opts = { accent, rate, dictationMode };
+  const balance = BALANCE_PRESETS[balanceKey] || BALANCE_PRESETS.standard;
+  const track = await nextReadingTrack();
+
+  STEP_NAMES =
+    track === 'A'
+      ? ['単語', '応答問題', 'ディクテーション', 'Part5']
+      : track === 'B'
+      ? ['単語', '応答問題', 'ディクテーション', 'Part6', '言い換え']
+      : ['単語', '応答問題', 'ディクテーション', 'Part7'];
 
   const result = {
     date: toDateStr(new Date()),
     startedAt: Date.now(),
+    readingTrack: track,
     vocab: { correct: 0, total: 0 },
     part2: { correct: 0, total: 0 },
     dictation: { correct: 0, total: 0 },
     part5: { correct: 0, total: 0 },
+    part6: { correct: 0, total: 0, answerTimesMs: [] },
+    part7: { correct: 0, total: 0, answerTimesMs: [], wpmSamples: [] },
+    paraphrase: { correct: 0, total: 0, answerTimesMs: [] },
     wrongItems: [],
   };
 
   try {
-    await runVocabStep(root, opts, result);
-    await runPart2Step(root, opts, result);
-    await runDictationStep(root, opts, result);
-    await runPart5Step(root, opts, result);
+    await runVocabStep(root, opts, result, balance.vocab);
+    await runPart2Step(root, opts, result, balance.part2);
+    await runDictationStep(root, opts, result, balance.dictation);
+    if (track === 'A') {
+      await runPart5Step(root, opts, result, balance.part5);
+    } else if (track === 'B') {
+      await runPart6Step(root, result, balance.part6Count, STEP_NAMES, 3);
+      await runParaphraseStep(root, result, balance.paraphraseCount, STEP_NAMES, 4);
+    } else {
+      await runPart7Step(root, result, balance.part7Target, balance.part7MaxDocs, STEP_NAMES, 3);
+    }
   } catch (e) {
     console.error('session error', e);
   }
@@ -37,8 +73,10 @@ export async function renderSession(root, navigate) {
   result.durationSec = Math.round((Date.now() - result.startedAt) / 1000);
   await put('sessionLog', { ...result });
   await updateStreak(result.date);
-  const totalCorrect = result.vocab.correct + result.part2.correct + result.dictation.correct + result.part5.correct;
-  const totalCount = result.vocab.total + result.part2.total + result.dictation.total + result.part5.total;
+  const totalCorrect =
+    result.vocab.correct + result.part2.correct + result.dictation.correct + result.part5.correct + result.part6.correct + result.part7.correct + result.paraphrase.correct;
+  const totalCount =
+    result.vocab.total + result.part2.total + result.dictation.total + result.part5.total + result.part6.total + result.part7.total + result.paraphrase.total;
   const minutes = Math.max(1, Math.round(result.durationSec / 60));
   await setSetting('lastSessionSummary', `正答 ${totalCorrect}/${totalCount} ・ ${minutes}分`);
 
@@ -63,7 +101,7 @@ function waitClick(el) {
 }
 
 // ---------- Step 1: Vocabulary (SM-2) ----------
-async function runVocabStep(root, opts, result) {
+async function runVocabStep(root, opts, result, cap = 8) {
   const words = await loadWords();
   const srsRows = await getAll('srs');
   const srsById = {};
@@ -82,9 +120,8 @@ async function runVocabStep(root, opts, result) {
   }
   shuffle(due);
   shuffle(fresh);
-  const CAP = 10;
-  const queue = due.slice(0, CAP);
-  if (queue.length < CAP) queue.push(...fresh.slice(0, CAP - queue.length));
+  const queue = due.slice(0, cap);
+  if (queue.length < cap) queue.push(...fresh.slice(0, cap - queue.length));
 
   for (let i = 0; i < queue.length; i++) {
     const word = queue[i];
@@ -148,11 +185,11 @@ async function showVocabCard(root, word, idx, total, opts, srsById, result) {
 }
 
 // ---------- Step 2: Part 2 (audio Q + A/B/C, audio only) ----------
-async function runPart2Step(root, opts, result) {
+async function runPart2Step(root, opts, result, count = 8) {
   const all = await loadPart2();
   const statsRows = await getAll('itemStats');
   const statsByKey = statsMapByKey(statsRows);
-  const queue = pickItems(all, statsByKey, 'part2', 10);
+  const queue = pickItems(all, statsByKey, 'part2', count);
 
   for (let i = 0; i < queue.length; i++) {
     await showPart2Item(root, queue[i], i, queue.length, opts, result);
@@ -224,11 +261,11 @@ async function showPart2Item(root, item, idx, total, opts, result) {
 }
 
 // ---------- Step 3: Dictation (tap-to-reorder, typed mode optional) ----------
-async function runDictationStep(root, opts, result) {
+async function runDictationStep(root, opts, result, count = 2) {
   const all = await loadDictation();
   const statsRows = await getAll('itemStats');
   const statsByKey = statsMapByKey(statsRows);
-  const queue = pickItems(all, statsByKey, 'dictation', 3);
+  const queue = pickItems(all, statsByKey, 'dictation', count);
 
   for (let i = 0; i < queue.length; i++) {
     await showDictationItem(root, queue[i], i, queue.length, opts, result);
@@ -385,12 +422,13 @@ async function showDictationItem(root, item, idx, total, opts, result) {
 }
 
 // ---------- Step 4: Part 5 (fill-in-the-blank, 20s timer) ----------
-async function runPart5Step(root, opts, result) {
+async function runPart5Step(root, opts, result, count = 8) {
   const all = await loadPart5();
   const statsRows = await getAll('itemStats');
   const statsByKey = statsMapByKey(statsRows);
-  const queue = pickItems(all, statsByKey, 'part5', 5);
+  const queue = pickItems(all, statsByKey, 'part5', count);
 
+  if (!result.part5.answerTimesMs) result.part5.answerTimesMs = [];
   for (let i = 0; i < queue.length; i++) {
     await showPart5Item(root, queue[i], i, queue.length, result);
   }
@@ -437,6 +475,8 @@ async function showPart5Item(root, item, idx, total, result) {
 
   answered = true;
   clearInterval(timerId);
+  const elapsedMs = Math.min(DURATION_MS, Date.now() - startedAt);
+  result.part5.answerTimesMs.push(elapsedMs);
 
   const isCorrect = chosenIdx === item.answer;
   await recordItemStat('part5', item.id, isCorrect);

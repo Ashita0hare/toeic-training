@@ -1398,5 +1398,705 @@
     "type": "grammar",
     "ja": "その会社の成長戦略は強力な提携関係に大きく依存しています。",
     "explanation": "rely onを修飾する副詞heavilyが正解（rely heavily on）。"
+  },
+  {
+    "id": "p5-101",
+    "sentence": "The insurance claim was ____ within two weeks of submission.",
+    "choices": [
+      "processed",
+      "process",
+      "processing",
+      "to process"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その保険金請求は提出から2週間以内に処理されました。",
+    "explanation": "過去の出来事を受動態で述べているのでwas processedのprocessedが正解。"
+  },
+  {
+    "id": "p5-102",
+    "sentence": "The trade show booth attracted ____ visitors than last year.",
+    "choices": [
+      "far more",
+      "much most",
+      "many",
+      "most"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その展示会ブースは昨年よりはるかに多くの来場者を集めました。",
+    "explanation": "比較級moreを強調する副詞としてfar moreが正解。"
+  },
+  {
+    "id": "p5-103",
+    "sentence": "New employees must watch the onboarding video ____ their first day.",
+    "choices": [
+      "while",
+      "between",
+      "among",
+      "during"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "新入社員は初日のうちにオンボーディング動画を視聴しなければなりません。",
+    "explanation": "特定の期間内であることを示すdoringが正解。whileは接続詞で名詞句を直接続けられない。"
+  },
+  {
+    "id": "p5-104",
+    "sentence": "The IT department updated the cybersecurity policy to ____ new threats.",
+    "choices": [
+      "address",
+      "addresses",
+      "addressed",
+      "addressing"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "IT部門は新たな脅威に対処するためサイバーセキュリティ方針を更新しました。",
+    "explanation": "to の後は動詞の原形が続くのでaddressが正解。"
+  },
+  {
+    "id": "p5-105",
+    "sentence": "Remote employees are provided with ____ equipment to set up a home office.",
+    "choices": [
+      "necessarily",
+      "necessitate",
+      "necessary",
+      "necessity"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "リモート勤務の従業員には在宅オフィスを整えるために必要な機器が支給されます。",
+    "explanation": "名詞equipmentを修飾する形容詞necessaryが正解。"
+  },
+  {
+    "id": "p5-106",
+    "sentence": "The loyalty program rewards customers who ____ frequently.",
+    "choices": [
+      "purchasing",
+      "purchases",
+      "purchased",
+      "purchase"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "そのロイヤルティプログラムは頻繁に購入する顧客に特典を与えます。",
+    "explanation": "関係代名詞whoの先行詞customersは複数なので動詞も原形(現在形複数)purchaseが正解。"
+  },
+  {
+    "id": "p5-107",
+    "sentence": "Negotiations with the vendor ____ longer than expected.",
+    "choices": [
+      "passed",
+      "took",
+      "lasted",
+      "spent"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "業者との交渉は予想より長くかかりました。",
+    "explanation": "「続く・長引く」という意味で期間を主語にできるlastedが正解。spentは人を主語に取る。"
+  },
+  {
+    "id": "p5-108",
+    "sentence": "Employees who work beyond their scheduled hours are entitled to ____ pay.",
+    "choices": [
+      "overtime",
+      "overtimed",
+      "overtimes",
+      "overtiming"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "所定時間を超えて働く従業員は残業代を受け取る権利があります。",
+    "explanation": "複合名詞overtime payの一部として不可算名詞overtimeが正解。"
+  },
+  {
+    "id": "p5-109",
+    "sentence": "During the performance review, the manager gave ____ praise for the employee's initiative.",
+    "choices": [
+      "generously",
+      "generate",
+      "generous",
+      "generosity"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "人事評価の際、マネージャーはその従業員の主体性を気前よく称賛しました。",
+    "explanation": "名詞praiseを修飾する形容詞generousが正解。"
+  },
+  {
+    "id": "p5-110",
+    "sentence": "The travel agent confirmed every detail of the business trip ____.",
+    "choices": [
+      "itinerantly",
+      "itinerary",
+      "itinerate",
+      "itinerant"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "旅行代理店は出張の旅程のあらゆる詳細を確認しました。",
+    "explanation": "名詞として「旅程」を表すitineraryが正解。"
+  },
+  {
+    "id": "p5-111",
+    "sentence": "Customers are encouraged to ____ their new appliance within thirty days of purchase.",
+    "choices": [
+      "registered",
+      "registration",
+      "registering",
+      "register"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "顧客は購入から30日以内に新しい家電を登録することが推奨されています。",
+    "explanation": "to の後は動詞の原形が続くのでregisterが正解。"
+  },
+  {
+    "id": "p5-112",
+    "sentence": "Please follow proper email ____ when contacting clients overseas.",
+    "choices": [
+      "etiquette",
+      "etiquetting",
+      "etiquettely",
+      "etiquettes"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "海外のクライアントに連絡する際は適切なメールマナーに従ってください。",
+    "explanation": "不可算名詞etiquette（マナー）が正解。複数形は存在しない。"
+  },
+  {
+    "id": "p5-113",
+    "sentence": "The new inventory system tracks stock levels ____ across all warehouses.",
+    "choices": [
+      "accurate",
+      "accuracy",
+      "accurately",
+      "accuracies"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "新しい在庫システムはすべての倉庫で在庫レベルを正確に追跡します。",
+    "explanation": "動詞tracksを修飾する副詞accuratelyが正解。"
+  },
+  {
+    "id": "p5-114",
+    "sentence": "Quality control inspectors ____ every batch before it leaves the factory.",
+    "choices": [
+      "examine",
+      "to examine",
+      "examines",
+      "examining"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "品質管理の検査員は、工場を出る前にすべてのロットを検査します。",
+    "explanation": "主語inspectorsは複数なので動詞は原形のexamineが正解。"
+  },
+  {
+    "id": "p5-115",
+    "sentence": "The social media campaign generated ____ engagement than the team anticipated.",
+    "choices": [
+      "greater most",
+      "great",
+      "much greater than",
+      "far greater"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "そのソーシャルメディアキャンペーンはチームが予想していたよりもはるかに高い反応を生みました。",
+    "explanation": "比較級greaterを強調する副詞としてfar greaterが正解。"
+  },
+  {
+    "id": "p5-116",
+    "sentence": "The wellness program ____ employees to take regular breaks throughout the day.",
+    "choices": [
+      "encourages",
+      "encouragement",
+      "encourage",
+      "encouraging"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "健康増進プログラムは従業員に一日を通して定期的に休憩を取ることを奨励しています。",
+    "explanation": "主語programは単数なので動詞に-sが必要。encouragesが正解。"
+  },
+  {
+    "id": "p5-117",
+    "sentence": "All staff must comply ____ the updated data privacy regulations.",
+    "choices": [
+      "at",
+      "for",
+      "with",
+      "to"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "すべての職員は更新されたデータプライバシー規制を順守しなければなりません。",
+    "explanation": "comply withで「〜を順守する」という定型表現。"
+  },
+  {
+    "id": "p5-118",
+    "sentence": "The supply chain disruption caused ____ delays in production.",
+    "choices": [
+      "significant",
+      "signify",
+      "significantly",
+      "significance"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "サプライチェーンの混乱は生産に大幅な遅延を引き起こしました。",
+    "explanation": "名詞delaysを修飾する形容詞significantが正解。"
+  },
+  {
+    "id": "p5-119",
+    "sentence": "The firm's client retention rate has ____ improved over the past year.",
+    "choices": [
+      "steadily",
+      "steadied",
+      "steadiness",
+      "steady"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その会社の顧客維持率はこの1年で着実に向上しました。",
+    "explanation": "動詞improvedを修飾する副詞steadilyが正解。"
+  },
+  {
+    "id": "p5-120",
+    "sentence": "The press release ____ the company's plans to open three new stores.",
+    "choices": [
+      "announce",
+      "announces",
+      "announcing",
+      "announced"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "そのプレスリリースはその会社が新しい店舗を3店開く計画を発表しました。",
+    "explanation": "過去の出来事を述べているので過去形announcedが正解。"
+  },
+  {
+    "id": "p5-121",
+    "sentence": "The diversity initiative aims to ____ a more inclusive workplace culture.",
+    "choices": [
+      "fosters",
+      "foster",
+      "fostering",
+      "fostered"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その多様性推進の取り組みは、より包摂的な職場文化を育むことを目指しています。",
+    "explanation": "aims to の後は動詞の原形が続くのでfosterが正解。"
+  },
+  {
+    "id": "p5-122",
+    "sentence": "The IT team completed the cloud storage migration without any ____.",
+    "choices": [
+      "disruptive",
+      "disruptively",
+      "disrupt",
+      "disruption"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "IT チームはクラウドストレージの移行を支障なく完了させました。",
+    "explanation": "withoutの後には名詞が続くのでdisruptionが正解。"
+  },
+  {
+    "id": "p5-123",
+    "sentence": "Invoices must be ____ within fifteen days to avoid late fees.",
+    "choices": [
+      "pay",
+      "paid",
+      "pays",
+      "paying"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "延滞料を避けるため、請求書は15日以内に支払われなければなりません。",
+    "explanation": "must beの後には過去分詞が続いて受動態を作るのでpaidが正解。"
+  },
+  {
+    "id": "p5-124",
+    "sentence": "The due diligence process revealed no major ____ in the target company's finances.",
+    "choices": [
+      "concerns",
+      "concerning",
+      "concern",
+      "concerned"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "デューデリジェンスの過程では、買収対象企業の財務に重大な懸念は見つかりませんでした。",
+    "explanation": "no major の後には複数名詞が続くのでconcernsが正解。"
+  },
+  {
+    "id": "p5-125",
+    "sentence": "Shareholders will vote on the proposal at the ____ meeting next month.",
+    "choices": [
+      "annuity",
+      "annual",
+      "annum",
+      "annually"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "株主は来月の年次総会でその提案について投票します。",
+    "explanation": "名詞meetingを修飾する形容詞annualが正解。"
+  },
+  {
+    "id": "p5-126",
+    "sentence": "The job posting ____ at least three years of relevant experience.",
+    "choices": [
+      "required",
+      "requiring",
+      "require",
+      "requires"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "その求人情報は少なくとも3年の関連経験を求めています。",
+    "explanation": "主語postingは単数なので動詞に-sが必要。requiresが正解。"
+  },
+  {
+    "id": "p5-127",
+    "sentence": "Employees who refer a successful candidate are eligible for a ____ bonus.",
+    "choices": [
+      "referral",
+      "refer",
+      "referred",
+      "referring"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "採用に至った候補者を紹介した従業員は紹介ボーナスの対象となります。",
+    "explanation": "複合名詞referral bonusの一部として形容詞的名詞referralが正解。"
+  },
+  {
+    "id": "p5-128",
+    "sentence": "Construction cannot begin ____ the city issues the necessary permits.",
+    "choices": [
+      "since",
+      "during",
+      "by",
+      "until"
+    ],
+    "answer": 3,
+    "type": "vocab",
+    "ja": "市が必要な許可証を発行するまで工事を始めることはできません。",
+    "explanation": "untilで「〜するまで」という継続的な条件を表す接続詞が文意に合う。"
+  },
+  {
+    "id": "p5-129",
+    "sentence": "The retail chain plans to ____ its newest store this coming weekend.",
+    "choices": [
+      "opening",
+      "opened",
+      "opens",
+      "open"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "その小売チェーンは今度の週末に最新店舗を開店する予定です。",
+    "explanation": "plans to の後は動詞の原形が続くのでopenが正解。"
+  },
+  {
+    "id": "p5-130",
+    "sentence": "The freight forwarder arranged for the goods to be shipped ____ air rather than sea.",
+    "choices": [
+      "by",
+      "in",
+      "on",
+      "with"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "貨物輸送業者は商品を海路ではなく空路で輸送するよう手配しました。",
+    "explanation": "輸送手段を表す前置詞byが正解（by air, by sea）。"
+  },
+  {
+    "id": "p5-131",
+    "sentence": "Please ____ your availability before we schedule the teleconference.",
+    "choices": [
+      "confirm",
+      "confirmation",
+      "confirming",
+      "confirmed"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "テレビ会議を予定する前に、ご都合を確認させてください。",
+    "explanation": "Pleaseの後には動詞の原形が続くのでconfirmが正解。"
+  },
+  {
+    "id": "p5-132",
+    "sentence": "The market research findings ____ a clear preference for eco-friendly packaging.",
+    "choices": [
+      "to indicate",
+      "indicating",
+      "indicates",
+      "indicate"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "市場調査の結果は環境に優しい包装への明確な選好を示しています。",
+    "explanation": "主語findingsは複数なので動詞は原形のindicateが正解。"
+  },
+  {
+    "id": "p5-133",
+    "sentence": "The brand repositioning strategy focused ____ on younger consumers.",
+    "choices": [
+      "prime",
+      "primary",
+      "primariness",
+      "primarily"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "そのブランド再構築戦略は主に若い消費者に焦点を当てました。",
+    "explanation": "動詞focusedを修飾する副詞primarilyが正解。"
+  },
+  {
+    "id": "p5-134",
+    "sentence": "The board began succession planning to ____ a smooth leadership transition.",
+    "choices": [
+      "ensured",
+      "ensuring",
+      "ensures",
+      "ensure"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "取締役会は円滑な経営陣交代を確実にするため後継者計画に着手しました。",
+    "explanation": "to の後は動詞の原形が続くのでensureが正解。"
+  },
+  {
+    "id": "p5-135",
+    "sentence": "The company established a whistleblower policy to ____ employees who report misconduct.",
+    "choices": [
+      "protectively",
+      "protect",
+      "protective",
+      "protection"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "その会社は不正行為を報告する従業員を保護するため内部通報制度を設けました。",
+    "explanation": "to の後は動詞の原形が続くのでprotectが正解。"
+  },
+  {
+    "id": "p5-136",
+    "sentence": "Under the new parental leave policy, employees may take ____ twelve weeks off.",
+    "choices": [
+      "as much as",
+      "up to",
+      "no more",
+      "at most"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "新しい育児休暇制度のもと、従業員は最大12週間休暇を取得できます。",
+    "explanation": "数量の上限を表す定型表現up toが正解。"
+  },
+  {
+    "id": "p5-137",
+    "sentence": "Vendor payment terms ____ from thirty to sixty days depending on the contract.",
+    "choices": [
+      "varies",
+      "varying",
+      "varied",
+      "vary"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "業者への支払い条件は契約によって30日から60日まで異なります。",
+    "explanation": "主語termsは複数なので動詞の原形varyが正解。"
+  },
+  {
+    "id": "p5-138",
+    "sentence": "The software license must be ____ before it expires at the end of the month.",
+    "choices": [
+      "renewal",
+      "renewed",
+      "renew",
+      "renewing"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "そのソフトウェアライセンスは月末に失効する前に更新されなければなりません。",
+    "explanation": "must beの後には過去分詞が続いて受動態を作るのでrenewedが正解。"
+  },
+  {
+    "id": "p5-139",
+    "sentence": "HR is reviewing the employee's request for a workplace ____.",
+    "choices": [
+      "accommodation",
+      "accommodated",
+      "accommodate",
+      "accommodating"
+    ],
+    "answer": 0,
+    "type": "vocab",
+    "ja": "人事部はその従業員の職場環境調整の要望を検討しています。",
+    "explanation": "forの後には名詞が続くのでaccommodationが正解。"
+  },
+  {
+    "id": "p5-140",
+    "sentence": "Quality assurance testing ____ several weeks before the product can be released.",
+    "choices": [
+      "take",
+      "taking",
+      "takes",
+      "taken"
+    ],
+    "answer": 2,
+    "type": "grammar",
+    "ja": "品質保証試験は製品が発売できるようになるまで数週間かかります。",
+    "explanation": "主語testingは単数扱いなので動詞に-sが必要。takesが正解。"
+  },
+  {
+    "id": "p5-141",
+    "sentence": "The maintenance team follows a strict ____ to keep the machines running smoothly.",
+    "choices": [
+      "scheduled",
+      "scheduling",
+      "schedule",
+      "schedules"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "保守チームは機械を円滑に稼働させ続けるため厳格なスケジュールに従います。",
+    "explanation": "形容詞strictに修飾される単数名詞scheduleが正解。"
+  },
+  {
+    "id": "p5-142",
+    "sentence": "Every department must have a business continuity plan ____ in case of an emergency.",
+    "choices": [
+      "in hand",
+      "at hand",
+      "in place",
+      "on hand"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "緊急事態に備え、すべての部門は事業継続計画を整えておく必要があります。",
+    "explanation": "「準備・整備されている」という意味の定型表現in placeが正解。"
+  },
+  {
+    "id": "p5-143",
+    "sentence": "The company's intellectual property rights are ____ by international law.",
+    "choices": [
+      "protected",
+      "protect",
+      "protecting",
+      "protects"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その会社の知的財産権は国際法によって保護されています。",
+    "explanation": "areの後には過去分詞が続いて受動態を作るのでprotectedが正解。"
+  },
+  {
+    "id": "p5-144",
+    "sentence": "Employees who receive stock options must hold them for a ____ period before selling.",
+    "choices": [
+      "vests",
+      "vest",
+      "vesting",
+      "vested"
+    ],
+    "answer": 2,
+    "type": "vocab",
+    "ja": "ストックオプションを受け取る従業員は、売却前に一定の権利確定期間保有しなければなりません。",
+    "explanation": "複合語vesting periodの一部として形容詞的に使うvestingが正解。"
+  },
+  {
+    "id": "p5-145",
+    "sentence": "The sustainability report ____ the company's progress toward its environmental goals.",
+    "choices": [
+      "outlines",
+      "to outline",
+      "outline",
+      "outlining"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "そのサステナビリティ報告書は、環境目標に向けた会社の進捗を概説しています。",
+    "explanation": "主語reportは単数なので動詞に-sが必要。outlinesが正解。"
+  },
+  {
+    "id": "p5-146",
+    "sentence": "The company's corporate social responsibility efforts have earned it ____ recognition.",
+    "choices": [
+      "wide",
+      "widely",
+      "width",
+      "widen"
+    ],
+    "answer": 0,
+    "type": "grammar",
+    "ja": "その会社の企業の社会的責任への取り組みは広く認知を得ました。",
+    "explanation": "名詞recognitionを修飾する形容詞wideが正解。"
+  },
+  {
+    "id": "p5-147",
+    "sentence": "The networking event gave attendees a chance to ____ with industry leaders.",
+    "choices": [
+      "connectively",
+      "connective",
+      "connection",
+      "connect"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "その交流イベントは参加者に業界のリーダーたちとつながる機会を与えました。",
+    "explanation": "to の後は動詞の原形が続くのでconnectが正解。"
+  },
+  {
+    "id": "p5-148",
+    "sentence": "The new tariff is expected to ____ the cost of imported raw materials.",
+    "choices": [
+      "rise",
+      "raise",
+      "arise",
+      "arouse"
+    ],
+    "answer": 1,
+    "type": "grammar",
+    "ja": "新しい関税は輸入原材料のコストを押し上げると予想されています。",
+    "explanation": "他動詞で目的語costを取るのでraiseが正解。riseは自動詞で目的語を取らない。"
+  },
+  {
+    "id": "p5-149",
+    "sentence": "Candidates for the remote position will be interviewed ____ video call.",
+    "choices": [
+      "by",
+      "via",
+      "at",
+      "on"
+    ],
+    "answer": 1,
+    "type": "vocab",
+    "ja": "そのリモート職の候補者はビデオ通話で面接を受けます。",
+    "explanation": "手段を表す前置詞viaが正解。「〜経由で」という意味。"
+  },
+  {
+    "id": "p5-150",
+    "sentence": "Each new employee is ____ an experienced mentor during the first month.",
+    "choices": [
+      "assigns",
+      "assign",
+      "assigning",
+      "assigned"
+    ],
+    "answer": 3,
+    "type": "grammar",
+    "ja": "新入社員は最初の1か月、経験豊富なメンターを割り当てられます。",
+    "explanation": "isの後には過去分詞が続いて受動態を作るのでassignedが正解。"
   }
 ]

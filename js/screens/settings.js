@@ -5,9 +5,31 @@ export async function renderSettings(root, navigate) {
   const accent = (await getSetting('accent', ACCENTS.US)) || ACCENTS.US;
   const rate = (await getSetting('rate', 1.0)) || 1.0;
   const dictationMode = (await getSetting('dictationMode', 'tap')) || 'tap';
+  const balancePreset = (await getSetting('balancePreset', 'standard')) || 'standard';
+  const readingFontSize = (await getSetting('readingFontSize', 'medium')) || 'medium';
 
   root.innerHTML = `
     <h1>設定</h1>
+
+    <div class="card">
+      <h2>今日のセッションの配分</h2>
+      <p class="hint" style="margin-bottom:10px;">リスニング（Part2・ディクテーション）とリーディング（Part5/6/7・言い換え）の出題数バランスを調整します。</p>
+      <div class="choice-grid">
+        <button class="choice-btn" data-balance="listening">リスニング重視</button>
+        <button class="choice-btn" data-balance="standard">標準</button>
+        <button class="choice-btn" data-balance="reading">リーディング重視</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>リーディングの文字サイズ</h2>
+      <p class="hint" style="margin-bottom:10px;">Part6・Part7の長文表示に使われます（各画面でも切り替え可能）。</p>
+      <div class="choice-grid">
+        <button class="choice-btn" data-fontsize="small">文字小</button>
+        <button class="choice-btn" data-fontsize="medium">文字中</button>
+        <button class="choice-btn" data-fontsize="large">文字大</button>
+      </div>
+    </div>
 
     <div class="card">
       <h2>アクセント</h2>
@@ -61,10 +83,32 @@ export async function renderSettings(root, navigate) {
     root.querySelectorAll('[data-mode]').forEach((b) => {
       b.classList.toggle('correct', b.dataset.mode === accentState.dictationMode);
     });
+    root.querySelectorAll('[data-balance]').forEach((b) => {
+      b.classList.toggle('correct', b.dataset.balance === accentState.balancePreset);
+    });
+    root.querySelectorAll('[data-fontsize]').forEach((b) => {
+      b.classList.toggle('correct', b.dataset.fontsize === accentState.readingFontSize);
+    });
   }
 
-  const accentState = { accent, dictationMode };
+  const accentState = { accent, dictationMode, balancePreset, readingFontSize };
   markSelected();
+
+  root.querySelectorAll('[data-balance]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      accentState.balancePreset = btn.dataset.balance;
+      await setSetting('balancePreset', accentState.balancePreset);
+      markSelected();
+    });
+  });
+
+  root.querySelectorAll('[data-fontsize]').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      accentState.readingFontSize = btn.dataset.fontsize;
+      await setSetting('readingFontSize', accentState.readingFontSize);
+      markSelected();
+    });
+  });
 
   root.querySelectorAll('[data-accent]').forEach((btn) => {
     btn.addEventListener('click', async () => {

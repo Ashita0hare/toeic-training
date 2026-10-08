@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "pp-001",
+    "original": "The meeting has been postponed until next week.",
+    "highlight": "postponed",
+    "choices": [
+      "shortened",
+      "canceled",
+      "confirmed",
+      "delayed"
+    ],
+    "answer": 3,
+    "ja": "その会議は来週まで延期されました。",
+    "explanation": "postponeは「延期する」という意味でdelayedが最も近い。canceled(中止)、shortened(短縮)、confirmed(確定)は意味が異なる。"
+  },
+  {
+    "id": "pp-002",
+    "original": "Please address the issue before the client arrives.",
+    "highlight": "address the issue",
+    "choices": [
+      "describe the problem",
+      "ignore the problem",
+      "deal with the problem",
+      "create the problem"
+    ],
+    "answer": 2,
+    "ja": "クライアントが到着する前に、その問題に対処してください。",
+    "explanation": "address the issueは「問題に対処する」という意味でdeal with the problemが最も近い。他は意味が異なる。"
+  },
+  {
+    "id": "pp-003",
+    "original": "Sales showed a significant increase this quarter.",
+    "highlight": "a significant increase",
+    "choices": [
+      "a notable rise",
+      "a slight change",
+      "a steady pace",
+      "a sudden drop"
+    ],
+    "answer": 0,
+    "ja": "今四半期、売上は大幅な増加を示しました。",
+    "explanation": "significant increaseは「著しい増加」でa notable riseが最も近い。他は増加の意味を正しく表していない。"
+  },
+  {
+    "id": "pp-004",
+    "original": "All vendors must comply with the new safety regulations.",
+    "highlight": "comply with",
+    "choices": [
+      "follow",
+      "review",
+      "ignore",
+      "create"
+    ],
+    "answer": 0,
+    "ja": "すべての業者は新しい安全規則を遵守しなければなりません。",
+    "explanation": "comply withは「〜を遵守する」でfollowが最も近い。ignoreは反対の意味。"
+  },
+  {
+    "id": "pp-005",
+    "original": "The company plans to expand its operations overseas.",
+    "highlight": "expand",
+    "choices": [
+      "relocate",
+      "sell",
+      "reduce",
+      "grow"
+    ],
+    "answer": 3,
+    "ja": "その会社は海外で事業を拡大する計画です。",
+    "explanation": "expandは「拡大する」でgrowが最も近い。reduce(縮小する)は反対の意味。"
+  },
+  {
+    "id": "pp-006",
+    "original": "The manager was reluctant to approve the extra budget.",
+    "highlight": "reluctant",
+    "choices": [
+      "eager",
+      "unable",
+      "unwilling",
+      "likely"
+    ],
+    "answer": 2,
+    "ja": "マネージャーは追加予算の承認に消極的でした。",
+    "explanation": "reluctantは「気が進まない」でunwillingが最も近い。eager(熱心な)は反対の意味。"
+  },
+  {
+    "id": "pp-007",
+    "original": "We need to verify the figures before submitting the report.",
+    "highlight": "verify",
+    "choices": [
+      "remove",
+      "check",
+      "ignore",
+      "change"
+    ],
+    "answer": 1,
+    "ja": "報告書を提出する前に数字を確認する必要があります。",
+    "explanation": "verifyは「確認する」でcheckが最も近い。"
+  },
+  {
+    "id": "pp-008",
+    "original": "The new policy will take effect immediately.",
+    "highlight": "take effect",
+    "choices": [
+      "be discussed",
+      "be delayed",
+      "become active",
+      "be canceled"
+    ],
+    "answer": 2,
+    "ja": "新しい方針はすぐに施行されます。",
+    "explanation": "take effectは「発効する」でbecome activeが最も近い。"
+  },
+  {
+    "id": "pp-009",
+    "original": "The factory had to halt production due to a parts shortage.",
+    "highlight": "halt",
+    "choices": [
+      "plan",
+      "increase",
+      "resume",
+      "stop"
+    ],
+    "answer": 3,
+    "ja": "工場は部品不足のため生産を停止しなければなりませんでした。",
+    "explanation": "haltは「停止する」でstopが最も近い。resume(再開する)は反対の意味。"
+  },
+  {
+    "id": "pp-010",
+    "original": "The contract was terminated due to repeated delays.",
+    "highlight": "terminated",
+    "choices": [
+      "signed",
+      "reviewed",
+      "extended",
+      "ended"
+    ],
+    "answer": 3,
+    "ja": "契約は度重なる遅延のため終了されました。",
+    "explanation": "terminatedは「終了させられた」でendedが最も近い。extended(延長された)は逆の意味。"
+  },
+  {
+    "id": "pp-011",
+    "original": "The survey results were quite surprising to the marketing team.",
+    "highlight": "surprising",
+    "choices": [
+      "unexpected",
+      "encouraging",
+      "predictable",
+      "disappointing"
+    ],
+    "answer": 0,
+    "ja": "調査結果はマーケティングチームにとってかなり意外なものでした。",
+    "explanation": "surprisingは「意外な」でunexpectedが最も近い。predictable(予測できる)は反対の意味。"
+  },
+  {
+    "id": "pp-012",
+    "original": "Employees are encouraged to voice their concerns openly.",
+    "highlight": "voice their concerns",
+    "choices": [
+      "forget their worries",
+      "write a report",
+      "express their worries",
+      "hide their worries"
+    ],
+    "answer": 2,
+    "ja": "従業員は自分の懸念を率直に伝えることが推奨されています。",
+    "explanation": "voice their concernsは「懸念を口にする」でexpress their worriesが最も近い。"
+  },
+  {
+    "id": "pp-013",
+    "original": "The warranty covers any defects found within one year.",
+    "highlight": "defects",
+    "choices": [
+      "flaws",
+      "upgrades",
+      "refunds",
+      "features"
+    ],
+    "answer": 0,
+    "ja": "保証は1年以内に見つかったあらゆる欠陥をカバーします。",
+    "explanation": "defectsは「欠陥」でflawsが最も近い。"
+  },
+  {
+    "id": "pp-014",
+    "original": "The CEO's remarks sparked a heated debate among investors.",
+    "highlight": "sparked",
+    "choices": [
+      "summarized",
+      "triggered",
+      "ended",
+      "avoided"
+    ],
+    "answer": 1,
+    "ja": "CEOの発言は投資家の間で激しい議論を引き起こしました。",
+    "explanation": "sparkedは「引き起こした」でtriggeredが最も近い。"
+  },
+  {
+    "id": "pp-015",
+    "original": "The team worked diligently to meet the tight deadline.",
+    "highlight": "diligently",
+    "choices": [
+      "occasionally",
+      "carelessly",
+      "hard",
+      "slowly"
+    ],
+    "answer": 2,
+    "ja": "チームはタイトな締め切りに間に合わせるため熱心に働きました。",
+    "explanation": "diligentlyは「勤勉に」でhardが最も近い。carelessly(不注意に)は意味が異なる。"
+  },
+  {
+    "id": "pp-016",
+    "original": "The budget proposal was rejected by the board.",
+    "highlight": "rejected",
+    "choices": [
+      "approved",
+      "turned down",
+      "revised",
+      "delayed"
+    ],
+    "answer": 1,
+    "ja": "予算案は取締役会によって却下されました。",
+    "explanation": "rejectedは「却下された」でturned downが最も近い。approved(承認された)は反対の意味。"
+  },
+  {
+    "id": "pp-017",
+    "original": "The new software will streamline our billing process.",
+    "highlight": "streamline",
+    "choices": [
+      "cancel",
+      "simplify",
+      "duplicate",
+      "complicate"
+    ],
+    "answer": 1,
+    "ja": "新しいソフトウェアは請求プロセスを効率化します。",
+    "explanation": "streamlineは「効率化する」でsimplifyが最も近い。complicate(複雑にする)は反対の意味。"
+  },
+  {
+    "id": "pp-018",
+    "original": "Customers praised the staff for their prompt response.",
+    "highlight": "prompt",
+    "choices": [
+      "quick",
+      "rude",
+      "slow",
+      "unclear"
+    ],
+    "answer": 0,
+    "ja": "顧客はスタッフの迅速な対応を称賛しました。",
+    "explanation": "promptは「迅速な」でquickが最も近い。slow(遅い)は反対の意味。"
+  },
+  {
+    "id": "pp-019",
+    "original": "The merger will likely boost the company's market share.",
+    "highlight": "boost",
+    "choices": [
+      "maintain",
+      "eliminate",
+      "increase",
+      "decrease"
+    ],
+    "answer": 2,
+    "ja": "その合併は会社の市場シェアを押し上げる可能性が高いです。",
+    "explanation": "boostは「押し上げる」でincreaseが最も近い。decrease(減少させる)は反対の意味。"
+  },
+  {
+    "id": "pp-020",
+    "original": "The data clearly indicates a shift in consumer preferences.",
+    "highlight": "indicates",
+    "choices": [
+      "hides",
+      "questions",
+      "shows",
+      "denies"
+    ],
+    "answer": 2,
+    "ja": "データは消費者の好みの変化を明確に示しています。",
+    "explanation": "indicatesは「示す」でshowsが最も近い。"
+  },
+  {
+    "id": "pp-021",
+    "original": "The project was completed ahead of schedule.",
+    "highlight": "ahead of schedule",
+    "choices": [
+      "later than planned",
+      "without a plan",
+      "earlier than planned",
+      "exactly on time"
+    ],
+    "answer": 2,
+    "ja": "そのプロジェクトは予定より早く完了しました。",
+    "explanation": "ahead of scheduleは「予定より早く」でearlier than plannedが最も近い。"
+  },
+  {
+    "id": "pp-022",
+    "original": "The committee will scrutinize every expense before approval.",
+    "highlight": "scrutinize",
+    "choices": [
+      "examine closely",
+      "estimate",
+      "approve quickly",
+      "ignore"
+    ],
+    "answer": 0,
+    "ja": "委員会は承認前にすべての経費を綿密に調べます。",
+    "explanation": "scrutinizeは「綿密に調べる」でexamine closelyが最も近い。"
+  },
+  {
+    "id": "pp-023",
+    "original": "The flight was delayed due to mechanical issues.",
+    "highlight": "mechanical issues",
+    "choices": [
+      "staff shortages",
+      "equipment problems",
+      "scheduling errors",
+      "weather conditions"
+    ],
+    "answer": 1,
+    "ja": "フライトは機械的な問題のため遅延しました。",
+    "explanation": "mechanical issuesは「機械的な問題」でequipment problemsが最も近い。"
+  },
+  {
+    "id": "pp-024",
+    "original": "The company is committed to reducing its carbon footprint.",
+    "highlight": "committed to",
+    "choices": [
+      "dedicated to",
+      "uncertain about",
+      "opposed to",
+      "exempt from"
+    ],
+    "answer": 0,
+    "ja": "その会社は二酸化炭素排出量の削減に取り組んでいます。",
+    "explanation": "committed toは「〜に専念している」でdedicated toが最も近い。"
+  },
+  {
+    "id": "pp-025",
+    "original": "The new intern quickly adapted to the office routine.",
+    "highlight": "adapted to",
+    "choices": [
+      "ignored",
+      "adjusted to",
+      "left",
+      "complained about"
+    ],
+    "answer": 1,
+    "ja": "新しいインターンはすぐにオフィスの日課に適応しました。",
+    "explanation": "adapted toは「〜に適応した」でadjusted toが最も近い。"
+  },
+  {
+    "id": "pp-026",
+    "original": "The store is offering a substantial discount on all electronics.",
+    "highlight": "substantial",
+    "choices": [
+      "small",
+      "hidden",
+      "large",
+      "temporary"
+    ],
+    "answer": 2,
+    "ja": "その店はすべての電化製品に大幅な割引を提供しています。",
+    "explanation": "substantialは「かなりの」でlargeが最も近い。small(小さな)は反対の意味。"
+  },
+  {
+    "id": "pp-027",
+    "original": "The manager praised the team for their outstanding performance.",
+    "highlight": "outstanding",
+    "choices": [
+      "average",
+      "unexpected",
+      "excellent",
+      "poor"
+    ],
+    "answer": 2,
+    "ja": "マネージャーはチームの卓越した成果を称賛しました。",
+    "explanation": "outstandingは「卓越した」でexcellentが最も近い。"
+  },
+  {
+    "id": "pp-028",
+    "original": "The supplier failed to deliver the goods on time.",
+    "highlight": "failed to",
+    "choices": [
+      "managed to",
+      "agreed to",
+      "refused to",
+      "did not"
+    ],
+    "answer": 3,
+    "ja": "サプライヤーは商品を期限内に配送できませんでした。",
+    "explanation": "failed toは「〜できなかった」でdid notが最も近い。"
+  },
+  {
+    "id": "pp-029",
+    "original": "The firm's revenue fluctuated throughout the year.",
+    "highlight": "fluctuated",
+    "choices": [
+      "increased steadily",
+      "stayed constant",
+      "declined steadily",
+      "varied"
+    ],
+    "answer": 3,
+    "ja": "その会社の収益は年間を通じて変動しました。",
+    "explanation": "fluctuatedは「変動した」でvariedが最も近い。"
+  },
+  {
+    "id": "pp-030",
+    "original": "We must prioritize customer satisfaction above all else.",
+    "highlight": "prioritize",
+    "choices": [
+      "focus on first",
+      "forget about",
+      "discuss",
+      "measure"
+    ],
+    "answer": 0,
+    "ja": "私たちは何よりも顧客満足を優先しなければなりません。",
+    "explanation": "prioritizeは「優先する」でfocus on firstが最も近い。"
+  },
+  {
+    "id": "pp-031",
+    "original": "The negotiations reached a stalemate after three hours.",
+    "highlight": "stalemate",
+    "choices": [
+      "conclusion",
+      "summary",
+      "agreement",
+      "deadlock"
+    ],
+    "answer": 3,
+    "ja": "交渉は3時間後に行き詰まりました。",
+    "explanation": "stalemateは「行き詰まり」でdeadlockが最も近い。"
+  },
+  {
+    "id": "pp-032",
+    "original": "The restaurant's reputation has deteriorated recently.",
+    "highlight": "deteriorated",
+    "choices": [
+      "remained",
+      "worsened",
+      "improved",
+      "spread"
+    ],
+    "answer": 1,
+    "ja": "そのレストランの評判は最近悪化しました。",
+    "explanation": "deterioratedは「悪化した」でworsenedが最も近い。improved(改善した)は反対の意味。"
+  },
+  {
+    "id": "pp-033",
+    "original": "The city plans to renovate the old train station.",
+    "highlight": "renovate",
+    "choices": [
+      "demolish",
+      "remodel",
+      "sell",
+      "relocate"
+    ],
+    "answer": 1,
+    "ja": "市は古い駅を改装する計画です。",
+    "explanation": "renovateは「改装する」でremodelが最も近い。demolish(取り壊す)は異なる。"
+  },
+  {
+    "id": "pp-034",
+    "original": "The CEO's decision was met with widespread criticism.",
+    "highlight": "widespread criticism",
+    "choices": [
+      "little attention",
+      "broad disapproval",
+      "mixed reviews",
+      "strong support"
+    ],
+    "answer": 1,
+    "ja": "CEOの決定は広範な批判を受けました。",
+    "explanation": "widespread criticismは「広範な批判」でbroad disapprovalが最も近い。"
+  },
+  {
+    "id": "pp-035",
+    "original": "The engineers are troubleshooting the server issue.",
+    "highlight": "troubleshooting",
+    "choices": [
+      "creating",
+      "reporting",
+      "ignoring",
+      "diagnosing and fixing"
+    ],
+    "answer": 3,
+    "ja": "エンジニアたちはサーバーの問題の原因究明と解決を行っています。",
+    "explanation": "troubleshootingは「問題を解決する」でdiagnosing and fixingが最も近い。"
+  },
+  {
+    "id": "pp-036",
+    "original": "The firm's growth has stagnated over the past two years.",
+    "highlight": "stagnated",
+    "choices": [
+      "doubled",
+      "reversed",
+      "accelerated",
+      "stopped growing"
+    ],
+    "answer": 3,
+    "ja": "その会社の成長はこの2年間停滞しています。",
+    "explanation": "stagnatedは「停滞した」でstopped growingが最も近い。"
+  },
+  {
+    "id": "pp-037",
+    "original": "The marketing campaign generated considerable buzz online.",
+    "highlight": "considerable buzz",
+    "choices": [
+      "negative feedback",
+      "no attention",
+      "a formal review",
+      "a lot of attention"
+    ],
+    "answer": 3,
+    "ja": "そのマーケティングキャンペーンはオンラインでかなりの話題を生みました。",
+    "explanation": "considerable buzzは「かなりの話題」でa lot of attentionが最も近い。"
+  },
+  {
+    "id": "pp-038",
+    "original": "The employees were briefed on the new security measures.",
+    "highlight": "briefed on",
+    "choices": [
+      "informed about",
+      "excused from",
+      "tested on",
+      "punished for"
+    ],
+    "answer": 0,
+    "ja": "従業員は新しい安全対策について説明を受けました。",
+    "explanation": "briefed onは「〜について説明を受けた」でinformed aboutが最も近い。"
+  },
+  {
+    "id": "pp-039",
+    "original": "The restaurant chain plans to franchise its brand internationally.",
+    "highlight": "franchise",
+    "choices": [
+      "close",
+      "advertise",
+      "license",
+      "sell outright"
+    ],
+    "answer": 2,
+    "ja": "そのレストランチェーンはブランドを国際的にフランチャイズ化する計画です。",
+    "explanation": "franchiseは「フランチャイズ権を与える」でlicenseが最も近い。"
+  },
+  {
+    "id": "pp-040",
+    "original": "The IT department is upgrading the entire network infrastructure.",
+    "highlight": "upgrading",
+    "choices": [
+      "selling",
+      "improving",
+      "removing",
+      "ignoring"
+    ],
+    "answer": 1,
+    "ja": "IT部門はネットワークインフラ全体をアップグレードしています。",
+    "explanation": "upgradingは「改善している」でimprovingが最も近い。"
+  },
+  {
+    "id": "pp-041",
+    "original": "The hotel offers complimentary breakfast to all guests.",
+    "highlight": "complimentary",
+    "choices": [
+      "free",
+      "optional",
+      "limited",
+      "expensive"
+    ],
+    "answer": 0,
+    "ja": "そのホテルはすべての宿泊客に無料の朝食を提供しています。",
+    "explanation": "complimentaryは「無料の」でfreeが最も近い。"
+  },
+  {
+    "id": "pp-042",
+    "original": "The airline apologized for the inconvenience caused by the delay.",
+    "highlight": "inconvenience",
+    "choices": [
+      "benefit",
+      "confusion",
+      "trouble",
+      "discount"
+    ],
+    "answer": 2,
+    "ja": "航空会社は遅延による不便について謝罪しました。",
+    "explanation": "inconvenienceは「不便」でtroubleが最も近い。"
+  },
+  {
+    "id": "pp-043",
+    "original": "The spokesperson declined to comment on the rumors.",
+    "highlight": "declined to",
+    "choices": [
+      "forgot to",
+      "refused to",
+      "tried to",
+      "agreed to"
+    ],
+    "answer": 1,
+    "ja": "広報担当者は噂についてコメントを拒否しました。",
+    "explanation": "declined toは「〜することを断った」でrefused toが最も近い。"
+  },
+  {
+    "id": "pp-044",
+    "original": "The city council approved funding for the new library.",
+    "highlight": "approved",
+    "choices": [
+      "authorized",
+      "rejected",
+      "requested",
+      "postponed"
+    ],
+    "answer": 0,
+    "ja": "市議会は新しい図書館への資金提供を承認しました。",
+    "explanation": "approvedは「承認した」でauthorizedが最も近い。rejected(却下した)は反対の意味。"
+  },
+  {
+    "id": "pp-045",
+    "original": "The company's profits plummeted after the scandal.",
+    "highlight": "plummeted",
+    "choices": [
+      "remained stable",
+      "rose sharply",
+      "dropped sharply",
+      "doubled"
+    ],
+    "answer": 2,
+    "ja": "その会社の利益はスキャンダルの後、急落しました。",
+    "explanation": "plummetedは「急落した」でdropped sharplyが最も近い。"
+  },
+  {
+    "id": "pp-046",
+    "original": "The conference attracted participants from a diverse range of industries.",
+    "highlight": "diverse range",
+    "choices": [
+      "single type",
+      "unknown number",
+      "small group",
+      "wide variety"
+    ],
+    "answer": 3,
+    "ja": "その会議には多様な業界からの参加者が集まりました。",
+    "explanation": "diverse rangeは「多様な範囲」でwide varietyが最も近い。"
+  },
+  {
+    "id": "pp-047",
+    "original": "The landlord agreed to waive the late fee this once.",
+    "highlight": "waive",
+    "choices": [
+      "cancel",
+      "explain",
+      "double",
+      "collect"
+    ],
+    "answer": 0,
+    "ja": "大家は今回に限り延滞料を免除することに同意しました。",
+    "explanation": "waiveは「免除する」でcancelが最も近い。"
+  },
+  {
+    "id": "pp-048",
+    "original": "The team is brainstorming ideas for the new ad campaign.",
+    "highlight": "brainstorming",
+    "choices": [
+      "rejecting",
+      "generating",
+      "finalizing",
+      "presenting"
+    ],
+    "answer": 1,
+    "ja": "チームは新しい広告キャンペーンのアイデアを出し合っています。",
+    "explanation": "brainstormingは「アイデアを出し合う」でgeneratingが最も近い。"
+  },
+  {
+    "id": "pp-049",
+    "original": "The new regulation imposes stricter penalties for violations.",
+    "highlight": "imposes",
+    "choices": [
+      "suggests",
+      "questions",
+      "removes",
+      "sets"
+    ],
+    "answer": 3,
+    "ja": "新しい規則は違反に対してより厳しい罰則を課します。",
+    "explanation": "imposesは「課す」でsetsが最も近い。"
+  },
+  {
+    "id": "pp-050",
+    "original": "The shipment was held up at customs for inspection.",
+    "highlight": "held up",
+    "choices": [
+      "released",
+      "lost",
+      "delayed",
+      "sold"
+    ],
+    "answer": 2,
+    "ja": "その荷物は検査のため税関で足止めされました。",
+    "explanation": "held upは「足止めされた」でdelayedが最も近い。"
+  },
+  {
+    "id": "pp-051",
+    "original": "The executives convened to discuss the merger.",
+    "highlight": "convened",
+    "choices": [
+      "gathered",
+      "resigned",
+      "traveled",
+      "argued"
+    ],
+    "answer": 0,
+    "ja": "幹部たちは合併について話し合うために集まりました。",
+    "explanation": "convenedは「集まった」でgatheredが最も近い。"
+  },
+  {
+    "id": "pp-052",
+    "original": "The firm's reputation was tarnished by the lawsuit.",
+    "highlight": "tarnished",
+    "choices": [
+      "improved",
+      "ignored",
+      "damaged",
+      "publicized"
+    ],
+    "answer": 2,
+    "ja": "その会社の評判は訴訟によって傷つけられました。",
+    "explanation": "tarnishedは「傷つけられた」でdamagedが最も近い。"
+  },
+  {
+    "id": "pp-053",
+    "original": "The new employee demonstrated exceptional attention to detail.",
+    "highlight": "exceptional",
+    "choices": [
+      "average",
+      "remarkable",
+      "poor",
+      "brief"
+    ],
+    "answer": 1,
+    "ja": "新入社員は卓越した細部への注意力を示しました。",
+    "explanation": "exceptionalは「卓越した」でremarkableが最も近い。"
+  },
+  {
+    "id": "pp-054",
+    "original": "The company will reimburse employees for travel expenses.",
+    "highlight": "reimburse",
+    "choices": [
+      "pay back",
+      "record",
+      "deny",
+      "charge"
+    ],
+    "answer": 0,
+    "ja": "会社は従業員の出張費を払い戻します。",
+    "explanation": "reimburseは「払い戻す」でpay backが最も近い。"
+  },
+  {
+    "id": "pp-055",
+    "original": "The board voted unanimously to approve the acquisition.",
+    "highlight": "unanimously",
+    "choices": [
+      "secretly",
+      "with complete agreement",
+      "with some disagreement",
+      "reluctantly"
+    ],
+    "answer": 1,
+    "ja": "取締役会は満場一致で買収を承認しました。",
+    "explanation": "unanimouslyは「満場一致で」でwith complete agreementが最も近い。"
+  },
+  {
+    "id": "pp-056",
+    "original": "The warranty is void if the product is tampered with.",
+    "highlight": "tampered with",
+    "choices": [
+      "stored safely",
+      "cleaned regularly",
+      "altered improperly",
+      "used normally"
+    ],
+    "answer": 2,
+    "ja": "製品が不正に改造された場合、保証は無効になります。",
+    "explanation": "tampered withは「不正に扱われた」でaltered improperlyが最も近い。"
+  },
+  {
+    "id": "pp-057",
+    "original": "The restaurant was packed with customers during lunch hour.",
+    "highlight": "packed",
+    "choices": [
+      "quiet",
+      "empty",
+      "closed",
+      "crowded"
+    ],
+    "answer": 3,
+    "ja": "そのレストランは昼食時間に客でいっぱいでした。",
+    "explanation": "packedは「混雑した」でcrowdedが最も近い。empty(空の)は反対の意味。"
+  },
+  {
+    "id": "pp-058",
+    "original": "The agency conducted a thorough investigation into the complaint.",
+    "highlight": "thorough",
+    "choices": [
+      "brief",
+      "biased",
+      "public",
+      "detailed"
+    ],
+    "answer": 3,
+    "ja": "その機関は苦情について徹底的な調査を行いました。",
+    "explanation": "thoroughは「徹底的な」でdetailedが最も近い。brief(簡単な)は異なる。"
+  },
+  {
+    "id": "pp-059",
+    "original": "The supplier offered a discount in exchange for a bulk order.",
+    "highlight": "in exchange for",
+    "choices": [
+      "on behalf of",
+      "regardless of",
+      "instead of",
+      "in return for"
+    ],
+    "answer": 3,
+    "ja": "サプライヤーは大量注文と引き換えに割引を提供しました。",
+    "explanation": "in exchange forは「〜と引き換えに」でin return forが最も近い。"
+  },
+  {
+    "id": "pp-060",
+    "original": "The author's latest book received critical acclaim.",
+    "highlight": "critical acclaim",
+    "choices": [
+      "no attention",
+      "praise from critics",
+      "mixed reviews",
+      "criticism from readers"
+    ],
+    "answer": 1,
+    "ja": "その著者の最新作は批評家から高く評価されました。",
+    "explanation": "critical acclaimは「批評家からの称賛」でpraise from criticsが最も近い。"
+  },
+  {
+    "id": "pp-061",
+    "original": "The company's stock price has been volatile this month.",
+    "highlight": "volatile",
+    "choices": [
+      "low",
+      "high",
+      "unstable",
+      "stable"
+    ],
+    "answer": 2,
+    "ja": "その会社の株価は今月、不安定です。",
+    "explanation": "volatileは「変動しやすい」でunstableが最も近い。stable(安定した)は反対の意味。"
+  },
+  {
+    "id": "pp-062",
+    "original": "The manual provides clear instructions for assembling the furniture.",
+    "highlight": "clear",
+    "choices": [
+      "easy to understand",
+      "confusing",
+      "brief",
+      "outdated"
+    ],
+    "answer": 0,
+    "ja": "そのマニュアルは家具の組み立てについて明確な指示を提供しています。",
+    "explanation": "clearは「明確な」でeasy to understandが最も近い。"
+  },
+  {
+    "id": "pp-063",
+    "original": "The employee was commended for her leadership skills.",
+    "highlight": "commended",
+    "choices": [
+      "praised",
+      "hired",
+      "criticized",
+      "trained"
+    ],
+    "answer": 0,
+    "ja": "その従業員はリーダーシップ能力を称賛されました。",
+    "explanation": "commendedは「称賛された」でpraisedが最も近い。"
+  },
+  {
+    "id": "pp-064",
+    "original": "The store had to liquidate its inventory before closing.",
+    "highlight": "liquidate",
+    "choices": [
+      "sell off",
+      "donate",
+      "restock",
+      "insure"
+    ],
+    "answer": 0,
+    "ja": "その店は閉店前に在庫を売り払わなければなりませんでした。",
+    "explanation": "liquidateは「売り払う」でsell offが最も近い。"
+  },
+  {
+    "id": "pp-065",
+    "original": "The proposal was met with skepticism from investors.",
+    "highlight": "skepticism",
+    "choices": [
+      "doubt",
+      "confusion",
+      "enthusiasm",
+      "approval"
+    ],
+    "answer": 0,
+    "ja": "その提案は投資家から懐疑的な反応を受けました。",
+    "explanation": "skepticismは「懐疑」でdoubtが最も近い。enthusiasm(熱意)は反対の意味。"
+  },
+  {
+    "id": "pp-066",
+    "original": "The company is seeking to diversify its product line.",
+    "highlight": "diversify",
+    "choices": [
+      "reduce the number of",
+      "expand the variety of",
+      "advertise",
+      "simplify"
+    ],
+    "answer": 1,
+    "ja": "その会社は製品ラインを多様化しようとしています。",
+    "explanation": "diversifyは「多様化する」でexpand the variety ofが最も近い。"
+  },
+  {
+    "id": "pp-067",
+    "original": "The hotel's amenities include a pool and a fitness center.",
+    "highlight": "amenities",
+    "choices": [
+      "prices",
+      "facilities",
+      "rules",
+      "staff"
+    ],
+    "answer": 1,
+    "ja": "そのホテルの設備にはプールとフィットネスセンターが含まれます。",
+    "explanation": "amenitiesは「設備」でfacilitiesが最も近い。"
+  },
+  {
+    "id": "pp-068",
+    "original": "The firm was fined for violating environmental regulations.",
+    "highlight": "violating",
+    "choices": [
+      "reviewing",
+      "writing",
+      "breaking",
+      "following"
+    ],
+    "answer": 2,
+    "ja": "その会社は環境規制に違反したため罰金を科されました。",
+    "explanation": "violatingは「違反する」でbreakingが最も近い。following(従う)は反対の意味。"
+  },
+  {
+    "id": "pp-069",
+    "original": "The candidate's résumé stood out among the applicants.",
+    "highlight": "stood out",
+    "choices": [
+      "was ignored",
+      "was lost",
+      "was copied",
+      "was notable"
+    ],
+    "answer": 3,
+    "ja": "その候補者の履歴書は応募者の中で際立っていました。",
+    "explanation": "stood outは「際立った」でwas notableが最も近い。"
+  },
+  {
+    "id": "pp-070",
+    "original": "The company plans to phase out the older product line.",
+    "highlight": "phase out",
+    "choices": [
+      "heavily promote",
+      "immediately launch",
+      "slightly redesign",
+      "gradually discontinue"
+    ],
+    "answer": 3,
+    "ja": "その会社は古い製品ラインを段階的に廃止する計画です。",
+    "explanation": "phase outは「段階的に廃止する」でgradually discontinueが最も近い。"
+  },
+  {
+    "id": "pp-071",
+    "original": "The engineers encountered an unexpected obstacle during testing.",
+    "highlight": "obstacle",
+    "choices": [
+      "budget",
+      "problem",
+      "solution",
+      "schedule"
+    ],
+    "answer": 1,
+    "ja": "エンジニアたちはテスト中に予期しない障害に遭遇しました。",
+    "explanation": "obstacleは「障害」でproblemが最も近い。"
+  },
+  {
+    "id": "pp-072",
+    "original": "The marketing team tailored the message to a younger audience.",
+    "highlight": "tailored",
+    "choices": [
+      "customized",
+      "translated",
+      "copied",
+      "deleted"
+    ],
+    "answer": 0,
+    "ja": "マーケティングチームはメッセージを若い層に合わせて調整しました。",
+    "explanation": "tailoredは「仕立てた」でcustomizedが最も近い。"
+  },
+  {
+    "id": "pp-073",
+    "original": "The quarterly earnings exceeded analysts' expectations.",
+    "highlight": "exceeded",
+    "choices": [
+      "matched",
+      "fell below",
+      "surpassed",
+      "delayed"
+    ],
+    "answer": 2,
+    "ja": "四半期の収益はアナリストの予想を上回りました。",
+    "explanation": "exceededは「上回った」でsurpassedが最も近い。fell below(下回った)は反対の意味。"
+  },
+  {
+    "id": "pp-074",
+    "original": "The company issued a formal apology to affected customers.",
+    "highlight": "issued",
+    "choices": [
+      "canceled",
+      "requested",
+      "hid",
+      "released"
+    ],
+    "answer": 3,
+    "ja": "その会社は影響を受けた顧客に正式な謝罪を発表しました。",
+    "explanation": "issuedは「発表した」でreleasedが最も近い。"
+  },
+  {
+    "id": "pp-075",
+    "original": "The negotiators eventually reached a mutually beneficial agreement.",
+    "highlight": "mutually beneficial",
+    "choices": [
+      "temporary",
+      "good for both sides",
+      "unclear",
+      "good for one side"
+    ],
+    "answer": 1,
+    "ja": "交渉人たちは最終的に双方に有益な合意に達しました。",
+    "explanation": "mutually beneficialは「双方に有益な」でgood for both sidesが最も近い。"
+  },
+  {
+    "id": "pp-076",
+    "original": "The city is investing heavily in public transportation.",
+    "highlight": "investing heavily",
+    "choices": [
+      "borrowing money",
+      "losing money",
+      "spending a lot of money",
+      "spending very little"
+    ],
+    "answer": 2,
+    "ja": "市は公共交通機関に多額の投資をしています。",
+    "explanation": "investing heavilyは「多額の投資をする」でspending a lot of moneyが最も近い。"
+  },
+  {
+    "id": "pp-077",
+    "original": "The product recall was prompted by several safety complaints.",
+    "highlight": "prompted",
+    "choices": [
+      "announced",
+      "delayed",
+      "caused",
+      "prevented"
+    ],
+    "answer": 2,
+    "ja": "その製品回収はいくつかの安全上の苦情によって引き起こされました。",
+    "explanation": "promptedは「引き起こした」でcausedが最も近い。"
+  },
+  {
+    "id": "pp-078",
+    "original": "The firm's new strategy proved to be highly effective.",
+    "highlight": "highly effective",
+    "choices": [
+      "very successful",
+      "not successful",
+      "somewhat successful",
+      "too expensive"
+    ],
+    "answer": 0,
+    "ja": "その会社の新しい戦略は非常に効果的であることが分かりました。",
+    "explanation": "highly effectiveは「非常に効果的」でvery successfulが最も近い。"
+  },
+  {
+    "id": "pp-079",
+    "original": "The employees were notified of the schedule change via email.",
+    "highlight": "notified",
+    "choices": [
+      "trained",
+      "evaluated",
+      "informed",
+      "hired"
+    ],
+    "answer": 2,
+    "ja": "従業員はスケジュール変更についてメールで通知されました。",
+    "explanation": "notifiedは「通知された」でinformedが最も近い。"
+  },
+  {
+    "id": "pp-080",
+    "original": "The contractor underestimated the cost of the renovation.",
+    "highlight": "underestimated",
+    "choices": [
+      "ignored",
+      "guessed too high",
+      "guessed too low",
+      "calculated exactly"
+    ],
+    "answer": 2,
+    "ja": "請負業者は改装費用を過小評価しました。",
+    "explanation": "underestimatedは「過小評価した」でguessed too lowが最も近い。"
+  },
+  {
+    "id": "pp-081",
+    "original": "The staff were given ample time to prepare for the audit.",
+    "highlight": "ample",
+    "choices": [
+      "plenty of",
+      "no",
+      "very little",
+      "uncertain"
+    ],
+    "answer": 0,
+    "ja": "スタッフは監査の準備に十分な時間を与えられました。",
+    "explanation": "ampleは「十分な」でplenty ofが最も近い。"
+  },
+  {
+    "id": "pp-082",
+    "original": "The company's logo was redesigned to appeal to a modern audience.",
+    "highlight": "appeal to",
+    "choices": [
+      "confuse",
+      "attract",
+      "exclude",
+      "bore"
+    ],
+    "answer": 1,
+    "ja": "その会社のロゴは現代的な層にアピールするために再デザインされました。",
+    "explanation": "appeal toは「〜に訴える」でattractが最も近い。"
+  },
+  {
+    "id": "pp-083",
+    "original": "The committee will deliberate on the proposal for two weeks.",
+    "highlight": "deliberate on",
+    "choices": [
+      "carefully discuss",
+      "completely ignore",
+      "quickly approve",
+      "publicly announce"
+    ],
+    "answer": 0,
+    "ja": "委員会はその提案について2週間かけて熟考します。",
+    "explanation": "deliberate onは「〜について熟考する」でcarefully discussが最も近い。"
+  },
+  {
+    "id": "pp-084",
+    "original": "The warehouse implemented a new inventory tracking system.",
+    "highlight": "implemented",
+    "choices": [
+      "canceled",
+      "criticized",
+      "designed",
+      "put into use"
+    ],
+    "answer": 3,
+    "ja": "その倉庫は新しい在庫追跡システムを導入しました。",
+    "explanation": "implementedは「導入した」でput into useが最も近い。"
+  },
+  {
+    "id": "pp-085",
+    "original": "The company's sales figures were disclosed at the shareholders meeting.",
+    "highlight": "disclosed",
+    "choices": [
+      "revealed",
+      "questioned",
+      "hidden",
+      "predicted"
+    ],
+    "answer": 0,
+    "ja": "その会社の売上数字は株主総会で開示されました。",
+    "explanation": "disclosedは「開示された」でrevealedが最も近い。hidden(隠された)は反対の意味。"
+  },
+  {
+    "id": "pp-086",
+    "original": "The new manager quickly gained the respect of her team.",
+    "highlight": "gained",
+    "choices": [
+      "lost",
+      "avoided",
+      "earned",
+      "requested"
+    ],
+    "answer": 2,
+    "ja": "新しいマネージャーはすぐにチームの尊敬を得ました。",
+    "explanation": "gainedは「得た」でearnedが最も近い。lost(失った)は反対の意味。"
+  },
+  {
+    "id": "pp-087",
+    "original": "The airline canceled the flight due to severe weather.",
+    "highlight": "severe",
+    "choices": [
+      "unusual",
+      "extreme",
+      "mild",
+      "predicted"
+    ],
+    "answer": 1,
+    "ja": "航空会社は悪天候のためフライトをキャンセルしました。",
+    "explanation": "severeは「深刻な」でextremeが最も近い。mild(穏やかな)は反対の意味。"
+  },
+  {
+    "id": "pp-088",
+    "original": "The proposal outlines a detailed plan for expansion.",
+    "highlight": "outlines",
+    "choices": [
+      "cancels",
+      "questions",
+      "describes",
+      "hides"
+    ],
+    "answer": 2,
+    "ja": "その提案書は拡大のための詳細な計画を説明しています。",
+    "explanation": "outlinesは「概説する」でdescribesが最も近い。"
+  },
+  {
+    "id": "pp-089",
+    "original": "The hotel staff went above and beyond to accommodate the guests.",
+    "highlight": "went above and beyond",
+    "choices": [
+      "did the minimum",
+      "refused to help",
+      "made extra effort",
+      "charged extra"
+    ],
+    "answer": 2,
+    "ja": "ホテルのスタッフは宿泊客に対応するため期待以上の努力をしました。",
+    "explanation": "went above and beyondは「期待以上のことをした」でmade extra effortが最も近い。"
+  },
+  {
+    "id": "pp-090",
+    "original": "The city's infrastructure is in dire need of repair.",
+    "highlight": "dire need",
+    "choices": [
+      "slight preference",
+      "future plan",
+      "urgent requirement",
+      "no need"
+    ],
+    "answer": 2,
+    "ja": "その市のインフラは早急な修理を必要としています。",
+    "explanation": "dire needは「切実な必要性」でurgent requirementが最も近い。"
+  },
+  {
+    "id": "pp-091",
+    "original": "The company's founder stepped down as CEO last month.",
+    "highlight": "stepped down",
+    "choices": [
+      "was hired",
+      "was promoted",
+      "traveled",
+      "resigned"
+    ],
+    "answer": 3,
+    "ja": "その会社の創業者は先月CEOを辞任しました。",
+    "explanation": "stepped downは「辞任した」でresignedが最も近い。"
+  },
+  {
+    "id": "pp-092",
+    "original": "The firm's approach to customer service sets it apart from competitors.",
+    "highlight": "sets it apart",
+    "choices": [
+      "limits it",
+      "distinguishes it",
+      "weakens it",
+      "describes it"
+    ],
+    "answer": 1,
+    "ja": "その会社の顧客サービスへの取り組みは競合他社との差別化を図っています。",
+    "explanation": "sets it apartは「他と区別する」でdistinguishes itが最も近い。"
+  },
+  {
+    "id": "pp-093",
+    "original": "The deadline was extended to give the team more time.",
+    "highlight": "extended",
+    "choices": [
+      "canceled",
+      "shortened",
+      "lengthened",
+      "forgotten"
+    ],
+    "answer": 2,
+    "ja": "チームにより多くの時間を与えるため、締め切りは延長されました。",
+    "explanation": "extendedは「延長された」でlengthenedが最も近い。shortened(短縮された)は反対の意味。"
+  },
+  {
+    "id": "pp-094",
+    "original": "The manager was adamant that the deadline could not change.",
+    "highlight": "adamant",
+    "choices": [
+      "silent",
+      "firm",
+      "confused",
+      "flexible"
+    ],
+    "answer": 1,
+    "ja": "マネージャーは締め切りを変更できないと断固として主張しました。",
+    "explanation": "adamantは「断固とした」でfirmが最も近い。flexible(柔軟な)は反対の意味。"
+  },
+  {
+    "id": "pp-095",
+    "original": "The factory adheres to strict quality control standards.",
+    "highlight": "adheres to",
+    "choices": [
+      "creates",
+      "questions",
+      "follows",
+      "ignores"
+    ],
+    "answer": 2,
+    "ja": "その工場は厳格な品質管理基準を遵守しています。",
+    "explanation": "adheres toは「〜を遵守する」でfollowsが最も近い。"
+  },
+  {
+    "id": "pp-096",
+    "original": "The announcement caused quite a stir among employees.",
+    "highlight": "caused quite a stir",
+    "choices": [
+      "created a strong reaction",
+      "was postponed",
+      "was barely noticed",
+      "was expected"
+    ],
+    "answer": 0,
+    "ja": "その発表は従業員の間でかなりの騒ぎを引き起こしました。",
+    "explanation": "caused quite a stirは「大きな反響を引き起こした」でcreated a strong reactionが最も近い。"
+  },
+  {
+    "id": "pp-097",
+    "original": "The vendor's prices are competitive compared to others in the market.",
+    "highlight": "competitive",
+    "choices": [
+      "hidden",
+      "reasonably low",
+      "fixed",
+      "very high"
+    ],
+    "answer": 1,
+    "ja": "その業者の価格は市場の他社と比べて競争力があります。",
+    "explanation": "competitiveは「競争力のある」でreasonably lowが最も近い。"
+  },
+  {
+    "id": "pp-098",
+    "original": "The report highlights several areas that need improvement.",
+    "highlight": "highlights",
+    "choices": [
+      "ignores",
+      "approves",
+      "points out",
+      "creates"
+    ],
+    "answer": 2,
+    "ja": "その報告書は改善が必要ないくつかの分野を指摘しています。",
+    "explanation": "highlightsは「強調する、指摘する」でpoints outが最も近い。"
+  },
+  {
+    "id": "pp-099",
+    "original": "The company's new policy drew mixed reactions from staff.",
+    "highlight": "mixed reactions",
+    "choices": [
+      "no responses",
+      "only negative responses",
+      "both positive and negative responses",
+      "only positive responses"
+    ],
+    "answer": 2,
+    "ja": "その会社の新しい方針はスタッフから賛否両論の反応を引き出しました。",
+    "explanation": "mixed reactionsは「賛否両論の反応」でboth positive and negative responsesが最も近い。"
+  },
+  {
+    "id": "pp-100",
+    "original": "The CEO reaffirmed the company's commitment to innovation.",
+    "highlight": "reaffirmed",
+    "choices": [
+      "restated firmly",
+      "withdrew",
+      "forgot",
+      "questioned"
+    ],
+    "answer": 0,
+    "ja": "CEOは会社のイノベーションへの取り組みを改めて表明しました。",
+    "explanation": "reaffirmedは「再確認した、改めて表明した」でrestated firmlyが最も近い。"
+  }
+]

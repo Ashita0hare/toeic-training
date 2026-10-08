@@ -5,12 +5,16 @@ export async function renderResult(root, navigate, result) {
     return;
   }
 
-  const sections = [
+  const allSections = [
     ['単語', result.vocab],
     ['応答問題 (Part2)', result.part2],
     ['ディクテーション', result.dictation],
     ['短文穴埋め (Part5)', result.part5],
+    ['長文穴埋め (Part6)', result.part6],
+    ['読解 (Part7)', result.part7],
+    ['言い換えドリル', result.paraphrase],
   ];
+  const sections = allSections.filter(([, v]) => v && v.total > 0);
   const totalCorrect = sections.reduce((s, [, v]) => s + v.correct, 0);
   const totalCount = sections.reduce((s, [, v]) => s + v.total, 0);
   const minutes = Math.max(1, Math.round((result.durationSec || 0) / 60));
@@ -58,7 +62,15 @@ export async function renderResult(root, navigate, result) {
 }
 
 function labelForType(type) {
-  return { vocab: '単語', part2: 'Part2', dictation: 'ディクテーション', part5: 'Part5' }[type] || type;
+  return {
+    vocab: '単語',
+    part2: 'Part2',
+    dictation: 'ディクテーション',
+    part5: 'Part5',
+    part6: 'Part6',
+    part7: 'Part7',
+    paraphrase: '言い換え',
+  }[type] || type;
 }
 
 function escapeHtml(str) {

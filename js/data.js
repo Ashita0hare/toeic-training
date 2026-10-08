@@ -15,3 +15,6 @@ export const loadPart2 = () => loadJson('./data/part2.json');
 export const loadPart5 = () => loadJson('./data/part5.json');
 export const loadDictation = () => loadJson('./data/dictation.json');
 export const loadPart34 = () => loadJson('./data/part34.json');
+export const loadPart6 = () => loadJson('./data/part6.json');
+export const loadPart7 = () => loadJson('./data/part7.json');
+export const loadParaphrase = () => loadJson('./data/paraphrase.json');

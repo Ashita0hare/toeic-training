@@ -1,0 +1,1720 @@
+[
+  {
+    "id": "p7-01",
+    "docType": "chat",
+    "passage": "Maria: Hey, are you still at the office? I need the client presentation file before my 3 PM call.\nTom: Yes, still here. I'm attaching it now, but I made a few changes to the pricing slide this morning.\nMaria: Oh, what kind of changes?\nTom: I updated the numbers to match the new contract terms we agreed on yesterday. The old slide had last month's figures.\nMaria: Good catch, thanks. Can you also send me the client's contact info? I don't have it saved.\nTom: Sure, I'll forward the whole email thread so you have everything in one place.\nMaria: Perfect. You're a lifesaver.",
+    "ja": "マリア：ねえ、まだオフィスにいる？午後3時の電話の前にクライアント向けプレゼン資料が必要なの。\nトム：うん、まだいるよ。今送るけど、今朝価格のスライドをいくつか変更したんだ。\nマリア：どんな変更？\nトム：昨日合意した新しい契約条件に合わせて数字を更新したんだ。古いスライドは先月の数字のままだったから。\nマリア：気づいてくれてありがとう。あとクライアントの連絡先も送ってもらえる？保存していないの。\nトム：もちろん、メールのやり取り全部を転送するから、それで全部揃うよ。\nマリア：完璧。助かるわ。",
+    "wordCount": 118,
+    "questions": [
+      {
+        "q": "In the chat, the word \"lifesaver\" is closest in meaning to",
+        "choices": [
+          "a dangerous situation",
+          "someone who gives crucial help",
+          "a type of candy",
+          "a safety device"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "You're a lifesaver.",
+        "ja": "チャットの中で \"lifesaver\" に最も意味が近いのはどれですか。",
+        "explanation": "ここでのlifesaverは「とても助けになる人」という意味の比喩表現。"
+      },
+      {
+        "q": "What will Tom most likely do next?",
+        "choices": [
+          "Call the client directly",
+          "Cancel the 3 PM meeting",
+          "Forward an email thread to Maria",
+          "Rewrite the entire presentation"
+        ],
+        "answer": 2,
+        "qType": "推測",
+        "evidence": "I'll forward the whole email thread so you have everything in one place.",
+        "ja": "トムは次に何をすると考えられますか。",
+        "explanation": "トムはメールのやり取りをマリアに転送すると述べているため。"
+      }
+    ]
+  },
+  {
+    "id": "p7-02",
+    "docType": "email",
+    "passage": "Subject: Office Wi-Fi Upgrade This Weekend\n\nDear Staff,\n\nOur IT department will be upgrading the office Wi-Fi network this Saturday, June 7th, between 9 AM and 1 PM. During this time, the internet connection throughout the building will be unavailable. Employees who need to work over the weekend are encouraged to use their mobile data or visit the nearby co-working space on Elm Street, which has agreed to offer free day passes to our staff.\n\nAfter the upgrade, you may need to reconnect your devices to the network using the same password as before. If you experience any issues on Monday, please contact the IT help desk at extension 204.\n\nWe apologize for any inconvenience and appreciate your patience as we work to improve our network speed and reliability.\n\nBest regards,\nIT Department",
+    "ja": "件名：今週末のオフィスWi-Fiアップグレードについて\n\nスタッフの皆様へ\n\nIT部門は今週土曜日、6月7日の午前9時から午後1時の間にオフィスのWi-Fiネットワークをアップグレードします。この間、建物内のインターネット接続はご利用いただけません。週末に作業が必要な従業員は、モバイルデータを使用するか、近隣のElm Streetにあるコワーキングスペースをご利用ください。こちらは無料の1日パスを提供してくれることになっています。\n\nアップグレード後、以前と同じパスワードでデバイスを再接続する必要がある場合があります。月曜日に問題が発生した場合は、内線204のITヘルプデスクまでご連絡ください。\n\nご不便をおかけしますが、ネットワークの速度と信頼性向上のためご理解のほどよろしくお願いいたします。\n\nIT部門",
+    "wordCount": 148,
+    "questions": [
+      {
+        "q": "What is the purpose of this email?",
+        "choices": [
+          "To announce a new office location",
+          "To inform staff of a network upgrade",
+          "To introduce a new IT staff member",
+          "To request feedback on Wi-Fi speed"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "Our IT department will be upgrading the office Wi-Fi network this Saturday",
+        "ja": "このメールの目的は何ですか。",
+        "explanation": "Wi-Fiネットワークのアップグレードについて知らせる内容であるため。"
+      },
+      {
+        "q": "What is suggested for employees who need to work during the upgrade?",
+        "choices": [
+          "Come into the office early",
+          "Use a co-working space nearby",
+          "Wait until the following week",
+          "Contact the IT help desk"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "visit the nearby co-working space on Elm Street, which has agreed to offer free day passes",
+        "ja": "アップグレード中に作業が必要な従業員には何が提案されていますか。",
+        "explanation": "近隣のコワーキングスペースの利用が提案されている。"
+      },
+      {
+        "q": "What should employees do if they have trouble connecting on Monday?",
+        "choices": [
+          "Restart their computer",
+          "Visit the IT department in person",
+          "Call extension 204",
+          "Wait for a follow-up email"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "please contact the IT help desk at extension 204",
+        "ja": "月曜日に接続トラブルがあった場合、従業員はどうすべきですか。",
+        "explanation": "内線204のITヘルプデスクに連絡するよう書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-03",
+    "docType": "notice",
+    "passage": "NOTICE: Parking Lot Closure\n\nThe east parking lot will be closed for resurfacing from Monday, April 3rd, through Wednesday, April 5th. During this period, employees are asked to use the west lot or the overflow lot located behind the warehouse on Birch Avenue.\n\nShuttle service will run every 15 minutes between the overflow lot and the main entrance from 7:30 AM to 6:00 PM on all three days. Please allow extra time for your commute.\n\nWe apologize for any inconvenience this may cause and thank you for your cooperation as we complete this necessary maintenance work.\n\nFacilities Management",
+    "ja": "お知らせ：駐車場の閉鎖について\n\n東側駐車場は4月3日（月）から4月5日（水）まで、舗装工事のため閉鎖されます。この期間中、従業員は西側駐車場、またはBirch Avenueの倉庫裏にある臨時駐車場をご利用ください。\n\nシャトルバスは3日間、午前7時30分から午後6時まで、臨時駐車場と正面玄関の間を15分おきに運行します。通勤には余裕を持ってお越しください。\n\nご不便をおかけしますが、必要な保守作業にご協力をお願いいたします。\n\n施設管理部",
+    "wordCount": 112,
+    "questions": [
+      {
+        "q": "Why is the east parking lot being closed?",
+        "choices": [
+          "For a company event",
+          "For resurfacing work",
+          "Due to flooding",
+          "For a security inspection"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "will be closed for resurfacing",
+        "ja": "東側駐車場はなぜ閉鎖されますか。",
+        "explanation": "舗装工事のためと明記されている。"
+      },
+      {
+        "q": "How often will the shuttle service run?",
+        "choices": [
+          "Every 10 minutes",
+          "Every 15 minutes",
+          "Every 30 minutes",
+          "Once an hour"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Shuttle service will run every 15 minutes",
+        "ja": "シャトルバスはどのくらいの頻度で運行しますか。",
+        "explanation": "15分おきに運行すると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-04",
+    "docType": "advertisement",
+    "passage": "Grand Opening: Riverside Fitness Center\n\nJoin us on Saturday, September 9th, for the grand opening of Riverside Fitness Center, the newest gym in downtown with state-of-the-art equipment, group classes, and a heated pool.\n\nThe first 100 visitors will receive a free one-month membership and a reusable water bottle. All visitors can enjoy complimentary smoothies and a free fitness assessment with one of our certified trainers.\n\nMembership plans start at just $29 per month, with no enrollment fee during our opening week. Visit us at 450 River Road or sign up early online to reserve your spot in our opening-day yoga class.\n\nRiverside Fitness Center — Your journey starts here.",
+    "ja": "グランドオープン：リバーサイド・フィットネスセンター\n\n9月9日（土）、ダウンタウンに新しくオープンするリバーサイド・フィットネスセンターのグランドオープンにぜひお越しください。最新設備、グループクラス、温水プールを完備しています。\n\n先着100名様に1ヶ月間の無料会員権と再利用可能な水筒をプレゼント。全ての来場者には無料スムージーと認定トレーナーによる無料フィットネス診断もご用意しています。\n\n会員プランは月額わずか29ドルから、オープン初週は入会金無料です。450 River Roadまでお越しいただくか、オンラインで早めにお申し込みいただき、オープン日のヨガクラスの枠を確保してください。\n\nリバーサイド・フィットネスセンター — あなたの新しい一歩はここから。",
+    "wordCount": 124,
+    "questions": [
+      {
+        "q": "In the advertisement, the phrase \"state-of-the-art\" is closest in meaning to",
+        "choices": [
+          "very old",
+          "the most modern available",
+          "inexpensive",
+          "handmade"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "state-of-the-art equipment",
+        "ja": "広告の中で \"state-of-the-art\" に最も意味が近いのはどれですか。",
+        "explanation": "state-of-the-artは「最新技術の、最先端の」という意味。"
+      },
+      {
+        "q": "What is true about membership during the opening week?",
+        "choices": [
+          "It requires a one-year contract",
+          "There is no enrollment fee",
+          "It is only available online",
+          "Only yoga classes are included"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "with no enrollment fee during our opening week",
+        "ja": "オープン週の会員登録について正しいのはどれですか。",
+        "explanation": "オープン週は入会金が無料であると明記されている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-05",
+    "docType": "article",
+    "passage": "Local Bakery Expands After Online Sales Surge\n\nSweet Harvest Bakery, a family-owned business on Main Street, announced this week that it will open a second location in the Oakwood neighborhood next spring. The expansion comes after the bakery saw a significant rise in online orders over the past year.\n\nOwner Diane Collins said that when the bakery began offering local delivery through its website two years ago, she expected only a modest increase in sales. Instead, online orders now account for nearly 40 percent of total revenue. \"We never imagined this many customers would want their bread delivered,\" Collins said.\n\nThe new Oakwood location will include a small cafe area in addition to the bakery counter, something the original shop does not have. Collins hopes the expansion will allow the business to hire at least six new employees.",
+    "ja": "地元のベーカリー、オンライン販売の急増で店舗拡大へ\n\nメインストリートにある家族経営の店、スイート・ハーベスト・ベーカリーは今週、来春にオークウッド地区で2店舗目をオープンすると発表しました。この拡大は、過去1年間でオンライン注文が大幅に増加したことを受けたものです。\n\nオーナーのダイアン・コリンズ氏によると、2年前にウェブサイトを通じて地域配達を始めた当初は、売上の増加はわずかだと予想していたそうです。しかし現在、オンライン注文は総売上の約40％を占めています。「これほど多くのお客様がパンの配達を望むとは思いませんでした」とコリンズ氏は語りました。\n\n新しいオークウッド店には、既存店にはない小さなカフェスペースも併設される予定です。コリンズ氏は、この拡大により少なくとも6人の新規雇用が可能になることを期待しています。",
+    "wordCount": 156,
+    "questions": [
+      {
+        "q": "Why is Sweet Harvest Bakery opening a second location?",
+        "choices": [
+          "A competitor closed nearby",
+          "Online orders increased significantly",
+          "The original shop was damaged",
+          "A new owner took over"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "The expansion comes after the bakery saw a significant rise in online orders",
+        "ja": "スイート・ハーベスト・ベーカリーはなぜ2店舗目を開くのですか。",
+        "explanation": "オンライン注文の大幅な増加が拡大の理由として述べられている。"
+      },
+      {
+        "q": "What percentage of total revenue now comes from online orders?",
+        "choices": [
+          "About 10 percent",
+          "About 25 percent",
+          "About 40 percent",
+          "About 60 percent"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "online orders now account for nearly 40 percent of total revenue",
+        "ja": "現在、総売上のうちオンライン注文が占める割合はどのくらいですか。",
+        "explanation": "約40％と本文に明記されている。"
+      },
+      {
+        "q": "What will be different about the new Oakwood location?",
+        "choices": [
+          "It will not sell bread",
+          "It will include a cafe area",
+          "It will be delivery-only",
+          "It will be smaller than the original"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "The new Oakwood location will include a small cafe area in addition to the bakery counter",
+        "ja": "新しいオークウッド店は何が異なりますか。",
+        "explanation": "新店舗にはカフェスペースが併設されると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-06",
+    "docType": "chat",
+    "passage": "Jake: Did the shipment from Hanson Supplies arrive yet?\nPriya: Not yet. I checked the tracking number this morning and it says it's still at the port.\nJake: That's odd, it was supposed to clear customs two days ago.\nPriya: I called their support line and they said there's a delay because of a paperwork issue on our end.\nJake: What kind of paperwork issue?\nPriya: Apparently the import permit we submitted was missing a signature. I'm resending the corrected version now.\nJake: Okay, let me know as soon as it's resolved. The warehouse team is asking about it.\nPriya: Will do, should be fixed within a day or two.",
+    "ja": "ジェイク：ハンソン・サプライズからの荷物はもう届いた？\nプリヤ：まだです。今朝追跡番号を確認したら、まだ港にあるみたいです。\nジェイク：変だな、2日前に通関手続きが終わっているはずなのに。\nプリヤ：サポートに電話したら、こちら側の書類の問題で遅れていると言われました。\nジェイク：どんな書類の問題？\nプリヤ：提出した輸入許可証に署名が抜けていたようです。今、修正版を再送しているところです。\nジェイク：わかった、解決したらすぐ教えて。倉庫チームが気にしているんだ。\nプリヤ：わかりました、1〜2日で解決するはずです。",
+    "wordCount": 110,
+    "questions": [
+      {
+        "q": "Why is the shipment delayed?",
+        "choices": [
+          "The warehouse is full",
+          "A signature was missing on a document",
+          "The supplier went out of business",
+          "The shipment was damaged"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "the import permit we submitted was missing a signature",
+        "ja": "なぜ荷物は遅れているのですか。",
+        "explanation": "提出した輸入許可証に署名が抜けていたためと説明されている。"
+      },
+      {
+        "q": "In the chat, the word \"resolved\" is closest in meaning to",
+        "choices": [
+          "discussed",
+          "solved",
+          "delayed",
+          "canceled"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "as soon as it's resolved",
+        "ja": "チャットの中で \"resolved\" に最も意味が近いのはどれですか。",
+        "explanation": "resolvedは「解決された」という意味でsolvedが最も近い。"
+      }
+    ]
+  },
+  {
+    "id": "p7-07",
+    "docType": "email",
+    "passage": "Subject: Feedback on Your Recent Stay\n\nDear Mr. Alvarez,\n\nThank you for staying with us at the Lakeside Inn last weekend. We hope you enjoyed your time with us. We would greatly appreciate it if you could take a few minutes to complete our short guest survey.\n\nYour feedback helps us improve our services and ensures future guests have an excellent experience. As a thank-you for completing the survey, you will receive a 15% discount code for your next stay.\n\nThe survey takes approximately five minutes and can be accessed through the link below. It will remain open until the end of this month.\n\nWe look forward to welcoming you back soon.\n\nWarm regards,\nGuest Services Team\nLakeside Inn",
+    "ja": "件名：ご宿泊についてのご意見\n\nアルバレス様\n\n先週末はレイクサイド・インにご宿泊いただきありがとうございました。快適にお過ごしいただけたなら幸いです。お手数ですが、簡単なアンケートにご協力いただけますと幸いです。\n\n皆様のご意見はサービス向上に役立ち、今後のお客様により良い体験を提供するために活用されます。アンケートにご協力いただいた方には、次回宿泊時に使える15％割引コードを進呈いたします。\n\nアンケートは約5分で完了し、下記のリンクからアクセスできます。今月末まで受け付けております。\n\nまたのご宿泊を心よりお待ちしております。\n\nゲストサービスチーム\nレイクサイド・イン",
+    "wordCount": 125,
+    "questions": [
+      {
+        "q": "What is the main purpose of this email?",
+        "choices": [
+          "To confirm a reservation",
+          "To request survey feedback",
+          "To apologize for a billing error",
+          "To advertise a new hotel location"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "We would greatly appreciate it if you could take a few minutes to complete our short guest survey",
+        "ja": "このメールの主な目的は何ですか。",
+        "explanation": "アンケートへの回答を依頼する内容であるため。"
+      },
+      {
+        "q": "What will guests receive for completing the survey?",
+        "choices": [
+          "A free night's stay",
+          "A 15% discount code",
+          "A gift basket",
+          "Priority check-in"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "you will receive a 15% discount code for your next stay",
+        "ja": "アンケートに回答すると何がもらえますか。",
+        "explanation": "次回宿泊時に使える15％割引コードがもらえると書かれている。"
+      },
+      {
+        "q": "When will the survey close?",
+        "choices": [
+          "In one week",
+          "At the end of this month",
+          "In six months",
+          "It never closes"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "It will remain open until the end of this month",
+        "ja": "アンケートはいつ締め切られますか。",
+        "explanation": "今月末まで受け付けていると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-08",
+    "docType": "notice",
+    "passage": "IMPORTANT: Changes to Expense Report Submission\n\nEffective June 1st, all expense reports must be submitted through the new online portal, ExpenseTrack, instead of email. Paper receipts should be scanned and uploaded directly to the system.\n\nReports submitted after the 5th business day of the following month will not be reimbursed, except in cases approved in advance by a department manager. Employees who have not yet received login credentials for ExpenseTrack should contact the accounting office immediately.\n\nA training session on how to use the new system will be held in Conference Room B on May 28th at 2 PM. Attendance is optional but strongly recommended for anyone unfamiliar with the portal.\n\nAccounting Department",
+    "ja": "重要：経費報告書の提出方法の変更について\n\n6月1日より、すべての経費報告書はメールではなく新しいオンラインポータル「ExpenseTrack」を通じて提出していただきます。紙の領収書はスキャンしてシステムに直接アップロードしてください。\n\n翌月の5営業日を過ぎて提出された報告書は、部門マネージャーが事前に承認した場合を除き、払い戻しされません。ExpenseTrackのログイン情報をまだ受け取っていない従業員は、至急経理部までご連絡ください。\n\n新システムの使い方に関する研修を5月28日午後2時に会議室Bで実施します。出席は任意ですが、ポータルに不慣れな方には強く推奨します。\n\n経理部",
+    "wordCount": 131,
+    "questions": [
+      {
+        "q": "What change is being announced?",
+        "choices": [
+          "A new office location",
+          "A new expense submission system",
+          "A change in business hours",
+          "A new travel policy"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "all expense reports must be submitted through the new online portal, ExpenseTrack",
+        "ja": "何についての変更が発表されていますか。",
+        "explanation": "経費報告書の提出方法が新しいオンラインポータルに変わることが述べられている。"
+      },
+      {
+        "q": "What happens to reports submitted late?",
+        "choices": [
+          "They are automatically approved",
+          "They will not be reimbursed unless pre-approved",
+          "They are forwarded to HR",
+          "They require a doubled receipt amount"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "will not be reimbursed, except in cases approved in advance by a department manager",
+        "ja": "遅れて提出された報告書はどうなりますか。",
+        "explanation": "事前承認がない限り払い戻されないと書かれている。"
+      },
+      {
+        "q": "In the notice, the word \"credentials\" is closest in meaning to",
+        "choices": [
+          "login information",
+          "job qualifications",
+          "a printed receipt",
+          "a meeting schedule"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "Employees who have not yet received login credentials",
+        "ja": "お知らせの中で \"credentials\" に最も意味が近いのはどれですか。",
+        "explanation": "ここでのcredentialsは「ログイン情報」を指している。"
+      }
+    ]
+  },
+  {
+    "id": "p7-09",
+    "docType": "advertisement",
+    "passage": "Spring Cleaning Sale at GreenLeaf Garden Center\n\nIt's time to refresh your garden! From April 10th to April 20th, enjoy 25% off all potted plants, 30% off garden tools, and buy-one-get-one-free on all seed packets.\n\nOur knowledgeable staff will be on hand to offer free advice on planting for your specific soil type and climate zone. Bring in a photo of your garden and one of our landscape consultants will suggest plants that would thrive there.\n\nMembers of our Green Rewards program receive an additional 10% off their entire purchase. Not a member yet? Sign up in-store for free and start saving today.\n\nGreenLeaf Garden Center, 88 Maple Lane, open daily 8 AM to 7 PM.",
+    "ja": "グリーンリーフ・ガーデンセンター春の大掃除セール\n\n庭をリフレッシュする時期がやってきました！4月10日から4月20日まで、鉢植え植物が25％オフ、園芸工具が30％オフ、種のパケットは全品1つ買うともう1つ無料です。\n\n知識豊富なスタッフが、お客様の土壌タイプや気候帯に合わせた植え付けについて無料でアドバイスいたします。お庭の写真をお持ちいただければ、ランドスケープコンサルタントが最適な植物をご提案します。\n\nグリーン・リワードプログラムの会員様は、全購入品からさらに10％オフになります。まだ会員でない方も、店頭で無料登録いただけます。\n\nグリーンリーフ・ガーデンセンター、88 Maple Lane、毎日午前8時から午後7時まで営業。",
+    "wordCount": 134,
+    "questions": [
+      {
+        "q": "What discount applies to garden tools?",
+        "choices": [
+          "10% off",
+          "25% off",
+          "30% off",
+          "Buy-one-get-one-free"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "30% off garden tools",
+        "ja": "園芸工具にはどの割引が適用されますか。",
+        "explanation": "園芸工具は30％オフと明記されている。"
+      },
+      {
+        "q": "In the advertisement, the word \"thrive\" is closest in meaning to",
+        "choices": [
+          "struggle",
+          "grow well",
+          "disappear",
+          "stay small"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "suggest plants that would thrive there",
+        "ja": "広告の中で \"thrive\" に最も意味が近いのはどれですか。",
+        "explanation": "thriveは「よく育つ、繁栄する」という意味。"
+      }
+    ]
+  },
+  {
+    "id": "p7-10",
+    "docType": "article",
+    "passage": "City Council Approves New Bike Lane Project\n\nThe city council voted Tuesday night to approve funding for a new network of protected bike lanes connecting downtown to the university district. Construction is expected to begin in late summer and take approximately four months to complete.\n\nSupporters of the project say it will improve safety for cyclists and reduce traffic congestion during peak commuting hours. \"We've seen a 40 percent increase in bicycle commuters over the past three years,\" said city planner Rosa Mendez. \"Our infrastructure needs to keep up with that growth.\"\n\nNot everyone is pleased with the decision. Some downtown business owners have expressed concern that the project will reduce available street parking. The council has agreed to review parking availability six months after the lanes open and make adjustments if necessary.",
+    "ja": "市議会、新しい自転車レーン計画を承認\n\n市議会は火曜日の夜、ダウンタウンと大学地区を結ぶ保護された自転車レーンのネットワーク整備への資金提供を承認しました。工事は夏の終わりに始まり、完了までに約4ヶ月かかる見込みです。\n\nこの計画の支持者は、自転車利用者の安全性が向上し、通勤ラッシュ時の交通渋滞が緩和されると述べています。「過去3年間で自転車通勤者が40％増加しました」と市の都市計画担当者ローザ・メンデス氏は述べました。「私たちのインフラもその成長に対応する必要があります。」\n\nこの決定に誰もが満足しているわけではありません。ダウンタウンの一部の事業主は、この計画により利用可能な路上駐車スペースが減ることを懸念しています。市議会はレーン開通から6ヶ月後に駐車状況を見直し、必要に応じて調整を行うことに合意しています。",
+    "wordCount": 151,
+    "questions": [
+      {
+        "q": "What did the city council approve?",
+        "choices": [
+          "A new parking garage",
+          "Funding for protected bike lanes",
+          "A reduction in bus routes",
+          "A new university building"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "approve funding for a new network of protected bike lanes",
+        "ja": "市議会は何を承認しましたか。",
+        "explanation": "保護された自転車レーンへの資金提供を承認したと書かれている。"
+      },
+      {
+        "q": "According to Rosa Mendez, how much have bicycle commuters increased?",
+        "choices": [
+          "10 percent",
+          "25 percent",
+          "40 percent",
+          "60 percent"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "We've seen a 40 percent increase in bicycle commuters over the past three years",
+        "ja": "ローザ・メンデス氏によると、自転車通勤者はどれくらい増加しましたか。",
+        "explanation": "40％増加したと述べている。"
+      },
+      {
+        "q": "In the article, the word \"congestion\" is closest in meaning to",
+        "choices": [
+          "silence",
+          "crowding",
+          "construction",
+          "pollution"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "reduce traffic congestion during peak commuting hours",
+        "ja": "記事の中で \"congestion\" に最も意味が近いのはどれですか。",
+        "explanation": "congestionは「混雑」という意味。"
+      }
+    ]
+  },
+  {
+    "id": "p7-11",
+    "docType": "chat",
+    "passage": "Ben: Quick question, do you know who's covering the reception desk tomorrow?\nLisa: I think it's supposed to be Carlos, but he mentioned he might be out sick.\nBen: If he's out, we'll need someone else. The new client is visiting at 9 AM.\nLisa: Let me check with him now. If he can't make it, I can cover the morning shift myself.\nBen: That would help a lot. Can you confirm by end of day?\nLisa: Sure, I'll message you tonight either way.\nBen: Thanks, I really don't want the client to walk into an empty front desk.",
+    "ja": "ベン：ちょっと聞きたいんだけど、明日の受付担当は誰だっけ？\nリサ：カルロスのはずだけど、具合が悪くて休むかもって言ってたよ。\nベン：もし休むなら、他の人を探さないと。新しいクライアントが9時に来るんだ。\nリサ：今確認してみる。もし彼が来られなければ、午前のシフトは私がカバーできるよ。\nベン：それは助かる。今日中に確認してもらえる？\nリサ：うん、どちらにしても今夜中にメッセージするね。\nベン：ありがとう、クライアントが来た時に受付が誰もいない状態は避けたいんだ。",
+    "wordCount": 108,
+    "questions": [
+      {
+        "q": "What is Ben concerned about?",
+        "choices": [
+          "A missed delivery",
+          "An empty front desk when a client arrives",
+          "A broken computer",
+          "A canceled meeting"
+        ],
+        "answer": 1,
+        "qType": "推測",
+        "evidence": "I really don't want the client to walk into an empty front desk",
+        "ja": "ベンは何を心配していますか。",
+        "explanation": "クライアント来訪時に受付が空になることを心配していると述べている。"
+      },
+      {
+        "q": "What does Lisa offer to do?",
+        "choices": [
+          "Call the new client",
+          "Cover the morning shift herself",
+          "Reschedule the meeting",
+          "Ask Carlos to come in anyway"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "I can cover the morning shift myself",
+        "ja": "リサは何を申し出ていますか。",
+        "explanation": "自分で午前のシフトをカバーできると申し出ている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-12",
+    "docType": "email",
+    "passage": "Subject: Invitation to Annual Supplier Appreciation Dinner\n\nDear Mr. Kim,\n\nOn behalf of Hartwell Manufacturing, I would like to invite you to our Annual Supplier Appreciation Dinner, taking place on Friday, November 8th, at the Grand Oak Hotel starting at 6:30 PM.\n\nThis event recognizes the valuable partnerships we have built with suppliers like yourself over the past year. There will be a dinner reception, a brief awards presentation, and an opportunity to network with other partners in the industry.\n\nPlease RSVP by October 25th by replying to this email or calling our events coordinator at 555-0199. Note that seating is limited, so we recommend confirming as early as possible. We also ask that you let us know of any dietary restrictions when you reply.\n\nWe look forward to celebrating this past year's successes with you.\n\nSincerely,\nAmanda Price\nHartwell Manufacturing",
+    "ja": "件名：年次サプライヤー感謝ディナーへのご招待\n\nキム様\n\nハートウェル・マニュファクチャリングを代表して、11月8日（金）午後6時30分よりグランド・オーク・ホテルにて開催される年次サプライヤー感謝ディナーにご招待申し上げます。\n\nこのイベントは、過去1年間に貴社のような仕入先様と築いてきた大切なパートナーシップを称えるものです。ディナーレセプション、短い表彰式、そして業界の他のパートナーとの交流の機会をご用意しております。\n\n10月25日までに、本メールへの返信またはイベント担当555-0199までお電話にてご出欠をお知らせください。席数に限りがございますので、お早めのご確認をお勧めいたします。また、ご返信の際に食事制限がございましたらお知らせください。\n\nこの1年間の成功を皆様とともに祝えることを楽しみにしております。\n\nアマンダ・プライス\nハートウェル・マニュファクチャリング",
+    "wordCount": 162,
+    "questions": [
+      {
+        "q": "What is the purpose of this email?",
+        "choices": [
+          "To cancel an event",
+          "To invite Mr. Kim to a dinner event",
+          "To request a product quote",
+          "To announce a merger"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "I would like to invite you to our Annual Supplier Appreciation Dinner",
+        "ja": "このメールの目的は何ですか。",
+        "explanation": "ディナーイベントへの招待が目的であるため。"
+      },
+      {
+        "q": "By when should Mr. Kim respond?",
+        "choices": [
+          "November 8th",
+          "October 25th",
+          "The day of the event",
+          "Within 24 hours"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Please RSVP by October 25th",
+        "ja": "キム氏はいつまでに返信すべきですか。",
+        "explanation": "10月25日までにRSVPするよう書かれている。"
+      },
+      {
+        "q": "What information does Amanda Price ask Mr. Kim to include in his reply?",
+        "choices": [
+          "His job title",
+          "Any dietary restrictions",
+          "His arrival time",
+          "A list of guests"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "We also ask that you let us know of any dietary restrictions when you reply.",
+        "ja": "アマンダ・プライス氏は返信に何を含めるよう求めていますか。",
+        "explanation": "食事制限について知らせるよう求めている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-13",
+    "docType": "notice",
+    "passage": "Building Maintenance Notice\n\nThe elevators in the north wing will be out of service for routine inspection on Thursday, October 12th, from 8 AM to 3 PM. Tenants are asked to use the south wing elevators or the stairwell during this time.\n\nWe recognize this may cause inconvenience, particularly for visitors with mobility needs. Building staff will be stationed near the south entrance to provide assistance and directions throughout the inspection period.\n\nThis inspection is required annually by city safety regulations and helps ensure the elevators continue to operate safely. We appreciate your patience and understanding.\n\nFor questions, contact the building management office at 555-0147.",
+    "ja": "建物メンテナンスのお知らせ\n\n北棟のエレベーターは、10月12日（木）午前8時から午後3時まで定期点検のため運休します。この間、テナントの皆様は南棟のエレベーターまたは階段をご利用ください。\n\n特に移動に配慮が必要な来訪者の方にはご不便をおかけすることを認識しております。点検期間中は南側入口付近にスタッフを配置し、案内とサポートを行います。\n\nこの点検は市の安全規則により毎年義務付けられているもので、エレベーターの安全な稼働を維持するために必要です。ご理解とご協力をお願いいたします。\n\nご質問は建物管理事務所（555-0147）までご連絡ください。",
+    "wordCount": 118,
+    "questions": [
+      {
+        "q": "In the notice, the word \"routine\" is closest in meaning to",
+        "choices": [
+          "emergency",
+          "regularly scheduled",
+          "unexpected",
+          "optional"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "will be out of service for routine inspection",
+        "ja": "お知らせの中で \"routine\" に最も意味が近いのはどれですか。",
+        "explanation": "routineは「定期的な、通常の」という意味。"
+      },
+      {
+        "q": "What will building staff do during the inspection?",
+        "choices": [
+          "Repair the elevators themselves",
+          "Provide assistance near the south entrance",
+          "Close the building entirely",
+          "Distribute refreshments"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Building staff will be stationed near the south entrance to provide assistance and directions",
+        "ja": "点検中、建物スタッフは何をしますか。",
+        "explanation": "南側入口付近で案内とサポートを行うと書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-14",
+    "docType": "advertisement",
+    "passage": "Introducing the ComfortPlus Office Chair\n\nSpend long hours at your desk? The ComfortPlus Office Chair is designed with adjustable lumbar support, breathable mesh fabric, and a reclining backrest to keep you comfortable all day long.\n\nFor a limited time, order directly from our website and receive free shipping plus a 10-year warranty, double our standard coverage. Each chair also comes with a 100-day trial period — if you're not satisfied, return it for a full refund.\n\nOver 5,000 customers have rated the ComfortPlus 4.8 out of 5 stars for comfort and durability. Upgrade your workspace today at www.comfortplusseating.com.",
+    "ja": "ComfortPlusオフィスチェア、新登場\n\nデスクで長時間過ごすことが多い方へ。ComfortPlusオフィスチェアは、調整可能な腰部サポート、通気性のよいメッシュ素材、リクライニング可能な背もたれを備え、一日中快適にお過ごしいただけます。\n\n期間限定で、公式サイトから直接ご注文いただくと送料無料に加え、通常の2倍となる10年保証が付きます。各チェアには100日間の試用期間も付いており、ご満足いただけない場合は全額返金いたします。\n\n5,000人以上のお客様がComfortPlusの快適さと耐久性を5つ星中4.8と評価しています。今すぐwww.comfortplusseating.comでワークスペースをアップグレードしましょう。",
+    "wordCount": 120,
+    "questions": [
+      {
+        "q": "What is offered to customers who order directly from the website?",
+        "choices": [
+          "A discount code",
+          "Free shipping and an extended warranty",
+          "A free desk",
+          "Same-day delivery"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "receive free shipping plus a 10-year warranty, double our standard coverage",
+        "ja": "公式サイトから直接注文した顧客には何が提供されますか。",
+        "explanation": "送料無料と延長保証が提供されると書かれている。"
+      },
+      {
+        "q": "What can customers do if they are not satisfied with the chair?",
+        "choices": [
+          "Exchange it for a different model",
+          "Return it within 100 days for a refund",
+          "Receive store credit only",
+          "Request a repair"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "if you're not satisfied, return it for a full refund",
+        "ja": "チェアに満足しない場合、顧客は何ができますか。",
+        "explanation": "100日間の試用期間内であれば全額返金が受けられると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-15",
+    "docType": "article",
+    "passage": "Downtown Farmers Market Extends Season for First Time\n\nThe downtown farmers market will remain open through the end of November this year, organizers announced Monday, marking the first time the market has extended beyond its usual October closing date.\n\nMarket coordinator Ellen Ward said the decision was based on strong vendor interest and steady customer turnout even as temperatures began to drop. \"Several of our vendors sell goods that are actually in season through late fall, like squash and apples, so it made sense to keep things going,\" Ward explained.\n\nThe market will continue to operate every Saturday from 8 AM to 1 PM in its usual location at Centennial Square. Organizers note that a few vendors may reduce their hours as the weather gets colder, and shoppers are encouraged to check the market's website for weekly vendor lists.",
+    "ja": "ダウンタウン・ファーマーズマーケット、初の期間延長\n\nダウンタウンのファーマーズマーケットは今年、例年の10月閉幕を初めて延長し、11月末まで開催されると月曜日に主催者が発表しました。\n\nマーケット統括のエレン・ワード氏は、気温が下がり始めても出店者からの強い関心と安定した客足があったことが延長の決め手になったと述べています。「カボチャやリンゴなど、実際に晩秋が旬の商品を扱う出店者も多いので、続ける意味がありました」とワード氏は説明しました。\n\nマーケットは引き続き毎週土曜日午前8時から午後1時まで、いつものセンテニアル広場で開催されます。主催者によると、寒くなるにつれて営業時間を短縮する出店者もいる可能性があるため、買い物客は週ごとの出店者リストをウェブサイトで確認するよう勧められています。",
+    "wordCount": 145,
+    "questions": [
+      {
+        "q": "What is unusual about this year's farmers market schedule?",
+        "choices": [
+          "It opened earlier than usual",
+          "It will run through November for the first time",
+          "It moved to a new location",
+          "It will only run on Sundays"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "marking the first time the market has extended beyond its usual October closing date",
+        "ja": "今年のファーマーズマーケットのスケジュールの何が珍しいですか。",
+        "explanation": "例年より延長して11月まで開催されるのが初めてであるため。"
+      },
+      {
+        "q": "In the article, the word \"steady\" is closest in meaning to",
+        "choices": [
+          "declining",
+          "consistent",
+          "unpredictable",
+          "excessive"
+        ],
+        "answer": 1,
+        "qType": "語彙",
+        "evidence": "steady customer turnout even as temperatures began to drop",
+        "ja": "記事の中で \"steady\" に最も意味が近いのはどれですか。",
+        "explanation": "steadyは「安定した、一定の」という意味。"
+      },
+      {
+        "q": "What are shoppers encouraged to do?",
+        "choices": [
+          "Arrive before 8 AM",
+          "Check the website for weekly vendor lists",
+          "Bring their own bags",
+          "Pay with cash only"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "shoppers are encouraged to check the market's website for weekly vendor lists",
+        "ja": "買い物客は何をするよう勧められていますか。",
+        "explanation": "週ごとの出店者リストをウェブサイトで確認するよう勧められている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-16",
+    "docType": "chat",
+    "passage": "Omar: Did you get a chance to look at the vendor contract I sent?\nSophie: Yes, mostly looks fine, but I noticed the payment terms say net 60. We usually do net 30 with vendors.\nOmar: Good catch, I must have used an old template. Let me fix that before we send it back.\nSophie: Also, can you double check the delivery schedule in section 4? The dates look off by a week.\nOmar: Looking now... you're right, it says delivery starts the 10th but we agreed on the 3rd.\nSophie: Better to fix both issues now than go back and forth with their legal team later.\nOmar: Agreed, I'll revise it this afternoon and send you the updated draft.",
+    "ja": "オマール：僕が送ったベンダー契約書、見てもらえた？\nソフィー：うん、だいたい大丈夫そうだけど、支払い条件がnet 60になってるのに気づいたよ。うちは普段ベンダーとはnet 30だよね。\nオマール：よく気づいたね、古いテンプレートを使っちゃったみたい。送り返す前に直すよ。\nソフィー：あと、セクション4の配送スケジュールも確認してもらえる？日付が1週間ずれてるみたい。\nオマール：今見てる…本当だ、配送開始が10日になってるけど、3日で合意したはずだよね。\nソフィー：先方の法務とやり取りを後で繰り返すより、今両方直しておいた方がいいね。\nオマール：賛成、今日の午後修正して、改訂版を送るよ。",
+    "wordCount": 125,
+    "questions": [
+      {
+        "q": "What problem does Sophie first notice in the contract?",
+        "choices": [
+          "Incorrect vendor name",
+          "Wrong payment terms",
+          "Missing signature",
+          "Incorrect delivery address"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "the payment terms say net 60. We usually do net 30 with vendors",
+        "ja": "ソフィーが最初に契約書で気づいた問題は何ですか。",
+        "explanation": "支払い条件がいつものnet 30ではなくnet 60になっていたため。"
+      },
+      {
+        "q": "What will Omar do this afternoon?",
+        "choices": [
+          "Call the vendor's legal team",
+          "Sign the contract as is",
+          "Revise the draft and send it to Sophie",
+          "Cancel the contract"
+        ],
+        "answer": 2,
+        "qType": "推測",
+        "evidence": "I'll revise it this afternoon and send you the updated draft",
+        "ja": "オマールは今日の午後何をしますか。",
+        "explanation": "契約書を修正して改訂版を送ると述べている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-17",
+    "docType": "email",
+    "passage": "Subject: Your Order Has Shipped\n\nDear Ms. Thornton,\n\nGood news! Your order #48213 from BrightHome Essentials has shipped and is on its way. Based on the shipping method you selected, you should expect delivery within 3 to 5 business days.\n\nYou can track your package at any time using the tracking number below:\nTN) 7749-2201-8830\n\nIf your order has not arrived within 7 business days, please contact our customer support team at support@brighthome.com, and we will look into it right away.\n\nThank you for shopping with BrightHome Essentials. We hope you enjoy your new items!\n\nBrightHome Essentials Team",
+    "ja": "件名：ご注文の商品が発送されました\n\nソーントン様\n\nうれしいお知らせです！BrightHome Essentialsでのご注文（注文番号#48213）が発送され、配送中です。ご選択いただいた配送方法に基づき、3〜5営業日以内のお届けを予定しております。\n\n以下の追跡番号でいつでも荷物を追跡いただけます：\nTN) 7749-2201-8830\n\n7営業日以内に商品が届かない場合は、カスタマーサポート（support@brighthome.com）までご連絡いただければ、すぐに確認いたします。\n\nBrightHome Essentialsでお買い物いただきありがとうございました。新しい商品をお楽しみください！\n\nBrightHome Essentialsチーム",
+    "wordCount": 115,
+    "questions": [
+      {
+        "q": "What is this email mainly about?",
+        "choices": [
+          "A payment confirmation",
+          "A shipping notification",
+          "A product recall",
+          "A subscription renewal"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "Your order #48213 from BrightHome Essentials has shipped and is on its way",
+        "ja": "このメールは主に何についてですか。",
+        "explanation": "注文商品が発送されたことを知らせる内容であるため。"
+      },
+      {
+        "q": "What should Ms. Thornton do if the order does not arrive within 7 business days?",
+        "choices": [
+          "Reorder the item",
+          "Contact customer support",
+          "Return the package automatically",
+          "Wait an additional week"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "please contact our customer support team at support@brighthome.com",
+        "ja": "7営業日以内に注文品が届かない場合、ソーントン様はどうすべきですか。",
+        "explanation": "カスタマーサポートに連絡するよう書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-18",
+    "docType": "notice",
+    "passage": "Notice to All Residents: Water Service Interruption\n\nDue to scheduled pipe repairs, water service to buildings on Chestnut Street will be temporarily shut off on Wednesday, August 14th, from 10 AM to 2 PM. Residents are advised to store water in advance for drinking, cooking, and other essential needs during this period.\n\nWater service is expected to resume by 2 PM, though minor delays are possible. Once service resumes, residents may notice slightly discolored water for a short time; this is normal and should clear within an hour of running the tap.\n\nWe apologize for any inconvenience and thank you for your patience. For urgent concerns, contact the maintenance office at 555-0162.",
+    "ja": "全住民へのお知らせ：断水について\n\n予定されている配管修理のため、8月14日（水）午前10時から午後2時まで、チェスナット・ストリートの建物で一時的に断水いたします。この間、飲用・調理・その他必要な用途のために事前に水を蓄えておくことをお勧めします。\n\n断水は午後2時までに復旧する見込みですが、多少の遅れが生じる可能性があります。復旧後、しばらくの間水がやや濁ることがありますが、これは正常であり、蛇口から水を1時間ほど流すと解消します。\n\nご不便をおかけしますが、ご理解のほどよろしくお願いいたします。緊急の場合は保守管理事務所（555-0162）までご連絡ください。",
+    "wordCount": 120,
+    "questions": [
+      {
+        "q": "Why will the water be shut off?",
+        "choices": [
+          "For pipe repairs",
+          "Due to contamination",
+          "Because of a drought",
+          "For a building inspection"
+        ],
+        "answer": 0,
+        "qType": "詳細",
+        "evidence": "Due to scheduled pipe repairs, water service to buildings on Chestnut Street will be temporarily shut off",
+        "ja": "なぜ断水が行われますか。",
+        "explanation": "予定されている配管修理のためと明記されている。"
+      },
+      {
+        "q": "What should residents expect after water service resumes?",
+        "choices": [
+          "Lower water pressure permanently",
+          "Slightly discolored water for a short time",
+          "A temporary increase in water bills",
+          "A complete shutdown the next day"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "residents may notice slightly discolored water for a short time",
+        "ja": "断水復旧後、住民は何を予想すべきですか。",
+        "explanation": "しばらくの間、水がやや濁ることがあると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-19",
+    "docType": "advertisement",
+    "passage": "SkillBridge Online Courses — Fall Enrollment Now Open\n\nLooking to advance your career? SkillBridge offers over 200 online courses in business, technology, and design, taught by industry professionals. Courses are self-paced, so you can learn on your own schedule.\n\nEnroll before September 1st and save 20% on any course bundle. New students also receive a free one-on-one career consultation to help choose the right learning path.\n\nEach course includes video lessons, downloadable resources, and a certificate of completion to add to your resume or professional profile. Join over 50,000 learners who have advanced their careers with SkillBridge.\n\nVisit skillbridge-learning.com to browse our course catalog today.",
+    "ja": "スキルブリッジ・オンラインコース、秋期募集開始\n\nキャリアアップをお考えですか？スキルブリッジでは、業界のプロが教えるビジネス・テクノロジー・デザイン分野の200以上のオンラインコースをご用意しています。コースは自分のペースで進められます。\n\n9月1日までに登録すると、コースバンドルが20％オフになります。新規受講生には、最適な学習プランを選ぶための無料個別キャリア相談も付いてきます。\n\n各コースには動画レッスン、ダウンロード可能な資料、履歴書やプロフィールに記載できる修了証が含まれます。スキルブリッジでキャリアアップした5万人以上の受講生に加わりましょう。\n\n今すぐskillbridge-learning.comでコースカタログをご覧ください。",
+    "wordCount": 118,
+    "questions": [
+      {
+        "q": "What benefit do new students receive?",
+        "choices": [
+          "A free textbook",
+          "A free career consultation",
+          "Unlimited course access for life",
+          "A paid internship"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "New students also receive a free one-on-one career consultation",
+        "ja": "新規受講生はどんな特典を受けられますか。",
+        "explanation": "無料の個別キャリア相談が受けられると書かれている。"
+      },
+      {
+        "q": "What is included with every course?",
+        "choices": [
+          "A printed textbook",
+          "A certificate of completion",
+          "A laptop rental",
+          "Weekly live classes"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "a certificate of completion to add to your resume or professional profile",
+        "ja": "各コースには何が含まれていますか。",
+        "explanation": "修了証が含まれると明記されている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-20",
+    "docType": "article",
+    "passage": "New Community Library Branch Opens in Westfield\n\nThe Westfield neighborhood welcomed its first public library branch last Saturday, ending a decade-long effort by local residents to bring library services closer to home. Previously, the nearest branch was a 25-minute bus ride away.\n\nThe new 8,000-square-foot facility includes a children's reading room, a quiet study area, and twelve public computers. Library director Hannah Brooks said the branch will also host free weekly programs, including a toddler story hour and an after-school homework help session for teens.\n\nResident Carla Jennings, who helped organize the original petition for the branch, said she was thrilled to finally see it open. \"It took longer than we expected, but it was worth the wait,\" she said. The branch will be open Tuesday through Saturday, 9 AM to 6 PM.",
+    "ja": "新しいコミュニティ図書館分館がウェストフィールドにオープン\n\n先週土曜日、ウェストフィールド地区に初の公共図書館分館がオープンし、図書館サービスを地元に近づけようという地域住民による10年越しの取り組みが実を結びました。これまで最寄りの分館はバスで25分かかる場所にありました。\n\n新しい8,000平方フィートの施設には、子供向け読書室、静かな自習スペース、12台の公共コンピューターが備わっています。図書館長のハンナ・ブルックス氏によると、分館では幼児向けお話会や10代向けの放課後宿題サポートなど、無料の週替わりプログラムも開催される予定です。\n\n当初の請願活動を手伝った住民のカーラ・ジェニングス氏は、ついに開館したことに大変喜んでいると語りました。「思っていたより時間はかかりましたが、待った甲斐がありました」と彼女は述べました。分館は火曜日から土曜日、午前9時から午後6時まで開館します。",
+    "wordCount": 145,
+    "questions": [
+      {
+        "q": "Why was the new library branch significant for Westfield residents?",
+        "choices": [
+          "It replaced a damaged building",
+          "It ended a long effort to get a branch closer to home",
+          "It is the largest library in the city",
+          "It was built ahead of schedule"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "ending a decade-long effort by local residents to bring library services closer to home",
+        "ja": "新しい図書館分館はなぜウェストフィールドの住民にとって重要でしたか。",
+        "explanation": "長年の地域住民の取り組みがようやく実を結んだためと述べられている。"
+      },
+      {
+        "q": "What program does the library offer for teens?",
+        "choices": [
+          "A toddler story hour",
+          "An after-school homework help session",
+          "A job training workshop",
+          "A book club"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "an after-school homework help session for teens",
+        "ja": "図書館は10代向けにどんなプログラムを提供していますか。",
+        "explanation": "放課後の宿題サポートセッションが10代向けに提供されると書かれている。"
+      },
+      {
+        "q": "What does Carla Jennings imply about the process of getting the branch built?",
+        "choices": [
+          "It was quick and easy",
+          "It took longer than expected but was worthwhile",
+          "It was canceled multiple times",
+          "She was not involved in it"
+        ],
+        "answer": 1,
+        "qType": "推測",
+        "evidence": "It took longer than we expected, but it was worth the wait",
+        "ja": "カーラ・ジェニングス氏は分館建設の過程について何を示唆していますか。",
+        "explanation": "予想より時間はかかったが、それだけの価値があったと述べている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-21",
+    "docType": "chat",
+    "passage": "Olivia: Hey, are you still planning to come to the warehouse tomorrow morning?\nDerek: Yes, I should be there by 8:30. Why?\nOlivia: The delivery truck is arriving earlier than scheduled, around 7:45. Can you get there sooner?\nDerek: I can probably make it by 7:50 if I leave home a bit earlier.\nOlivia: That would help a lot. We'll need two people to unload the pallets before the morning shift starts.\nDerek: Got it. I'll set my alarm earlier and text you when I'm on my way.\nOlivia: Perfect, thanks for being flexible.",
+    "ja": "オリビア：明日の朝、まだ倉庫に来る予定ですか？\nデレク：はい、8時半には着くと思います。どうしてですか？\nオリビア：配送トラックが予定より早く、7時45分頃に到着するんです。もっと早く来られますか？\nデレク：もう少し早く家を出れば7時50分には着けると思います。\nオリビア：それはとても助かります。朝のシフトが始まる前に、パレットを降ろすのに2人必要なんです。\nデレク：わかりました。アラームを早めにセットして、向かう途中でメッセージします。\nオリビア：助かります、柔軟に対応してくれてありがとう。",
+    "wordCount": 108,
+    "questions": [
+      {
+        "q": "Why does Olivia ask Derek to arrive earlier?",
+        "choices": [
+          "The warehouse will be closed later in the day",
+          "A delivery truck is coming ahead of schedule",
+          "Derek is usually late",
+          "The morning shift has been canceled"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "The delivery truck is arriving earlier than scheduled, around 7:45.",
+        "ja": "オリビアはなぜデレクに早く来るよう頼んでいますか。",
+        "explanation": "配送トラックが予定より早く到着するためと明記されている。"
+      },
+      {
+        "q": "What will Derek most likely do next?",
+        "choices": [
+          "Cancel his shift",
+          "Call the delivery company",
+          "Set his alarm earlier",
+          "Ask someone else to go instead"
+        ],
+        "answer": 2,
+        "qType": "推測",
+        "evidence": "I'll set my alarm earlier and text you when I'm on my way.",
+        "ja": "デレクは次に何をすると考えられますか。",
+        "explanation": "デレク自身がアラームを早める予定だと述べている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-22",
+    "docType": "email",
+    "passage": "Subject: Updated Office Seating Chart\n\nDear Staff,\n\nAs part of our office renovation, we will be rearranging desk assignments starting next Monday. The new seating chart is attached to this email for your reference. Please note that the marketing team will move to the third floor, while customer service will remain on the second floor near the main entrance.\n\nIf you have any specific requests, such as needing to sit near a particular colleague for ongoing projects, please contact the facilities team by this Friday. Requests submitted after that date may not be accommodated before the move.\n\nWe appreciate your patience during this transition and believe the new layout will improve collaboration across departments.\n\nBest regards,\nFacilities Management",
+    "ja": "件名：オフィス座席表の更新\n\nスタッフの皆様へ\n\nオフィス改装の一環として、来週月曜日より席の配置を変更いたします。新しい座席表はこのメールに添付していますのでご確認ください。マーケティングチームは3階に移動し、カスタマーサービスは正面玄関付近の2階にそのまま残ります。\n\n進行中のプロジェクトのために特定の同僚の近くに座る必要があるなど、ご要望がある場合は、今週金曜日までに施設管理チームにご連絡ください。それ以降に提出されたご要望は、移動までに対応できない場合があります。\n\nこの移行期間中のご理解に感謝するとともに、新しいレイアウトが部署間の連携向上につながると考えています。\n\n施設管理部より",
+    "wordCount": 140,
+    "questions": [
+      {
+        "q": "What is the main purpose of this email?",
+        "choices": [
+          "To announce a new employee",
+          "To inform staff of a seating rearrangement",
+          "To request feedback on office design",
+          "To cancel the office renovation"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "we will be rearranging desk assignments starting next Monday",
+        "ja": "このメールの主な目的は何ですか。",
+        "explanation": "席の配置変更を知らせることが主旨である。"
+      },
+      {
+        "q": "Which department will move to the third floor?",
+        "choices": [
+          "Customer service",
+          "Facilities",
+          "Marketing",
+          "Finance"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "the marketing team will move to the third floor",
+        "ja": "どの部署が3階に移動しますか。",
+        "explanation": "マーケティングチームが3階に移動すると明記されている。"
+      },
+      {
+        "q": "In the email, the word 'accommodated' is closest in meaning to:",
+        "choices": [
+          "fulfilled",
+          "ignored",
+          "canceled",
+          "delayed"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "Requests submitted after that date may not be accommodated before the move.",
+        "ja": "メール内のaccommodatedに最も意味が近い語は？",
+        "explanation": "文脈上「対応される、応じられる」という意味なのでfulfilledが正解。"
+      }
+    ]
+  },
+  {
+    "id": "p7-23",
+    "docType": "notice",
+    "passage": "NOTICE TO ALL RESIDENTS\n\nWater Service Interruption\n\nDue to scheduled pipe maintenance, water service to all units in Maple Court Apartments will be temporarily shut off on Thursday, June 5th, from 9:00 a.m. to 3:00 p.m. Residents are advised to store enough water for drinking and basic needs before the interruption begins.\n\nThe maintenance work is necessary to replace aging pipes in the building's main water line and will help prevent future leaks. We apologize for any inconvenience this may cause.\n\nIf water service has not been restored by 4:00 p.m., please contact the building management office at extension 212.\n\nThank you for your understanding.\n\nMaple Court Management",
+    "ja": "全居住者へのお知らせ\n\n断水のお知らせ\n\n予定されている配管メンテナンスのため、メープルコート・アパートメントの全住戸の水道が6月5日（木）午前9時から午後3時まで一時的に停止します。断水が始まる前に、飲料水や生活に必要な水を確保しておくことをお勧めします。\n\nこの工事は建物の主要水道管の老朽化した配管を交換するために必要であり、将来の漏水を防ぐのに役立ちます。ご不便をおかけしますことをお詫び申し上げます。\n\n午後4時までに水道が復旧しない場合は、内線212の管理事務所までご連絡ください。\n\nご理解のほどよろしくお願いいたします。\n\nメープルコート管理事務所",
+    "wordCount": 118,
+    "questions": [
+      {
+        "q": "Why is the water service being interrupted?",
+        "choices": [
+          "A new building is being constructed",
+          "Pipes are being replaced",
+          "There was a water leak emergency",
+          "The building is being repainted"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "necessary to replace aging pipes in the building's main water line",
+        "ja": "なぜ断水が行われますか。",
+        "explanation": "老朽化した配管を交換するためと書かれている。"
+      },
+      {
+        "q": "What should residents do if water is still off at 4:00 p.m.?",
+        "choices": [
+          "Wait until the next day",
+          "Contact the management office",
+          "Leave the building",
+          "Call a plumber themselves"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "please contact the building management office at extension 212",
+        "ja": "午後4時になっても水道が復旧しない場合、住民は何をすべきですか。",
+        "explanation": "管理事務所に連絡するよう案内されている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-24",
+    "docType": "advertisement",
+    "passage": "GRAND OPENING SALE\nHarborView Fitness Center\n\nJoin us as we celebrate our grand opening! From June 1st through June 15th, new members can sign up for an annual membership at 40% off the regular price. This offer includes full access to our weight room, group fitness classes, indoor pool, and sauna.\n\nAll new members who sign up during the sale period will also receive one free personal training session with a certified trainer. Space is limited, so we encourage you to visit early.\n\nHarborView Fitness Center is located at 88 Dockside Lane, just a five-minute walk from the ferry terminal. We are open daily from 5:00 a.m. to 11:00 p.m.\n\nFor more information, call 555-0199 or visit our front desk.",
+    "ja": "グランドオープンセール\nハーバービュー・フィットネスセンター\n\n私たちのグランドオープンをぜひ一緒にお祝いください！6月1日から6月15日まで、新規会員は年会費を通常価格から40％割引でお申し込みいただけます。この特典には、ウェイトルーム、グループフィットネスクラス、屋内プール、サウナのフルアクセスが含まれます。\n\nセール期間中にご入会いただいた新規会員全員に、認定トレーナーによる無料パーソナルトレーニングセッションを1回プレゼントします。定員に限りがございますので、お早めのご来店をお勧めします。\n\nハーバービュー・フィットネスセンターは88番地ドックサイド・レーンにあり、フェリーターミナルから徒歩5分です。毎日午前5時から午後11時まで営業しています。\n\n詳細はお電話（555-0199）または受付までお問い合わせください。",
+    "wordCount": 132,
+    "questions": [
+      {
+        "q": "What is being advertised?",
+        "choices": [
+          "A new restaurant",
+          "A discounted gym membership",
+          "A swimming lesson program",
+          "A ferry service"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "new members can sign up for an annual membership at 40% off",
+        "ja": "何が宣伝されていますか。",
+        "explanation": "会員割引キャンペーンの広告である。"
+      },
+      {
+        "q": "What do new members receive in addition to the discount?",
+        "choices": [
+          "A free towel",
+          "A free personal training session",
+          "A free meal",
+          "A free parking pass"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "receive one free personal training session with a certified trainer",
+        "ja": "新規会員は割引に加えて何を受け取りますか。",
+        "explanation": "無料のパーソナルトレーニングセッションが提供されると書かれている。"
+      },
+      {
+        "q": "How can someone get to Harborview Fitness Center from the ferry terminal?",
+        "choices": [
+          "By bus",
+          "By a five-minute walk",
+          "By taxi only",
+          "By bicycle rental"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "just a five-minute walk from the ferry terminal",
+        "ja": "フェリーターミナルからハーバービュー・フィットネスセンターへはどうやって行けますか。",
+        "explanation": "徒歩5分の距離にあると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-25",
+    "docType": "article",
+    "passage": "Local Bakery Expands to Second Location\n\nSweet Grain Bakery, a popular local business known for its sourdough bread and pastries, announced this week that it will open a second location downtown next month. Owner Lena Ortiz started the bakery seven years ago out of her home kitchen before opening the original shop on Fifth Avenue.\n\n\"We never expected to grow this fast,\" Ortiz said. \"Our customers have been incredibly supportive, and we wanted to make our products more accessible to people working downtown.\"\n\nThe new location will offer the same menu as the original shop, along with a small seating area for customers who want to enjoy their coffee and pastries on-site. Ortiz plans to hire six new employees to staff the second location.\n\nThe downtown shop is expected to open on the 10th of next month, with a soft opening planned for regular customers a few days earlier.",
+    "ja": "地元のベーカリーが2号店を出店\n\nサワードウブレッドと焼き菓子で人気の地元企業、スイート・グレイン・ベーカリーは今週、来月に市内中心部で2号店を開くと発表した。オーナーのレナ・オルティスさんは、7年前に自宅のキッチンでベーカリーを始め、その後5番街に最初の店舗を開いた。\n\n「ここまで早く成長するとは思っていませんでした」とオルティスさんは語る。「お客様に大変支えていただいており、中心部で働く方々にも商品をもっと身近に感じてもらいたいと思いました。」\n\n新店舗は本店と同じメニューを提供し、コーヒーや焼き菓子をその場で楽しみたいお客様のための小さな座席スペースも用意される予定だ。オルティスさんは2号店のスタッフとして新たに6人を雇用する計画だという。\n\n中心部の店舗は来月10日の開店を予定しており、常連客向けのソフトオープンが数日前に予定されている。",
+    "wordCount": 165,
+    "questions": [
+      {
+        "q": "What is the article mainly about?",
+        "choices": [
+          "A bakery closing its original location",
+          "A bakery opening a second location",
+          "A new coffee shop trend",
+          "A change in bakery ownership"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "it will open a second location downtown next month",
+        "ja": "この記事は主に何についてですか。",
+        "explanation": "ベーカリーの2号店出店について書かれている。"
+      },
+      {
+        "q": "Where did Lena Ortiz first start her business?",
+        "choices": [
+          "In a rented storefront",
+          "In her home kitchen",
+          "In a shopping mall",
+          "In a food truck"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "started the bakery seven years ago out of her home kitchen",
+        "ja": "レナ・オルティスさんは最初どこで事業を始めましたか。",
+        "explanation": "自宅のキッチンで始めたと書かれている。"
+      },
+      {
+        "q": "What can be inferred about the new downtown location?",
+        "choices": [
+          "It will have a different menu",
+          "It will allow customers to sit and eat on-site",
+          "It will only sell coffee",
+          "It will be smaller than the original"
+        ],
+        "answer": 1,
+        "qType": "推測",
+        "evidence": "a small seating area for customers who want to enjoy their coffee and pastries on-site",
+        "ja": "新しい中心部の店舗について何が推測できますか。",
+        "explanation": "店内で飲食できる座席スペースがあると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-26",
+    "docType": "chat",
+    "passage": "Mark: Did the client approve the final version of the logo?\nPriya: Almost. They liked the design but asked if we could try a different shade of blue.\nMark: That shouldn't be a problem. Did they specify which shade?\nPriya: Not exactly, but they mentioned wanting something \"more corporate and less bright.\"\nMark: Got it. I'll have the designer prepare three options by tomorrow afternoon.\nPriya: Great. Can you also ask her to keep the font exactly the same? The client was very happy with that part.\nMark: Will do. I'll send the new options to you as soon as they're ready.",
+    "ja": "マーク：クライアントはロゴの最終版を承認しましたか？\nプリヤ：もう少しです。デザインは気に入ってもらえたのですが、青の色合いを変えられないか聞かれました。\nマーク：それなら問題ないでしょう。どの色合いか指定はありましたか？\nプリヤ：はっきりとは言っていませんが、「もっと企業らしく、明るすぎない」色がいいとのことでした。\nマーク：わかりました。デザイナーに明日の午後までに3つの案を用意してもらいます。\nプリヤ：助かります。あと、フォントはそのままにしてほしいとも伝えてもらえますか？その部分はクライアントがとても気に入っていたので。\nマーク：わかりました。新しい案ができ次第、すぐに送ります。",
+    "wordCount": 110,
+    "questions": [
+      {
+        "q": "What change did the client request?",
+        "choices": [
+          "A different font",
+          "A different shade of blue",
+          "A smaller logo",
+          "A new company name"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "asked if we could try a different shade of blue",
+        "ja": "クライアントはどんな変更を求めましたか。",
+        "explanation": "青の色合いの変更を求めたと書かれている。"
+      },
+      {
+        "q": "What does Priya ask Mark to keep unchanged?",
+        "choices": [
+          "The logo size",
+          "The font",
+          "The company slogan",
+          "The color scheme"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "ask her to keep the font exactly the same",
+        "ja": "プリヤはマークに何を変えないよう頼んでいますか。",
+        "explanation": "フォントをそのままにしてほしいと頼んでいる。"
+      }
+    ]
+  },
+  {
+    "id": "p7-27",
+    "docType": "email",
+    "passage": "Subject: Your Recent Order #48213\n\nDear Mr. Takahashi,\n\nThank you for your recent purchase from GreenLeaf Outdoors. We wanted to let you know that one item in your order, the GL-200 camping tent, is currently out of stock due to higher than expected demand.\n\nWe expect to receive a new shipment within 10 business days. You have two options: wait for the item to be restocked and shipped automatically, or cancel that portion of your order for a full refund while the rest of your order ships as planned.\n\nPlease reply to this email by Friday to let us know your preference. If we do not hear from you, we will proceed with holding the item until it is back in stock.\n\nWe apologize for the inconvenience and appreciate your patience.\n\nSincerely,\nGreenLeaf Outdoors Customer Service",
+    "ja": "件名：ご注文番号48213について\n\nタカハシ様\n\nグリーンリーフ・アウトドアーズをご利用いただきありがとうございます。ご注文いただいた商品のうち、GL-200キャンプテントが予想を上回る需要のため、現在在庫切れとなっております。\n\n新しい入荷は10営業日以内を見込んでおります。再入荷され次第自動的に発送されるのをお待ちいただくか、その商品分のみキャンセルして全額返金を受け、残りの注文は予定通り発送することも可能です。\n\nご希望を金曜日までにこのメールへの返信にてお知らせください。ご連絡がない場合は、再入荷まで商品を確保させていただきます。\n\nご不便をおかけし申し訳ございません。ご理解のほどよろしくお願いいたします。\n\nグリーンリーフ・アウトドアーズ カスタマーサービス",
+    "wordCount": 148,
+    "questions": [
+      {
+        "q": "Why is the customer service team contacting Mr. Takahashi?",
+        "choices": [
+          "To confirm his shipping address",
+          "To inform him that an item is out of stock",
+          "To offer him a discount",
+          "To ask for a product review"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "one item in your order, the GL-200 camping tent, is currently out of stock",
+        "ja": "カスタマーサービスはなぜタカハシ様に連絡していますか。",
+        "explanation": "商品が在庫切れであることを知らせるためである。"
+      },
+      {
+        "q": "What will happen if Mr. Takahashi does not reply by Friday?",
+        "choices": [
+          "His whole order will be canceled",
+          "The item will be held until restocked",
+          "He will be charged extra",
+          "His order will be shipped incomplete"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "we will proceed with holding the item until it is back in stock",
+        "ja": "金曜日までに返信がなかった場合、どうなりますか。",
+        "explanation": "商品を再入荷まで確保すると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-28",
+    "docType": "notice",
+    "passage": "PARKING LOT CLOSURE NOTICE\n\nTo all employees of Birchwood Office Park:\n\nThe north parking lot will be closed for resurfacing from Monday, April 7th, through Wednesday, April 9th. During this time, employees who normally park in the north lot should use the overflow lot located behind Building C.\n\nShuttle service will run every 15 minutes between the overflow lot and the main building entrance from 7:00 a.m. to 9:30 a.m. and from 4:30 p.m. to 6:30 p.m.\n\nWe recommend allowing extra time for your commute during the closure period. The south and east parking lots will remain open as usual.\n\nThank you for your cooperation.\n\nBirchwood Office Park Management",
+    "ja": "駐車場閉鎖のお知らせ\n\nバーチウッド・オフィスパークの全従業員の皆様へ\n\n北駐車場は、4月7日（月）から4月9日（水）まで舗装工事のため閉鎖されます。この期間中、通常北駐車場を利用している従業員は、C棟の裏にある臨時駐車場をご利用ください。\n\n臨時駐車場と本館入口の間を結ぶシャトルバスが、午前7時から9時30分まで、および午後4時30分から6時30分まで、15分おきに運行されます。\n\n閉鎖期間中は通勤に余裕を持たせることをお勧めします。南駐車場と東駐車場は通常通り利用できます。\n\nご協力をお願いいたします。\n\nバーチウッド・オフィスパーク管理部",
+    "wordCount": 120,
+    "questions": [
+      {
+        "q": "Why is the north parking lot being closed?",
+        "choices": [
+          "For a special event",
+          "For resurfacing work",
+          "Due to flooding",
+          "For a security inspection"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "will be closed for resurfacing from Monday, April 7th",
+        "ja": "なぜ北駐車場は閉鎖されますか。",
+        "explanation": "舗装工事のためと書かれている。"
+      },
+      {
+        "q": "How often does the shuttle run during peak hours?",
+        "choices": [
+          "Every 5 minutes",
+          "Every 10 minutes",
+          "Every 15 minutes",
+          "Every 30 minutes"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "Shuttle service will run every 15 minutes",
+        "ja": "ピーク時間帯のシャトルの運行間隔はどれくらいですか。",
+        "explanation": "15分おきに運行されると書かれている。"
+      },
+      {
+        "q": "In the notice, the word 'commute' is closest in meaning to:",
+        "choices": [
+          "journey to work",
+          "vacation",
+          "meeting",
+          "parking space"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "We recommend allowing extra time for your commute during the closure period.",
+        "ja": "お知らせ内のcommuteに最も意味が近い語は？",
+        "explanation": "「通勤」という意味なのでjourney to workが正解。"
+      }
+    ]
+  },
+  {
+    "id": "p7-29",
+    "docType": "advertisement",
+    "passage": "LANGUAGE LEARNING MADE SIMPLE\nTryLingo Online Courses\n\nLearning a new language has never been easier. TryLingo offers live online classes with certified instructors in Spanish, French, Japanese, and Mandarin, available at times that fit your schedule, including early mornings and evenings.\n\nSign up for a free trial class this month and receive 20% off your first three-month package if you enroll within 48 hours of your trial.\n\nEach class has a maximum of six students, ensuring plenty of speaking practice and personalized feedback. All materials are provided digitally, so there is nothing to print or mail.\n\nVisit www.trylingo-example.com to see the full class schedule and book your free trial today.",
+    "ja": "語学学習をもっとシンプルに\nトライリンゴ・オンラインコース\n\n新しい言語を学ぶことがこれまでになく簡単になりました。トライリンゴでは、スペイン語、フランス語、日本語、北京語のライブオンライン授業を、早朝や夜など、あなたのスケジュールに合わせた時間帯で提供しています。\n\n今月、無料体験授業にお申し込みいただき、体験後48時間以内にご入会いただくと、最初の3か月パッケージが20％オフになります。\n\n各クラスは最大6名までなので、十分な会話練習と個別のフィードバックが受けられます。教材はすべてデジタルで提供されるため、印刷や郵送の必要はありません。\n\nwww.trylingo-example.com で全クラススケジュールをご確認の上、無料体験をご予約ください。",
+    "wordCount": 125,
+    "questions": [
+      {
+        "q": "What discount is offered to new students?",
+        "choices": [
+          "20% off if they enroll within 48 hours of a trial",
+          "Free textbooks for life",
+          "A free laptop",
+          "50% off the first class only"
+        ],
+        "answer": 0,
+        "qType": "詳細",
+        "evidence": "receive 20% off your first three-month package if you enroll within 48 hours",
+        "ja": "新規受講者にはどんな割引が提供されますか。",
+        "explanation": "体験後48時間以内の入会で20％割引になると書かれている。"
+      },
+      {
+        "q": "What can be inferred about the class size?",
+        "choices": [
+          "Classes are very large",
+          "Classes are limited to encourage speaking practice",
+          "Classes have no limit",
+          "Classes are one-on-one only"
+        ],
+        "answer": 1,
+        "qType": "推測",
+        "evidence": "a maximum of six students, ensuring plenty of speaking practice",
+        "ja": "クラスの人数について何が推測できますか。",
+        "explanation": "少人数制で会話練習を重視していることが読み取れる。"
+      }
+    ]
+  },
+  {
+    "id": "p7-30",
+    "docType": "article",
+    "passage": "City Council Approves New Bike Lane Project\n\nThe city council voted Tuesday to approve funding for a new network of protected bike lanes connecting the downtown area to the riverside district. Construction is expected to begin this fall and take approximately eight months to complete.\n\nSupporters of the project say it will make cycling safer and encourage more residents to commute by bike instead of car. \"This has been a priority for cyclists in our community for years,\" said council member Diane Foster, who sponsored the proposal.\n\nSome local business owners expressed concern about temporary parking reductions during construction, but city officials noted that affected streets will be clearly marked with alternate routes.\n\nThe project is funded primarily through a state transportation grant, with the remaining costs covered by the city's general budget.",
+    "ja": "市議会、新しい自転車レーン計画を承認\n\n市議会は火曜日、中心街と川沿い地区を結ぶ新しい保護自転車レーン網への資金提供を承認する投票を行った。建設は今秋に開始され、完成までに約8か月かかる見込みである。\n\nこの計画の支持者は、自転車をより安全にし、車の代わりに自転車で通勤する住民を増やすことにつながると述べている。「これは私たちの地域の自転車利用者にとって長年の優先課題でした」と、この提案を提出したダイアン・フォスター市議会議員は語った。\n\n一部の地元事業者は建設中の一時的な駐車スペース減少を懸念しているが、市当局は影響を受ける道路には代替ルートを明確に表示すると説明している。\n\nこのプロジェクトは主に州の交通助成金で賄われ、残りの費用は市の一般予算で賄われる。",
+    "wordCount": 155,
+    "questions": [
+      {
+        "q": "What did the city council approve?",
+        "choices": [
+          "A new parking garage",
+          "Funding for a bike lane project",
+          "A public transportation fare increase",
+          "A new riverside park"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "approve funding for a new network of protected bike lanes",
+        "ja": "市議会は何を承認しましたか。",
+        "explanation": "自転車レーン計画への資金提供を承認した。"
+      },
+      {
+        "q": "What concern did some business owners raise?",
+        "choices": [
+          "Noise during construction",
+          "Reduced parking during construction",
+          "Higher taxes",
+          "Longer commute times"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "expressed concern about temporary parking reductions during construction",
+        "ja": "一部の事業者はどんな懸念を示しましたか。",
+        "explanation": "建設中の駐車スペース減少への懸念を示した。"
+      },
+      {
+        "q": "In the article, the word 'primarily' is closest in meaning to:",
+        "choices": [
+          "mainly",
+          "rarely",
+          "equally",
+          "previously"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "The project is funded primarily through a state transportation grant",
+        "ja": "記事内のprimarilyに最も意味が近い語は？",
+        "explanation": "「主に」という意味なのでmainlyが正解。"
+      }
+    ]
+  },
+  {
+    "id": "p7-31",
+    "docType": "chat",
+    "passage": "Sam: Quick question, is the quarterly report template on the shared drive the newest version?\nAisha: I don't think so, actually. I updated it last week with the new chart formats.\nSam: Oh, where did you save the new one?\nAisha: It's in the same folder, but I named it \"Q3_Report_Template_v2.\" The old one should probably be deleted to avoid confusion.\nSam: Got it, I'll use v2 and delete the old file. Thanks for the heads up.\nAisha: No problem. Let me know if the new chart section gives you any trouble.",
+    "ja": "サム：ちょっと質問なんだけど、共有ドライブの四半期報告書テンプレートは最新版かな？\nアイシャ：実はそうじゃないと思う。先週、新しいグラフ形式に更新したの。\nサム：へえ、新しいのはどこに保存したの？\nアイシャ：同じフォルダにあるけど、「Q3_Report_Template_v2」という名前にしたよ。古い方は混乱を避けるために削除した方がいいと思う。\nサム：了解、v2を使って古いファイルは削除するね。教えてくれてありがとう。\nアイシャ：どういたしまして。新しいグラフの部分で困ったことがあれば教えてね。",
+    "wordCount": 102,
+    "questions": [
+      {
+        "q": "What did Aisha do last week?",
+        "choices": [
+          "Deleted the report template",
+          "Updated the report template with new charts",
+          "Submitted the quarterly report",
+          "Created a new shared drive"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "I updated it last week with the new chart formats",
+        "ja": "アイシャは先週何をしましたか。",
+        "explanation": "新しいグラフ形式でテンプレートを更新したと述べている。"
+      },
+      {
+        "q": "What does Aisha suggest Sam do with the old file?",
+        "choices": [
+          "Keep it as a backup",
+          "Delete it",
+          "Rename it",
+          "Email it to the team"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "The old one should probably be deleted to avoid confusion",
+        "ja": "アイシャはサムに古いファイルをどうするよう提案していますか。",
+        "explanation": "混乱を避けるため削除すべきだと提案している。"
+      }
+    ]
+  },
+  {
+    "id": "p7-32",
+    "docType": "email",
+    "passage": "Subject: Feedback Requested: New Employee Handbook\n\nDear Team Leads,\n\nThe HR department has finished drafting the updated employee handbook, which includes new sections on remote work policy and paid parental leave. Before we finalize the document, we would like your feedback on whether the policies are clearly explained and practical for your teams.\n\nThe draft is attached as a PDF. Please review it and send any comments or suggested edits to hr@brightpath-example.com by next Wednesday. If you would prefer to discuss your feedback in person, you are welcome to schedule a short meeting with me this week.\n\nWe plan to distribute the final handbook to all employees by the end of the month, so timely feedback is greatly appreciated.\n\nThank you,\nRosa Delgado\nHR Director",
+    "ja": "件名：フィードバックのお願い：新しい従業員ハンドブック\n\nチームリーダーの皆様へ\n\n人事部は、リモートワーク方針と有給育児休暇に関する新しいセクションを含む、更新版の従業員ハンドブックの草案を完成させました。最終決定の前に、方針が分かりやすく説明されているか、またチームにとって実用的かについてご意見をいただきたいと思います。\n\n草案はPDFで添付しています。ご確認の上、コメントや修正案を来週水曜日までにhr@brightpath-example.comまでお送りください。直接お話しして意見を伝えたい場合は、今週中に私との短いミーティングを予定していただいても構いません。\n\n最終版のハンドブックは今月末までに全従業員に配布する予定ですので、早めのフィードバックをいただけますと幸いです。\n\nよろしくお願いいたします。\nローザ・デルガド\n人事部長",
+    "wordCount": 145,
+    "questions": [
+      {
+        "q": "What is the main purpose of this email?",
+        "choices": [
+          "To announce a new HR director",
+          "To request feedback on a draft handbook",
+          "To explain a new parental leave policy in detail",
+          "To schedule a mandatory meeting"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "we would like your feedback on whether the policies are clearly explained",
+        "ja": "このメールの主な目的は何ですか。",
+        "explanation": "ハンドブック草案へのフィードバックを求めることが目的である。"
+      },
+      {
+        "q": "By when should team leads send their feedback?",
+        "choices": [
+          "By the end of the month",
+          "By next Wednesday",
+          "By tomorrow",
+          "By next Monday"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "send any comments or suggested edits to hr@brightpath-example.com by next Wednesday",
+        "ja": "チームリーダーはいつまでにフィードバックを送るべきですか。",
+        "explanation": "来週水曜日までにと明記されている。"
+      },
+      {
+        "q": "In the email, the word 'finalize' is closest in meaning to:",
+        "choices": [
+          "complete",
+          "begin",
+          "cancel",
+          "revise"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "Before we finalize the document, we would like your feedback",
+        "ja": "メール内のfinalizeに最も意味が近い語は？",
+        "explanation": "「完成させる、最終決定する」という意味なのでcompleteが正解。"
+      }
+    ]
+  },
+  {
+    "id": "p7-33",
+    "docType": "notice",
+    "passage": "NOTICE: Annual Fire Drill\n\nAll employees are reminded that the annual fire drill for Crestwood Business Center will take place on Thursday, September 12th, at approximately 10:30 a.m. When the alarm sounds, please leave your workstation immediately and proceed calmly to the nearest marked exit.\n\nDo not use the elevators during the drill. Once outside, gather at the designated assembly point in the east parking lot and remain there until building safety officers confirm it is safe to return.\n\nThe drill should take no more than 15 minutes. Department managers will take attendance at the assembly point, so please check in with your manager upon arrival.\n\nYour cooperation helps ensure everyone's safety in a real emergency.",
+    "ja": "お知らせ：年次消防訓練\n\n全従業員の皆様へ、クレストウッド・ビジネスセンターの年次消防訓練が9月12日（木）午前10時30分頃に実施されますことをお知らせします。警報が鳴ったら、直ちに作業場所を離れ、落ち着いて最寄りの表示された非常口へ向かってください。\n\n訓練中はエレベーターを使用しないでください。建物の外に出たら、東側駐車場の指定集合場所に集まり、建物安全担当者が戻っても安全だと確認するまでそこで待機してください。\n\n訓練は15分以内で終わる予定です。部門マネージャーが集合場所で出欠確認を行いますので、到着したらマネージャーに声をかけてください。\n\nご協力が、実際の緊急時における全員の安全確保につながります。",
+    "wordCount": 128,
+    "questions": [
+      {
+        "q": "What should employees avoid using during the drill?",
+        "choices": [
+          "Stairs",
+          "Elevators",
+          "Phones",
+          "Exits"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Do not use the elevators during the drill",
+        "ja": "訓練中、従業員は何を使用を避けるべきですか。",
+        "explanation": "エレベーターを使用しないよう書かれている。"
+      },
+      {
+        "q": "Where should employees gather after leaving the building?",
+        "choices": [
+          "The front lobby",
+          "The east parking lot",
+          "The cafeteria",
+          "The main entrance"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "gather at the designated assembly point in the east parking lot",
+        "ja": "建物を出た後、従業員はどこに集まるべきですか。",
+        "explanation": "東側駐車場の集合場所に集まるよう書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-34",
+    "docType": "advertisement",
+    "passage": "NEED STORAGE SPACE? WE'VE GOT YOU COVERED.\nClearSpace Self Storage\n\nWhether you're moving, renovating, or just need extra room, ClearSpace Self Storage offers clean, secure, climate-controlled units in a range of sizes. Our facility features 24-hour video monitoring and individual door alarms for added peace of mind.\n\nNew customers who sign a six-month contract or longer receive their first month free. We also offer free use of a moving truck for up to three hours on the day you move in.\n\nUnits are available starting at 5x5 feet, perfect for small storage needs, up to 10x20 feet for larger furniture and equipment.\n\nStop by our office at 310 Industrial Parkway or call 555-0142 to reserve your unit today.",
+    "ja": "収納スペースをお探しですか？お任せください。\nクリアスペース・セルフストレージ\n\n引っ越し、リフォーム、あるいはただ収納スペースが必要なときも、クリアスペース・セルフストレージなら清潔で安全、温度管理された様々なサイズのユニットをご用意しています。24時間ビデオ監視と各ドアの個別アラームで、より安心してご利用いただけます。\n\n6か月以上の契約にお申し込みの新規のお客様は、初月無料となります。また、入居日には最大3時間まで無料で引っ越しトラックをご利用いただけます。\n\nユニットは小さな収納ニーズに最適な5x5フィートから、大型の家具や機材に対応する10x20フィートまでご用意しています。\n\n310インダストリアル・パークウェイの事務所にお立ち寄りいただくか、555-0142までお電話の上、今すぐユニットをご予約ください。",
+    "wordCount": 138,
+    "questions": [
+      {
+        "q": "What do new customers receive if they sign a six-month contract?",
+        "choices": [
+          "A free moving truck for a week",
+          "Their first month free",
+          "A discount on insurance",
+          "Free packing boxes"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "receive their first month free",
+        "ja": "6か月契約に申し込んだ新規顧客は何を受け取りますか。",
+        "explanation": "初月無料になると書かれている。"
+      },
+      {
+        "q": "What security features does the facility offer?",
+        "choices": [
+          "On-site guards only",
+          "24-hour video monitoring and door alarms",
+          "Fingerprint access only",
+          "No security features mentioned"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "24-hour video monitoring and individual door alarms",
+        "ja": "この施設にはどんなセキュリティ機能がありますか。",
+        "explanation": "24時間のビデオ監視とドアアラームがあると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-35",
+    "docType": "article",
+    "passage": "Regional Airport Reports Record Passenger Numbers\n\nHillcrest Regional Airport announced this week that it served a record 1.2 million passengers last year, a 15 percent increase from the previous year. Airport officials credit the growth to two new airline partnerships launched in the spring, which added direct flights to four new destinations.\n\n\"We've worked hard to make Hillcrest a more convenient option for regional travelers,\" said airport director Samuel Reyes. \"These new routes have clearly resonated with the community.\"\n\nTo accommodate the increased traffic, the airport plans to expand its security screening area next year, a project expected to reduce wait times during peak hours. Officials also noted that a new parking structure is under consideration, though no official timeline has been announced.\n\nDespite the growth, airport officials say ticket prices have remained stable compared to nearby larger airports.",
+    "ja": "地域空港、過去最多の乗客数を記録\n\nヒルクレスト地域空港は今週、昨年過去最多となる120万人の乗客を記録したと発表した。これは前年比15％の増加である。空港関係者は、この成長の要因として、春に開始された2つの新しい航空会社との提携を挙げており、これにより4つの新しい就航地への直行便が追加された。\n\n「ヒルクレストを地域の旅行者にとってより便利な選択肢にするため努力してきました」と空港長のサミュエル・レイエス氏は語った。「これらの新路線は明らかに地域の皆様に受け入れられています。」\n\n増加する利用者に対応するため、空港は来年、保安検査エリアの拡張を計画しており、このプロジェクトによりピーク時の待ち時間が短縮される見込みである。関係者はまた、新しい駐車場の建設も検討中だが、正式なスケジュールはまだ発表されていないと述べた。\n\n利用者数の増加にもかかわらず、空港関係者はチケット価格は近隣の大規模空港と比べて安定していると述べている。",
+    "wordCount": 172,
+    "questions": [
+      {
+        "q": "What is the article mainly about?",
+        "choices": [
+          "A decline in airport traffic",
+          "A record increase in passengers at a regional airport",
+          "The closing of an airline partnership",
+          "A new airport being built"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "served a record 1.2 million passengers last year, a 15 percent increase",
+        "ja": "この記事は主に何についてですか。",
+        "explanation": "地域空港の乗客数記録更新について書かれている。"
+      },
+      {
+        "q": "In the article, the word 'credit' is closest in meaning to:",
+        "choices": [
+          "attribute",
+          "blame",
+          "ignore",
+          "pay"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "Airport officials credit the growth to two new airline partnerships",
+        "ja": "記事内のcreditに最も意味が近い語は？",
+        "explanation": "「〜の要因とみなす」という意味なのでattributeが正解。"
+      },
+      {
+        "q": "What can be inferred about ticket prices at Hillcrest?",
+        "choices": [
+          "They have increased significantly",
+          "They have remained relatively stable",
+          "They are the highest in the region",
+          "They vary daily"
+        ],
+        "answer": 1,
+        "qType": "推測",
+        "evidence": "ticket prices have remained stable compared to nearby larger airports",
+        "ja": "ヒルクレストのチケット価格について何が推測できますか。",
+        "explanation": "価格は比較的安定していると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-36",
+    "docType": "chat",
+    "passage": "Jordan: Hi, I ordered a desk lamp last week but received the wrong color. I got black instead of white.\nSupport: I'm sorry about that! Can you give me your order number?\nJordan: Sure, it's ORD-55214.\nSupport: Thanks. I see the order here. I can send you a prepaid return label for the black lamp and ship the white one right away at no extra cost.\nJordan: That works for me. How long will the replacement take to arrive?\nSupport: Usually 3 to 5 business days. You'll get a tracking number by email once it ships.\nJordan: Perfect, thank you for the quick help.",
+    "ja": "ジョーダン：こんにちは、先週デスクランプを注文したのですが、違う色が届きました。白を注文したのに黒が届きました。\nサポート：申し訳ございません！ご注文番号を教えていただけますか。\nジョーダン：はい、ORD-55214です。\nサポート：ありがとうございます。ご注文確認できました。黒いランプの返送用の着払いラベルをお送りし、白いランプを追加料金なしですぐに発送いたします。\nジョーダン：それで大丈夫です。交換品はどれくらいで届きますか。\nサポート：通常3〜5営業日です。発送され次第、メールで追跡番号をお送りします。\nジョーダン：わかりました、迅速な対応ありがとうございます。",
+    "wordCount": 112,
+    "questions": [
+      {
+        "q": "What problem does Jordan report?",
+        "choices": [
+          "The lamp arrived broken",
+          "The lamp was the wrong color",
+          "The lamp never arrived",
+          "The lamp was too expensive"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "I got black instead of white",
+        "ja": "ジョーダンはどんな問題を報告していますか。",
+        "explanation": "注文と異なる色の商品が届いたと報告している。"
+      },
+      {
+        "q": "How will Jordan receive the tracking number?",
+        "choices": [
+          "By phone call",
+          "By email",
+          "By text message",
+          "By mail"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "You'll get a tracking number by email once it ships",
+        "ja": "ジョーダンはどうやって追跡番号を受け取りますか。",
+        "explanation": "発送後メールで送られると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-37",
+    "docType": "email",
+    "passage": "Subject: Invitation to Speak at Fall Conference\n\nDear Dr. Yamamoto,\n\nOn behalf of the National Business Innovation Association, I would like to invite you to be a featured speaker at our annual fall conference, taking place November 14-16 in Denver. Based on your recent research on sustainable supply chains, we believe your insights would be extremely valuable to our attendees.\n\nWe are requesting a 45-minute presentation followed by a 15-minute question and answer session. The association will cover your travel expenses and provide accommodation for two nights at the conference hotel.\n\nPlease let us know by September 30th whether you are able to accept this invitation. We would also appreciate a brief presentation title and summary by October 15th if you accept, so we can include it in the conference program.\n\nWe hope you will consider joining us.\n\nWarm regards,\nConference Committee",
+    "ja": "件名：秋季カンファレンス講演のご依頼\n\n山本博士\n\n全国ビジネスイノベーション協会を代表して、11月14日から16日にデンバーで開催される年次秋季カンファレンスの featured speaker としてお招きしたくご連絡いたします。先生の持続可能なサプライチェーンに関する最近のご研究は、参加者にとって非常に有益であると考えております。\n\n45分間のご講演と、その後15分間の質疑応答をお願いしたく存じます。協会が交通費を負担し、カンファレンスホテルに2泊分の宿泊をご用意いたします。\n\nこのご依頼をお受けいただけるかどうか、9月30日までにお知らせください。お受けいただける場合は、プログラムに掲載するため、10月15日までに講演タイトルと概要も簡単にお送りいただけますと幸いです。\n\nぜひご参加をご検討いただければと存じます。\n\nカンファレンス委員会より",
+    "wordCount": 158,
+    "questions": [
+      {
+        "q": "Why is Dr. Yamamoto being contacted?",
+        "choices": [
+          "To review a research paper",
+          "To be invited as a conference speaker",
+          "To join the conference committee",
+          "To sponsor the conference"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "I would like to invite you to be a featured speaker at our annual fall conference",
+        "ja": "山本博士はなぜ連絡を受けていますか。",
+        "explanation": "カンファレンスの講演者として招待されているためである。"
+      },
+      {
+        "q": "What will the association provide for Dr. Yamamoto?",
+        "choices": [
+          "A cash honorarium only",
+          "Travel expenses and two nights of accommodation",
+          "A permanent membership",
+          "A research grant"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "will cover your travel expenses and provide accommodation for two nights",
+        "ja": "協会は山本博士に何を提供しますか。",
+        "explanation": "交通費と2泊分の宿泊を提供すると書かれている。"
+      },
+      {
+        "q": "In the email, the word 'featured' is closest in meaning to:",
+        "choices": [
+          "highlighted",
+          "hidden",
+          "canceled",
+          "postponed"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "I would like to invite you to be a featured speaker at our annual fall conference",
+        "ja": "メール内のfeaturedに最も意味が近い語は？",
+        "explanation": "「主要な、目玉の」という意味なのでhighlightedが正解。"
+      }
+    ]
+  },
+  {
+    "id": "p7-38",
+    "docType": "notice",
+    "passage": "NOTICE: Temporary Cafeteria Menu Changes\n\nDue to equipment repairs in the main kitchen, the employee cafeteria will offer a limited menu from Monday, October 2nd, through Friday, October 6th. During this period, hot entrees will not be available; instead, the cafeteria will serve a rotating selection of sandwiches, salads, and soups.\n\nThe beverage station and snack counter will operate as usual. Prices for all items during this period will be reduced by 10 percent to reflect the limited selection.\n\nWe expect the kitchen equipment to be fully repaired and the regular menu to return by Monday, October 9th. We appreciate your understanding during this temporary change.",
+    "ja": "お知らせ：社員食堂メニューの一時変更\n\nメインキッチンの設備修理のため、社員食堂は10月2日（月）から10月6日（金）まで限定メニューでの提供となります。この期間中、温かい主菜の提供はなく、代わりにサンドイッチ、サラダ、スープのローテーションメニューを提供します。\n\n飲み物コーナーと軽食コーナーは通常通り営業します。この期間中、メニューが限定されることを考慮し、全品10％値引きいたします。\n\nキッチン設備は10月9日（月）までに完全に修理され、通常メニューが再開される見込みです。この一時的な変更についてご理解のほどよろしくお願いいたします。",
+    "wordCount": 115,
+    "questions": [
+      {
+        "q": "Why is the cafeteria menu changing temporarily?",
+        "choices": [
+          "Due to a staff shortage",
+          "Due to equipment repairs",
+          "Due to a change in ownership",
+          "Due to a holiday schedule"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Due to equipment repairs in the main kitchen",
+        "ja": "なぜ食堂のメニューが一時的に変更されますか。",
+        "explanation": "キッチン設備の修理のためと書かれている。"
+      },
+      {
+        "q": "What will happen to prices during the menu change?",
+        "choices": [
+          "They will increase by 10 percent",
+          "They will be reduced by 10 percent",
+          "They will stay the same",
+          "They will be doubled"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Prices for all items during this period will be reduced by 10 percent",
+        "ja": "メニュー変更期間中、価格はどうなりますか。",
+        "explanation": "全品10％値引きされると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-39",
+    "docType": "advertisement",
+    "passage": "SPRING INTO SAVINGS\nMeadowbrook Garden Center\n\nIt's time to get your garden ready for spring! From April 1st through April 30th, enjoy 25% off all flowering plants, shrubs, and garden tools storewide. Members of our Garden Club save an additional 10%.\n\nJoin us every Saturday in April for free gardening workshops led by our expert staff, covering topics such as soil preparation, container gardening, and pest control. No registration is required; just stop by the main greenhouse at 10:00 a.m.\n\nNot a Garden Club member yet? Sign up at the register for free and start saving on your very first purchase.\n\nMeadowbrook Garden Center is open seven days a week, 8:00 a.m. to 6:00 p.m., at 240 Meadow Road.",
+    "ja": "春のセールが始まります\nメドウブルック・ガーデンセンター\n\n春に向けて庭の準備をする時期がやってきました！4月1日から4月30日まで、花の苗、低木、園芸用品が全品25％オフになります。ガーデンクラブ会員はさらに10％引きになります。\n\n4月の毎週土曜日、専門スタッフによる無料ガーデニング講座を開催します。土壌づくり、コンテナガーデニング、害虫対策などのテーマを取り上げます。予約不要、午前10時にメイン温室にお越しください。\n\nまだガーデンクラブ会員でない方も、レジにて無料でご登録いただけ、初回のお買い物から割引が適用されます。\n\nメドウブルック・ガーデンセンターは年中無休、午前8時から午後6時まで、メドウロード240番地で営業しています。",
+    "wordCount": 134,
+    "questions": [
+      {
+        "q": "What additional discount do Garden Club members receive?",
+        "choices": [
+          "5% off",
+          "10% off",
+          "15% off",
+          "No additional discount"
+        ],
+        "answer": 1,
+        "qType": "詳細",
+        "evidence": "Members of our Garden Club save an additional 10%",
+        "ja": "ガーデンクラブ会員はさらにどれくらいの割引を受けられますか。",
+        "explanation": "追加で10％割引になると書かれている。"
+      },
+      {
+        "q": "What is required to attend the Saturday workshops?",
+        "choices": [
+          "Advance registration",
+          "A Garden Club membership",
+          "Nothing; just show up",
+          "A purchase of $50 or more"
+        ],
+        "answer": 2,
+        "qType": "詳細",
+        "evidence": "No registration is required; just stop by the main greenhouse",
+        "ja": "土曜日の講座に参加するには何が必要ですか。",
+        "explanation": "予約不要でそのまま参加できると書かれている。"
+      }
+    ]
+  },
+  {
+    "id": "p7-40",
+    "docType": "article",
+    "passage": "Community Center Launches Free Tutoring Program\n\nThe Riverside Community Center announced the launch of a free after-school tutoring program for students in grades 3 through 8, beginning next month. The program will focus on math and reading skills and will run Monday through Thursday from 3:30 to 5:00 p.m.\n\nThe initiative is staffed by volunteer tutors, many of whom are retired teachers and local college students studying education. Program coordinator Mia Chen said the center received an unusually high number of volunteer applications after announcing the program online.\n\n\"We were hoping for twenty volunteers and ended up with over fifty applicants,\" Chen said. \"It shows how much our community cares about supporting local students.\"\n\nParents interested in enrolling their children can register online or in person at the community center's front desk. Space is limited to 60 students for the program's first session.",
+    "ja": "コミュニティセンターが無料学習支援プログラムを開始\n\nリバーサイド・コミュニティセンターは、来月から3年生から8年生までの生徒を対象とした無料の放課後学習支援プログラムを開始すると発表した。このプログラムは算数と読解力に重点を置き、月曜日から木曜日の午後3時30分から5時まで実施される。\n\nこの取り組みはボランティアの指導者によって運営されており、その多くは退職した教員や教育を学ぶ地元の大学生である。プログラムの責任者であるミア・チェンさんは、オンラインでプログラムを告知した後、予想以上に多くのボランティア応募があったと語った。\n\n「20人のボランティアを期待していましたが、応募者は50人を超えました」とチェンさんは語った。「これは地域が地元の生徒を支援することをいかに大切にしているかを示しています。」\n\n参加を希望する保護者は、オンラインまたはコミュニティセンターの受付窓口で登録できる。初回のプログラムは定員60名に限定されている。",
+    "wordCount": 162,
+    "questions": [
+      {
+        "q": "What is the main subject of this article?",
+        "choices": [
+          "A new community center building",
+          "The launch of a free tutoring program",
+          "A change in school curriculum",
+          "A fundraising event"
+        ],
+        "answer": 1,
+        "qType": "主旨",
+        "evidence": "announced the launch of a free after-school tutoring program",
+        "ja": "この記事の主な話題は何ですか。",
+        "explanation": "無料学習支援プログラムの開始について書かれている。"
+      },
+      {
+        "q": "In the article, the word 'initiative' is closest in meaning to:",
+        "choices": [
+          "program",
+          "mistake",
+          "complaint",
+          "delay"
+        ],
+        "answer": 0,
+        "qType": "語彙",
+        "evidence": "The initiative is staffed by volunteer tutors",
+        "ja": "記事内のinitiativeに最も意味が近い語は？",
+        "explanation": "「取り組み、施策」という意味なのでprogramが正解。"
+      },
+      {
+        "q": "What can be inferred from the number of volunteer applicants?",
+        "choices": [
+          "The community showed strong interest in the program",
+          "The program was unpopular",
+          "The center had to turn away all volunteers",
+          "The program will be canceled"
+        ],
+        "answer": 0,
+        "qType": "推測",
+        "evidence": "We were hoping for twenty volunteers and ended up with over fifty applicants",
+        "ja": "ボランティア応募者数から何が推測できますか。",
+        "explanation": "予想を大きく上回る応募があり、地域の関心の高さがうかがえる。"
+      }
+    ]
+  }
+]
